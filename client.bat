@@ -1,0 +1,1 @@
+Quake3-UrT.exe +exec autoexec.cfg
