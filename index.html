@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="dashApp">
+<head lang="en">
+    <meta charset="UTF-8">
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>UrT Stats</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.css">
+    <link rel="stylesheet" href="css/index.css" type="text/css" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.8.3/angular-material.min.js"></script>
+    <script src="js/index.js"></script>
+	<script src="js/auth.js"></script>
+	<script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+
+</head>
+<body ng-controller="dashCtrl">
+    <div id="notification" class={{notification_class}}>{{notification}}
+        <md-button id="retry-button" aria-label="Retry" ng-click="setRunPermited(true)">Retry</md-button>
+    </div>
+    <div id="topbar">
+        <div id="logo">
+            <img src="img/urt.png" alt="UrT" height="50px" border="0">
+        </div>
+        <div id="hptitle">Urban Terror Statistics</div>
+        <div id="authorize" style="float:right; margin-right:20px">
+
+            <!--AG: Adding authorization button for cases where auto authentication failed-->
+<!--
+            <md-button id="authorize-button" class="md-fab md-primary" aria-label="Login">
+              <img id="login_img" src="img/user-512.png"></img>
+            </md-button>
+-->
+            <!-- Countdown bar to show whens the next refresh of data 0-->
+            <md-progress-circular id="progress-circular" md-mode="determinate" value="{{determinateValue}}" style="visibility:hidden"></md-progress-circular>
+        </div>
+    </div>
+    <div id="main">
+        <div id="leftmain"></div>
+        <div id="centermain" class="flex-container">
+            <div class="flex-item">
+                <div class="item_title">{{::data[0].title}}</div>
+                <div class="item_value">{{data[0].users}}</div>
+                <div class="item_logo">
+                    <img ng-src="{{::data[0].logo}}" border="0">
+                </div>
+            </div>
+        </div>
+        <div id="rightmain"></div>
+    </div>
+</body>
+</html>
