@@ -3,87 +3,118 @@
  */
 
 var mock = {
-    headers: ['player','kills','deaths'],
+    headers: ['player', 'kills', 'deaths'],
     games: {
         game1: {
             type: "Death Match",
             length: "20",
-            players: {
-                RODOV: {
+            players: [
+                {
+                    type: 0,
+                    name: "PLAYER",
+                    kills: "KILLS",
+                    deaths: "DEATHS"
+                },
+                {
+                    name: "RODOV",
                     kills: 11,
                     deaths: 10
                 },
-                ACE: {
+                {
+                    name: "ACE",
                     kills: 43,
                     deaths: 1
                 },
-                MAMBA: {
+                {
+                    name: "MAMBA",
                     kills: 22,
                     deaths: 10
                 },
-                player4: {
+                {
+                    name: "player4",
                     kills: 19,
                     deaths: 70
                 },
-                player5: {
+                {
+                    name: "player4",
                     kills: 23,
                     deaths: 9
                 }
-            }
+            ]
         },
         game2: {
             type: "Capture The Flag",
             length: "15",
-            players: {
-
-                player1: {
+            players: [
+                {
+                    type: 0,
+                    name: "PLAYER",
+                    kills: "KILLS",
+                    deaths: "DEATHS"
+                },
+                {
+                    name: "RODOV",
                     kills: 11,
                     deaths: 10
                 },
-                player2: {
+                {
+                    name: "ACE",
                     kills: 43,
                     deaths: 1
                 },
-                player3: {
+                {
+                    name: "MAMBA",
                     kills: 22,
                     deaths: 10
                 },
-                player4: {
-                    kills: 15,
-                    deaths: 29
+                {
+                    name: "BenD",
+                    kills: 119,
+                    deaths: 70
                 },
-                player5: {
+                {
+                    name: "player4",
                     kills: 23,
                     deaths: 9
                 }
-            }
+            ]
         },
         game3: {
             type: "Capture The Flag",
             length: "20",
-            players: {
-
-                player1: {
+            players: [
+                {
+                    type: 0,
+                    name: "PLAYER",
+                    kills: "KILLS",
+                    deaths: "DEATHS"
+                },
+                {
+                    name: "RODOV",
                     kills: 11,
                     deaths: 10
                 },
-                player2: {
+                {
+                    name: "ACE",
                     kills: 43,
                     deaths: 1
                 },
-                player3: {
-                    kills: 22,
+                {
+                    name: "BenD",
+                    kills: 212,
                     deaths: 10
                 },
-                player4: {
-                    kills: 15,
-                    deaths: 29
+                {
+                    name: "player4",
+                    kills: 19,
+                    deaths: 70
                 },
-                player5: {
+                {
+                    name: "player4",
                     kills: 23,
                     deaths: 9
                 }
-            }
+            ]
         }
     }
 };

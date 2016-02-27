@@ -2,9 +2,11 @@
 <html ng-app="dashApp">
 <head lang="en">
     <meta charset="UTF-8">
-	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <title>UrT Stats</title>
+<!--
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+-->
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.css">
     <link rel="stylesheet" href="css/index.css" type="text/css" media="screen">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
@@ -12,67 +14,49 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.8.3/angular-material.min.js"></script>
     <script src="js/index.js"></script>
-	<script src="js/data.js"></script>
-	<script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+    <script src="js/data.js"></script>
 
 </head>
 <body ng-controller="dashCtrl">
-    <div id="topbar">
-        <div id="logo">
-            <img src="img/urt.png" alt="UrT" height="50px" border="0">
-        </div>
-        <div id="hptitle">Urban Terror Statistics</div>
-        <div id="authorize" style="float:right; margin-right:20px">
 
-            <!--AG: Adding authorization button for cases where auto authentication failed-->
-<!--
-            <md-button id="authorize-button" class="md-fab md-primary" aria-label="Login">
-              <img id="login_img" src="img/user-512.png"></img>
-            </md-button>
--->
-            <!-- Countdown bar to show whens the next refresh of data 0-->
-            <md-progress-circular id="progress-circular" md-mode="determinate" value="{{determinateValue}}" style="visibility:hidden"></md-progress-circular>
-        </div>
-    </div>
-    <div id="main">
-        <div id="leftmain"></div>
-        <div id="centermain" class="center-container">
-            <div class="inner">
-                <div class="pane games-pane">
-                    <div id="{{key}}" class="game" ng-repeat="key in gameKeys">
-                        <md-button ng-click="setGame(key)">{{key}}</md-button>
-                    </div>
-                </div>
-                <div class="pane details-pane">
-                    <div>Game: {{currentGame.type}}</div>
-                    <div>Length: {{currentGame.length}} minutes</div>
-                    <md-subheader class="md-no-sticky">Game statistics</md-subheader>
-                    <md-list-item ng-repeat="(name,stats) in currentGame.players">
-                        <md-checkbox ng-model="players.selected"></md-checkbox>
-                        <p>{{name}}</p>
-                        <p>{{stats.kills}}</p>
-                        <p>{{stats.deaths}}</p>
-                    </md-list-item>
+<div id="main">
+    <div id="leftmain"></div>
+    <div id="centermain" class="center-container">
+        <div id="topbar">
+            <div id="logo">
+                <img src="img/urt.png" alt="UrT" height="50px" border="0">
+            </div>
+            <div id="hptitle" class="md-headline">URBAN TERROR STATISTICS</div>
+            <div id="authorize" style="float:right; margin-right:20px">
 
-<!--
-                    <div class="table">
-                        <div class="row header">
-                            <div ng-repeat="header in data.headers">
-                                <md-button>{{header}}</md-button>
-                            </div>
-                        </div>
-                        <div class="row" ng-repeat="(name,stats) in currentGame.players">
-                            <div>{{name}}</div>
-                            <div>{{stats.kills}}</div>
-                            <div>{{stats.deaths}}</div>
-                        </div>
-                    </div>
--->
-                </div>
-
+                <md-progress-circular id="progress-circular" md-mode="determinate" value="{{determinateValue}}"
+                                      style="visibility:hidden"></md-progress-circular>
             </div>
         </div>
-        <div id="rightmain"></div>
+        <div class="inner">
+            <div class="pane games-pane">
+                <div id="{{key}}" class="game" ng-repeat="key in gameKeys">
+                    <md-button class="md-raised md-primary" ng-click="setGame(key)">{{key}}</md-button>
+                </div>
+            </div>
+            <div class="pane details-pane">
+                <div class="md-subhead"><span>GAME:</span> {{currentGame.type}}</div>
+                <div class="md-subhead"><span>LENGTH:</span> {{currentGame.length}} minutes</div>
+                <md-subheader class="md-no-sticky md-subheader md-title">GAME STATISTICS</md-subheader>
+                <div class="rows">
+                    <md-list-item class="row md-primary" ng-repeat="player in currentGame.players | orderBy:getSortOrder">
+                        <md-checkbox aria-label="ck" class="md-raised md-primary" ng-model="players.selected"></md-checkbox>
+                        <p>{{player.name}}</p>
+
+                        <p>{{player.kills}}</p>
+
+                        <p>{{player.deaths}}</p>
+                    </md-list-item>
+                </div>
+            </div>
+        </div>
     </div>
+    <div id="rightmain"></div>
+</div>
 </body>
 </html>
