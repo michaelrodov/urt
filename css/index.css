@@ -94,3 +94,9 @@ body {
 .button:hover{
     background-color: #EFEFEF;
 }
+.blue{
+    background-color: #87cefa;
+}
+.red{
+    background-color: #f26c6b;
+}

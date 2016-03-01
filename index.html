@@ -46,7 +46,7 @@
                 <div class="md-subhead"><span>LENGTH:</span> {{currentGame.length}} minutes</div>
                 <md-subheader class="md-no-sticky md-subheader md-title">GAME STATISTICS</md-subheader>
                 <div class="rows">
-                    <md-list-item class="row md-primary"
+                    <md-list-item class="row md-primary {{player.team}}"
                                   ng-repeat="player in currentGame.players | orderBy:getSortOrder">
                         <md-checkbox aria-label="ck" class="md-raised md-primary"></md-checkbox>
 <!--
