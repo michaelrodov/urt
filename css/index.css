@@ -54,6 +54,7 @@ body {
 
 .pane{
     padding: 15px;
+    color: #607D8B;
 }
 
 .games-pane {
@@ -86,6 +87,22 @@ body {
 .row:first-child p{
     font-weight: bold;
     color: #686868;
+    display: inline-block;
+    position: relative;
+    left: -10px;
+    padding: 5px 10px;
+}
+.row md-checkbox{
+    left: 10px;
+}
+.row>div p{
+    margin: 0;
+}
+.row>div{
+    width: 16%;
+}
+.row>div .underline{
+    font-size: 10px;
 }
 .button{
     cursor: pointer;
@@ -95,8 +112,8 @@ body {
     background-color: #EFEFEF;
 }
 .blue{
-    background-color: #87cefa;
+    background-color: #BCDEF3;
 }
 .red{
-    background-color: #f26c6b;
+    background-color: #FFBEBD;
 }

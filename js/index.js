@@ -12,9 +12,22 @@ dashApp.controller('dashCtrl', function($scope, $http, $interval, $mdToast) {
 
     $scope.getSortOrder = function(player) {
         if(player.type === 0){
-            return "_______a";
+            if(typeof player[$scope.orderColumn] === "number"){
+                return ($scope.orderColumnDirection) ? 9999 : -9999;
+            }else{
+                return ($scope.orderColumnDirection) ? "zzzzzz" : "_______a";
+            }
         }else{
-            return player.name;
+            return player[$scope.orderColumn];
+        }
+    }
+
+    $scope.setSortOrderColumn = function(column){
+        if($scope.orderColumn == column){
+            ($scope.orderColumnDirection) ? $scope.orderColumnDirection=false : $scope.orderColumnDirection=true;
+        }else{
+            $scope.orderColumn = column;
+            $scope.orderColumnDirection = false;
         }
     }
 
@@ -23,6 +36,8 @@ dashApp.controller('dashCtrl', function($scope, $http, $interval, $mdToast) {
     $scope.currentGame = null;
     $scope.games = $scope.data.games; //todo replace by http/file fetch or not
     $scope.gameKeys = Object.keys($scope.games);
+    $scope.orderColumn = "name"; //by which field to order the table
+    $scope.orderColumnDirection = false;
 
     $scope.getGame = function(gameId){
         if(typeof gameId == 'number'){
