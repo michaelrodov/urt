@@ -12,7 +12,7 @@ dashApp.controller('dashCtrl', function($scope, $http, $interval, $mdToast) {
 
     $scope.getSortOrder = function(player) {
         if(player.type === 0){
-            if(typeof player[$scope.orderColumn] === "number"){
+            if(player[$scope.orderColumn].type === "number"){
                 return ($scope.orderColumnDirection) ? 9999 : -9999;
             }else{
                 return ($scope.orderColumnDirection) ? "zzzzzz" : "_______a";
@@ -54,8 +54,8 @@ dashApp.controller('dashCtrl', function($scope, $http, $interval, $mdToast) {
                 thisGame.players[i].ratio = Math.round((thisGame.players[i].kills / thisGame.players[i].deaths)*100)/100;
                 thisGame.players[i].rating = 0;
             }else{
-                thisGame.players[i].ratio = "RATIO";
-                thisGame.players[i].rating = "RATING";
+                thisGame.players[i].ratio = {value:"RATIO", type:"number"};
+                thisGame.players[i].rating = {value:"RATING", type:"number"};
 
             }
         }

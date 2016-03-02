@@ -11,10 +11,10 @@ var mock = {
             players: [
                 {
                     type: 0,
-                    name: "PLAYER",
-                    score: "SCORE",
-                    kills: "KILLS",
-                    deaths: "DEATHS"
+                    name: {value:"PLAYER", type:"string"},
+                    score: {value:"SCORE", type:"number"},
+                    kills: {value:"KILLS", type:"number"},
+                    deaths: {value:"DEATHS", type:"number"}
                 },
                 {
                     name: "RODOV",
@@ -64,10 +64,10 @@ var mock = {
             players: [
                 {
                     type: 0,
-                    name: "PLAYER",
-                    score: "SCORE",
-                    kills: "KILLS",
-                    deaths: "DEATHS"
+                    name: {value:"PLAYER", type:"string"},
+                    score: {value:"SCORE", type:"number"},
+                    kills: {value:"KILLS", type:"number"},
+                    deaths: {value:"DEATHS", type:"number"}
                 },
                 {
                     name: "RODOV",
@@ -111,16 +111,16 @@ var mock = {
                 }
             ]
         },
-        game3: {
+        summary: {
             type: "Capture The Flag",
             length: "20",
             players: [
                 {
                     type: 0,
-                    name: "PLAYER",
-                    score: "SCORE",
-                    kills: "KILLS",
-                    deaths: "DEATHS"
+                    name: {value:"PLAYER", type:"string"},
+                    score: {value:"SCORE", type:"number"},
+                    kills: {value:"KILLS", type:"number"},
+                    deaths: {value:"DEATHS", type:"number"}
                 },
                 {
                     name: "RODOV",

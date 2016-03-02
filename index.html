@@ -49,37 +49,38 @@
                     <md-list-item class="row md-primary {{player.team}}"
                                   ng-repeat="player in currentGame.players | orderBy:getSortOrder:orderColumnDirection">
                         <md-checkbox aria-label="ck" class="md-raised md-primary"></md-checkbox>
-                        <!--
-                                                <p ng-if="$index==0"><md-button >{{player.name}}</md-button></p>
-
-                                                <md-button ng-if="$index==0">{{player.kills}}</md-button>
-
-                                                <md-button ng-if="$index==0">{{player.deaths}}</md-button>
-
-                                                <md-button ng-if="$index==0">{{player.ratio}}</md-button>
-
-                                                <md-button ng-if="$index==0">{{player.score}}</md-button>
-
-                                                <md-button ng-if="$index==0">{{player.rating}}</md-button>-->
 
                         <div>
-                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('name')">{{player.name}}</p>
+                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('name')">
+                                {{(player.type==0) ? player.name.value : player.name}}
+                            </p>
                             <p class="underline">{{player.weapon}}</p>
                         </div>
                         <div>
-                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('kills')">{{player.kills}}</p>
+                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('kills')">
+                                {{(player.type==0)?player.kills.value : player.kills}}
+                            </p>
                         </div>
                         <div>
-                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('deaths')">{{player.deaths}}</p>
+                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('deaths')">
+                                {{(player.type==0)?player.deaths.value : player.deaths}}
+
+                            </p>
                         </div>
                         <div>
-                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('ratio')">{{player.ratio}}</p>
+                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('ratio')">
+                                {{(player.type==0)?player.ratio.value : player.ratio}}
+                            </p>
                         </div>
                         <div>
-                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('score')">{{player.score}}</p>
+                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('score')">
+                                {{(player.type==0)?player.score.value : player.score}}
+                            </p>
                         </div>
                         <div>
-                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('rating')">{{player.rating}}</p>
+                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('rating')">
+                                {{(player.type==0)?player.rating.value : player.rating}}
+                            </p>
                         </div>
                     </md-list-item>
                 </div>

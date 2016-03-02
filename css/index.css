@@ -107,6 +107,8 @@ body {
 .button{
     cursor: pointer;
     padding: 5px 0;
+    border-style: none;
+    outline: none;
 }
 .button:hover{
     background-color: #EFEFEF;
