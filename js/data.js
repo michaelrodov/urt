@@ -3,7 +3,6 @@
  */
 
 var mock = {
-    headers: ['player', 'kills', 'deaths'],
     games: {
         game1: {
             type: "Death Match",
@@ -18,23 +17,23 @@ var mock = {
                 },
                 {
                     name: "RODOV",
-                    score: 132,
+                    score: 97,
                     kills: 11,
                     deaths: 10,
                     team: "blue",
-                    weapon: "M4"
+                    weapon: "UMP45"
                 },
                 {
                     name: "ACE",
-                    score: 250,
+                    score: 135,
                     kills: 43,
-                    deaths: 1,
+                    deaths: 21,
                     team: "red",
                     weapon: "LR300"
                 },
                 {
                     name: "MAMBA",
-                    score: 100,
+                    score: 110,
                     kills: 22,
                     deaths: 10,
                     team: "blue",
@@ -50,11 +49,50 @@ var mock = {
                 },
                 {
                     name: "Tal",
-                    score: 0,
+                    score: 100,
                     kills: 23,
                     deaths: 9,
                     team: "blue",
                     weapon: "M4"
+                },
+                {
+                    name: "Kilaka",
+                    score: 50,
+                    kills: 23,
+                    deaths: 9,
+                    team: "red",
+                    weapon: "M4"
+                },
+                {
+                    name: "godfather",
+                    score: 92,
+                    kills: 23,
+                    deaths: 9,
+                    team: "blue",
+                    weapon: "M4"
+                },                {
+                    name: "Seb",
+                    score: 120,
+                    kills: 23,
+                    deaths: 9,
+                    team: "red",
+                    weapon: "M4"
+                },
+                {
+                    name: "Kite",
+                    score: 67,
+                    kills: 23,
+                    deaths: 9,
+                    team: "blue",
+                    weapon: "M4"
+                },
+                {
+                    name: "BenD",
+                    score: 198,
+                    kills: 23,
+                    deaths: 9,
+                    team: "red",
+                    weapon: "AK103"
                 }
             ]
         },
@@ -81,7 +119,7 @@ var mock = {
                     name: "ACE",
                     score: 200,
                     kills: 43,
-                    deaths: 1,
+                    deaths: 41,
                     team: "red",
                     weapon: "LR300"
                 },
@@ -134,7 +172,7 @@ var mock = {
                     name: "ACE",
                     score: 111,
                     kills: 43,
-                    deaths: 1,
+                    deaths: 71,
                     team: "red",
                     weapon: "M4"
                 },
