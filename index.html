@@ -46,55 +46,56 @@
             </div>
             <div class="pane details-pane">
                 <div>
-                    <div class="md-subhead"><span>GAME:</span> {{currentGame.type}}</div>
+                    <div class="md-subhead"><span>GAME:</span> {{currentGame.gameType}}</div>
+                    <div class="md-subhead"><span>RESULT:</span> {{currentGame.gameResult}}</div>
+                    <div class="md-subhead"><span>MAP:</span> {{currentGame.mapName}}</div>
                     <div class="md-subhead"><span>LENGTH:</span> {{currentGame.length}} minutes</div>
+                    <div class="md-subhead"><span>END REASON:</span> {{currentGame.gameEndReason}}</div>
+                    <div class="md-subhead"><span>LOADED ON:</span> {{currentGame.gameDate}}</div>
                 </div>
                 <div>
                     <div id="power-pie-container"></div>
                 </div>
                 <md-subheader class="md-primary md-subheader md-no-sticky  md-title">GAME STATISTICS</md-subheader>
                 <div class="rows">
-                    <md-list-item class="row md-primary {{player.team}}"
+                    <md-list-item class="row md-primary"
                                   ng-repeat="player in currentGame.players | orderBy:getSortOrder:orderColumnDirection">
-                        <md-switch ng-if="$index!=0" ng-true-value="'blue'" ng-false-value="'red'" aria-label="team"
-                                   class="md-accent"
-                                   ng-click="playerToggleTeam(currentGame.players[$index])"
-                                   ng-init="playerAddTeam(currentGame.players[$index])"></md-switch>
-                        <md-button ng-if="$index==0" class="md-fab md-raised md-primary"
-                                   ng-class="{'button': $index==0 }">
-                            <md-icon md-svg-src="img/reset.svg"></md-icon>
-                        </md-button>
+                        <md-switch ng-true-value="'blue'" ng-false-value="'red'" aria-label="team" class="md-accent"
+                                   ng-change="playerToggleTeam(player.name)"
+                                   ng-model="currentGame.players[player.name].team">
+                        </md-switch>
+
                         <div>
-                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('name', $index==0)">
-                                {{(player.type==0) ? player.name.value : player.name}}
+                            <p>
+                                {{::player.name}}
                             </p>
 
-                            <p class="underline">{{player.weapon}}</p>
+                            <p class="underline">{{::player.weapon}}</p>
                         </div>
                         <div>
-                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('kills',$index==0)">
-                                {{(player.type==0)?player.kills.value : player.kills}}
+                            <p>
+                                {{::player.kills}}
                             </p>
                         </div>
                         <div>
-                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('deaths',$index==0)">
-                                {{(player.type==0)?player.deaths.value : player.deaths}}
+                            <p>
+                                {{::player.deaths}}
 
                             </p>
                         </div>
                         <div>
-                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('ratio',$index==0)">
-                                {{(player.type==0)?player.ratio.value : getRatio(player)}}
+                            <p>
+                                {{::getRatio(player)}}
                             </p>
                         </div>
                         <div>
-                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('score',$index==0)">
-                                {{(player.type==0)?player.score.value : player.score}}
+                            <p>
+                                {{::player.score}}
                             </p>
                         </div>
                         <div>
-                            <p ng-class="{'button': $index==0 }" ng-click="setSortOrderColumn('rating',$index==0)">
-                                {{(player.type==0)?player.rating.value : getRating(player)}}
+                            <p>
+                                {{::getRating(player)}}
                             </p>
                         </div>
                     </md-list-item>

@@ -2,6 +2,10 @@
  * Created by Carlos on 29/06/2015.
  *
  */
+var BLUE = 0;
+var RED = 1;
+var TEAM_COLORS = ['blue','red'];
+
 var dashApp = angular.module('dashApp', ['ngMaterial'])
     .config(function ($mdThemingProvider) {
         $mdThemingProvider.theme('default')
@@ -12,11 +16,11 @@ var dashApp = angular.module('dashApp', ['ngMaterial'])
 
 dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
 
-    $scope.refreshPowerPie = function(columns){
+    $scope.refreshPowerPie = function (columns) {
         $scope.powerPie.load({columns: columns});
     }
 
-    $scope.generatePowerPie = function(columns){
+    $scope.generatePowerPie = function (columns) {
         return c3.generate({
             bindto: '#power-pie-container',
             data: {
@@ -25,7 +29,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
                     blue: '#0000FF'
                 },
                 columns: columns,
-                type : 'pie'
+                type: 'pie'
             }
         });
     }
@@ -61,37 +65,27 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         return Math.round(player.score * $scope.getRatio(player));
     }
 
-    /*    $scope.updateCurrentGame = function(player){
-     for($scope.currentGame
-     }*/
-    $scope.playerAddTeam = function (player) {
-        $scope.currentGame.columns[(player.team == "blue") ? BLUE : RED][1] += $scope.getRating(player);
-        $scope.refreshPowerPie($scope.currentGame.columns);
-
+    $scope.addToTeam = function (player) {
+        $scope.currentGame.columns[(player.team == TEAM_COLORS[BLUE]) ? BLUE : RED][1] += $scope.getRating(player);
+        //TODO make a better managing of
     }
 
-    $scope.playerToggleTeam = function (player) {
+    $scope.playerToggleTeam = function (name) {
         //todo maybe just -1 abs toggle?
-        var fromTeam = (player.team == "blue") ? BLUE : RED;
-        $scope.currentGame.columns[fromTeam][1] -= $scope.getRating(player);
-        $scope.currentGame.columns[(fromTeam == "blue") ? RED : BLUE][1] += $scope.getRating(player);
-        player.team = fromTeam=="blue"?"red":"blue"; //update the data struct
+        var player = $scope.currentGame.players[name];
+        console.info(player.name+":"+player.team);
+        var fromTeam = ((player.team == TEAM_COLORS[BLUE]) ? BLUE : RED);
+        var toTeam = Math.abs(fromTeam-1);
+        var rating = $scope.getRating(player);
+
+        $scope.currentGame.columns[fromTeam][1] -= rating;
+        $scope.currentGame.columns[toTeam][1] += rating;
         $scope.refreshPowerPie($scope.currentGame.columns);
     }
 
-    //init
+    $scope.getPlayersTeam = function(playerIndex){
 
-    $scope.data = mock;
-    $scope.currentGame = null;
-    $scope.powerPie;
-    var RED = 0;
-    var BLUE = 1;
-
-    $scope.games = $scope.data.games; //todo replace by http/file fetch or not
-    $scope.gameKeys = Object.keys($scope.games);
-    $scope.orderColumn = "name"; //by which field to order the table
-    $scope.orderColumnDirection = false;
-
+    }
     $scope.getGame = function (gameId) {
         if (typeof gameId == 'number') {
             return $scope.games[$scope.gameKeys[gameId]];
@@ -100,29 +94,46 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         }
     }
 
-    $scope.enrichGame = function (game) {
-        var thisGame = game;
-        for (var i = 0; i < thisGame.players.length; i++) {
-            if (thisGame.players[i].type !== 0) {
-                thisGame.players[i].ratio = Math.round((thisGame.players[i].kills / thisGame.players[i].deaths) * 100) / 100;
-                thisGame.players[i].rating = 0;
-            } else {
-                thisGame.players[i].ratio = {value: "RATIO", type: "number"};
-                thisGame.players[i].rating = {value: "RATING", type: "number"};
-
-            }
-        }
-        return thisGame;
-    }
 
     $scope.setCurrentGame = function (key) {
-        $scope.currentGame = $scope.enrichGame($scope.getGame(key));
-        $scope.currentGame.columns = [['red', 0], ['blue', 0]];
+        $scope.currentGame = $scope.getGame(key);
+        $scope.currentGame.columns = [[TEAM_COLORS[BLUE], 0], [TEAM_COLORS[RED], 0]]; //init teams
+        $scope.buildTeams($scope.currentGame);
+        $scope.playersKeys = Object.keys($scope.currentGame.players);
+
         $scope.powerPie = $scope.generatePowerPie($scope.currentGame.columns);
     }
 
+    //init
+    $scope.buildTeams = function (game) {
+        var players = Object.keys(game.players);
+        for (var i = 0; i < players.length; i++) {
+            var player = game.players[players[i]];
+            if (i % 2 == 0) {
+                player.team = TEAM_COLORS[RED];
+                $scope.addToTeam(player);
 
-    $scope.setCurrentGame(0); //init
+            } else {
+                player.team = TEAM_COLORS[BLUE];
+                $scope.addToTeam(player);
+            }
+        }
+    }
 
+    $http.get('DATA/games.json').success(
+        function (data) {
+            $scope.currentGame = null;
+            $scope.powerPie;
+
+            $scope.data = data;
+            $scope.games = $scope.data.games; //todo replace by http/file fetch or not
+            $scope.gameKeys = Object.keys($scope.games);
+            $scope.orderColumn = "name"; //by which field to order the table
+            $scope.orderColumnDirection = false;
+
+
+            $scope.setCurrentGame(0); //init
+        }
+    );
 
 });

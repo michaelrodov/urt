@@ -74,7 +74,7 @@ body {
 .games-pane {
     background-color: #e0e0e0;
     cursor: pointer;
-    width: 130px;
+    width: 160px;
     padding: 15px 0;
 }
 
@@ -92,21 +92,18 @@ body {
     background-color: #F3F3F3 !important;
 }
 
-
+md-list-item p{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
 .row {
     display: inline-flex;
     flex-flow: row;
     width: 100%;
     color: #747474;
 }
-.row:first-child p{
-    font-weight: bold;
-    color: #686868;
-    display: inline-block;
-    position: relative;
-    left: -10px;
-    padding: 5px 10px;
-}
+
 .row md-checkbox{
     left: 10px;
 }
@@ -127,10 +124,10 @@ body {
     background-color: #EFEFEF;
 }
 .blue{
-    background-color: #BCDEF3;
+    background-color: #e5e4f3;
 }
 .red{
-    background-color: #FFBEBD;
+    background-color: #ffe5dc;
 }
 .icon-spinner9:before {
     content: "\e900";
