@@ -58,6 +58,7 @@
                 </div>
                 <md-subheader class="md-primary md-subheader md-no-sticky  md-title">GAME STATISTICS</md-subheader>
                 <div class="rows">
+
                     <md-list-item class="row md-primary"
                                   ng-repeat="player in currentGame.players | orderBy:getSortOrder:orderColumnDirection">
                         <md-switch ng-true-value="'blue'" ng-false-value="'red'" aria-label="team" class="md-accent"
@@ -65,37 +66,35 @@
                                    ng-model="currentGame.players[player.name].team">
                         </md-switch>
 
-                        <div>
+                        <div class="width-large">
                             <p>
-                                {{::player.name}}
-                            </p>
-
-                            <p class="underline">{{::player.weapon}}</p>
-                        </div>
-                        <div>
-                            <p>
-                                {{::player.kills}}
+                                {{player.name}}
                             </p>
                         </div>
                         <div>
                             <p>
-                                {{::player.deaths}}
+                                {{player.kills}}
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                {{player.deaths}}
 
                             </p>
                         </div>
                         <div>
                             <p>
-                                {{::getRatio(player)}}
+                                {{getRatio(player)}}
                             </p>
                         </div>
                         <div>
                             <p>
-                                {{::player.score}}
+                                {{player.score}}
                             </p>
                         </div>
                         <div>
                             <p>
-                                {{::getRating(player)}}
+                                {{getGrade(player)}}
                             </p>
                         </div>
                     </md-list-item>

@@ -4,7 +4,7 @@
  */
 var BLUE = 0;
 var RED = 1;
-var TEAM_COLORS = ['blue','red'];
+var TEAM_COLORS = ['blue', 'red'];
 
 var dashApp = angular.module('dashApp', ['ngMaterial'])
     .config(function ($mdThemingProvider) {
@@ -58,32 +58,52 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
     }
 
     $scope.getRatio = function (player) {
-        return Math.round((player.kills / ((player.deaths > 0) ? player.deaths : 1)) * 100) / 100;
+        return Math.round((player.kills / (player.deaths + player.kills)) * 100) / 100;
     }
 
-    $scope.getRating = function (player) {
-        return Math.round(player.score * $scope.getRatio(player));
+    $scope.getTotalKills = function (game) {
+        var playersKeys = Object.keys(game.players);
+        var totalKills = 0;
+        for (var i = 0; i < playersKeys.length; i++) {
+            totalKills += game.players[playersKeys[i]].kills;
+        }
+
+        return totalKills;
+    }
+
+    /***
+     * Final function
+     * @param player
+     * @returns {number}
+     */
+    $scope.getGrade = function (player) {
+        return Math.round((5 + $scope.getRatio(player) * ((100 * player.kills) / $scope.totalKills))*100)/100;
     }
 
     $scope.addToTeam = function (player) {
-        $scope.currentGame.columns[(player.team == TEAM_COLORS[BLUE]) ? BLUE : RED][1] += $scope.getRating(player);
+        $scope.currentGame.columns[(player.team == TEAM_COLORS[BLUE]) ? BLUE : RED][1] += $scope.getGrade(player);
         //TODO make a better managing of
     }
 
+    /***
+     * The function runs after the value was already changed. Therefore we will add to current team and will substruct from teh other team
+     * @param name
+     */
     $scope.playerToggleTeam = function (name) {
-        //todo maybe just -1 abs toggle?
         var player = $scope.currentGame.players[name];
-        console.info(player.name+":"+player.team);
-        var fromTeam = ((player.team == TEAM_COLORS[BLUE]) ? BLUE : RED);
-        var toTeam = Math.abs(fromTeam-1);
-        var rating = $scope.getRating(player);
+        console.info(player.name + " onChange with: " + player.team);
+        /*Since this function is called after the change was made, the team relation should be opposite from the logic
+        * i.e. new team = toTeam, old team = fromTeam*/
+        var toTeam = ((player.team == TEAM_COLORS[BLUE]) ? BLUE : RED);
+        var fromTeam = Math.abs(toTeam - 1);
+        var rating = $scope.getGrade(player);
 
         $scope.currentGame.columns[fromTeam][1] -= rating;
         $scope.currentGame.columns[toTeam][1] += rating;
         $scope.refreshPowerPie($scope.currentGame.columns);
     }
 
-    $scope.getPlayersTeam = function(playerIndex){
+    $scope.getPlayersTeam = function (playerIndex) {
 
     }
     $scope.getGame = function (gameId) {
@@ -97,10 +117,10 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
 
     $scope.setCurrentGame = function (key) {
         $scope.currentGame = $scope.getGame(key);
+        $scope.totalKills = $scope.getTotalKills($scope.currentGame);
         $scope.currentGame.columns = [[TEAM_COLORS[BLUE], 0], [TEAM_COLORS[RED], 0]]; //init teams
         $scope.buildTeams($scope.currentGame);
         $scope.playersKeys = Object.keys($scope.currentGame.players);
-
         $scope.powerPie = $scope.generatePowerPie($scope.currentGame.columns);
     }
 

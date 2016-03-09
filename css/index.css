@@ -3,12 +3,14 @@ p {
     outline: none;
     cursor: default;
 }
+
 body {
     background-color: #FFFFFF;
     display: inline-flex;
     flex-flow: column;
 }
 
+/**************************TOP BAR*/
 #topbar {
     height: 100px;
     width: 1024px;
@@ -28,16 +30,6 @@ body {
     margin-left: 5px;
     display: inline-flex;
 }
-#footer{
-    min-height: 30px;
-    min-width: 1024px;
-    background-color: #0096d6;
-    display: inline-block;
-    font-size: 2em;
-    font-weight: 300;
-    color: #fff;
-    line-height: 59px;
-}
 
 #logo>img {
     height: 100px;
@@ -47,7 +39,7 @@ body {
     right: 2px;
 }
 
-
+/******* CENTRAL STRUCTURE *******/
 .center-container {
     display: flex;
     flex-direction: row;
@@ -71,6 +63,11 @@ body {
     color: #607D8B;
 }
 
+
+
+
+
+/****** GAMES PANEL *******/
 .games-pane {
     background-color: #e0e0e0;
     cursor: pointer;
@@ -78,9 +75,11 @@ body {
     padding: 15px 0;
 }
 
-.details-pane>div>span{
-    font-weight: bold;
+/****** PLAYERS PANE *******/
+.details-pane{
+    width: 100%;
 }
+
 .md-subheader {
     margin-top: 50px;
     margin-right: 0 !important;
@@ -92,30 +91,27 @@ body {
     background-color: #F3F3F3 !important;
 }
 
+/****** PLAYERS LIST **********/
 md-list-item p{
     white-space: nowrap;
     text-overflow: ellipsis;
-    width: 100%;
+    overflow: hidden;
+    padding: 0 10px;
 }
+
 .row {
-    display: inline-flex;
+    display: flex;
     flex-flow: row;
     width: 100%;
     color: #747474;
 }
-
-.row md-checkbox{
-    left: 10px;
-}
-.row>div p{
-    margin: 0;
-}
-.row>div{
+.row > div{
     width: 16%;
 }
-.row>div .underline{
-    font-size: 10px;
+.row > div.width-large{
+    width: 30%;
 }
+
 .button{
     cursor: pointer;
     padding: 5px 0;
@@ -131,4 +127,17 @@ md-list-item p{
 }
 .icon-spinner9:before {
     content: "\e900";
+}
+
+
+/****** FOOTER **************/
+#footer{
+    min-height: 30px;
+    min-width: 1024px;
+    background-color: #0096d6;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 300;
+    color: #fff;
+    line-height: 59px;
 }
