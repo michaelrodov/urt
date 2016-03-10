@@ -1,3 +1,4 @@
+
 p {
     border-style: none;
     outline: none;
@@ -80,6 +81,19 @@ body {
     width: 100%;
 }
 
+table, tr, td, th{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+td {
+    padding: 0 5px;
+}
+td.width-large {
+    /*width: 130px;*/
+}
 .md-subheader {
     margin-top: 50px;
     margin-right: 0 !important;
@@ -107,9 +121,6 @@ md-list-item p{
 }
 .row > div{
     width: 16%;
-}
-.row > div.width-large{
-    width: 30%;
 }
 
 .button{

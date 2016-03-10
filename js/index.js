@@ -144,7 +144,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         function (data) {
             $scope.currentGame = null;
             $scope.powerPie;
-
+            //$scope.headers = headers;
             $scope.data = data;
             $scope.games = $scope.data.games; //todo replace by http/file fetch or not
             $scope.gameKeys = Object.keys($scope.games);
