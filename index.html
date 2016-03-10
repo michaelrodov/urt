@@ -58,46 +58,34 @@
                 </div>
                 <md-subheader class="md-primary md-subheader md-no-sticky  md-title">GAME STATISTICS</md-subheader>
                 <div class="rows">
+                    <table width="100%" border="1">
+                        <tr >
+                            <th>Team</th>
+                            <th>Name</th>
+                            <th>Kills</th>
+                            <th>Deaths</th>
+                            <th>Score</th>
+                            <th>Ratio</th>
+                            <th>Grade</th>
+                        </tr>
+                        <tr
+                            ng-repeat="player in currentGame.players | orderBy:getSortOrder:orderColumnDirection">
+                            <td>
+                                <md-switch ng-true-value="'blue'" ng-false-value="'red'" aria-label="team"
+                                           class="md-accent"
+                                           ng-change="playerToggleTeam(player.name)"
+                                           ng-model="currentGame.players[player.name].team">
+                                </md-switch>
+                            </td>
 
-                    <md-list-item class="row md-primary"
-                                  ng-repeat="player in currentGame.players | orderBy:getSortOrder:orderColumnDirection">
-                        <md-switch ng-true-value="'blue'" ng-false-value="'red'" aria-label="team" class="md-accent"
-                                   ng-change="playerToggleTeam(player.name)"
-                                   ng-model="currentGame.players[player.name].team">
-                        </md-switch>
-
-                        <div class="width-large">
-                            <p>
-                                {{player.name}}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {{player.kills}}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {{player.deaths}}
-
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {{getRatio(player)}}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {{player.score}}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {{getGrade(player)}}
-                            </p>
-                        </div>
-                    </md-list-item>
+                            <td>{{player.name}}</td>
+                            <td>{{player.kills}}</td>
+                            <td>{{player.deaths}}</td>
+                            <td>{{player.score}}</td>
+                            <td>{{getRatio(player)}}</td>
+                            <td>{{getGrade(player)}}</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
