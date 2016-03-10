@@ -1,5 +1,631 @@
 {
   "games": {
+    "SUMMARY": {
+      "gameId": "SUMMARY",
+      "mapName": "SUMMARY",
+      "gameType": "SUMMARY",
+      "gameResult": "",
+      "length": "0",
+      "gameEndReason": "-",
+      "gameDate": "Mar 9, 2016 6:50:15 PM",
+      "players": {
+        "MaorTheDestroyer": {
+          "deaths": 53,
+          "kills": 64,
+          "type": 0,
+          "score": 132,
+          "name": "MaorTheDestroyer",
+          "weapons": {
+            "UT_MOD_AK103": 2,
+            "UT_MOD_M4": 12,
+            "UT_MOD_BLED": 2,
+            "UT_MOD_LR300": 5,
+            "UT_MOD_MAC11": 1
+          }
+        },
+        "DEADWOMANWALKING": {
+          "deaths": 21,
+          "kills": 45,
+          "type": 0,
+          "score": 83,
+          "name": "DEADWOMANWALKING",
+          "weapons": {
+            "UT_MOD_AK103": 4,
+            "UT_MOD_M4": 18
+          }
+        },
+        "MAMBA": {
+          "deaths": 98,
+          "kills": 118,
+          "type": 0,
+          "score": 214,
+          "name": "MAMBA",
+          "weapons": {
+            "MOD_FALLING": 1,
+            "UT_MOD_AK103": 2,
+            "UT_MOD_M4": 6,
+            "UT_MOD_LR300": 8
+          }
+        },
+        "Kilaka": {
+          "deaths": 21,
+          "kills": 43,
+          "type": 0,
+          "score": 33,
+          "name": "Kilaka",
+          "weapons": {
+            "UT_MOD_MP5K": 1,
+            "UT_MOD_HEGRENADE": 1,
+            "UT_MOD_M4": 1,
+            "UT_MOD_BLED": 2,
+            "UT_MOD_LR300": 16,
+            "UT_MOD_NEGEV": 1
+          }
+        },
+        "Rachel": {
+          "deaths": 23,
+          "kills": 33,
+          "type": 0,
+          "score": 27,
+          "name": "Rachel",
+          "weapons": {
+            "UT_MOD_MP5K": 1,
+            "UT_MOD_AK103": 2,
+            "UT_MOD_M4": 1,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 2
+          }
+        },
+        "\u003cworld\u003e": {
+          "deaths": 14,
+          "kills": 0,
+          "type": 0,
+          "score": 0,
+          "name": "\u003cworld\u003e",
+          "weapons": {}
+        },
+        "benD": {
+          "deaths": 236,
+          "kills": 88,
+          "type": 0,
+          "score": 398,
+          "name": "benD",
+          "weapons": {
+            "UT_MOD_M4": 5,
+            "UT_MOD_BLED": 3,
+            "UT_MOD_LR300": 11
+          }
+        },
+        "[ACE]": {
+          "deaths": 131,
+          "kills": 122,
+          "type": 0,
+          "score": 257,
+          "name": "[ACE]",
+          "weapons": {
+            "UT_MOD_UMP45": 2,
+            "UT_MOD_AK103": 14,
+            "UT_MOD_M4": 1,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 8
+          }
+        },
+        "Seb": {
+          "deaths": 57,
+          "kills": 48,
+          "type": 0,
+          "score": 159,
+          "name": "Seb",
+          "weapons": {
+            "UT_MOD_AK103": 10,
+            "UT_MOD_M4": 5,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 3,
+            "MOD_CHANGE_TEAM": 1
+          }
+        },
+        "Shalom": {
+          "deaths": 28,
+          "kills": 59,
+          "type": 0,
+          "score": 104,
+          "name": "Shalom",
+          "weapons": {
+            "UT_MOD_UMP45": 1,
+            "UT_MOD_FLAG": 1,
+            "UT_MOD_AK103": 9,
+            "UT_MOD_M4": 2,
+            "UT_MOD_LR300": 2
+          }
+        },
+        "Tal": {
+          "deaths": 123,
+          "kills": 125,
+          "type": 0,
+          "score": 304,
+          "name": "Tal",
+          "weapons": {
+            "UT_MOD_AK103": 17,
+            "UT_MOD_M4": 3,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 4
+          }
+        },
+        "Knite": {
+          "deaths": 9,
+          "kills": 21,
+          "type": 0,
+          "score": 8,
+          "name": "Knite",
+          "weapons": {
+            "UT_MOD_FLAG": 1,
+            "UT_MOD_AK103": 1,
+            "UT_MOD_M4": 7,
+            "UT_MOD_LR300": 9,
+            "UT_MOD_MAC11": 3
+          }
+        },
+        "RODOV": {
+          "deaths": 72,
+          "kills": 93,
+          "type": 0,
+          "score": 218,
+          "name": "RODOV",
+          "weapons": {
+            "UT_MOD_HEGRENADE": 1,
+            "UT_MOD_M4": 2,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_BERETTA": 1,
+            "UT_MOD_LR300": 7,
+            "UT_MOD_MAC11": 1
+          }
+        },
+        "Or": {
+          "deaths": 98,
+          "kills": 90,
+          "type": 0,
+          "score": 290,
+          "name": "Or",
+          "weapons": {
+            "UT_MOD_AK103": 12,
+            "UT_MOD_LR300": 3
+          }
+        },
+        "Amir": {
+          "deaths": 55,
+          "kills": 90,
+          "type": 0,
+          "score": 166,
+          "name": "Amir",
+          "weapons": {
+            "UT_MOD_AK103": 8,
+            "UT_MOD_HK69": 1,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 5
+          }
+        }
+      }
+    },
+    "5_ut4_riyadh": {
+      "gameId": "5_ut4_riyadh",
+      "mapName": "ut4_riyadh",
+      "gameType": "Capture The Flag",
+      "gameResult": " red:0  blue:0",
+      "length": "15:38",
+      "gameEndReason": "Timelimit hit.",
+      "gameDate": "Mar 9, 2016 6:50:15 PM",
+      "players": {
+        "Shalom": {
+          "deaths": 28,
+          "kills": 59,
+          "type": 0,
+          "score": 104,
+          "name": "Shalom",
+          "weapons": {
+            "UT_MOD_UMP45": 1,
+            "UT_MOD_FLAG": 1,
+            "UT_MOD_AK103": 9,
+            "UT_MOD_M4": 2,
+            "UT_MOD_LR300": 2
+          }
+        },
+        "Tal": {
+          "deaths": 123,
+          "kills": 125,
+          "type": 0,
+          "score": 304,
+          "name": "Tal",
+          "weapons": {
+            "UT_MOD_AK103": 17,
+            "UT_MOD_M4": 3,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 4
+          }
+        },
+        "Knite": {
+          "deaths": 9,
+          "kills": 21,
+          "type": 0,
+          "score": 8,
+          "name": "Knite",
+          "weapons": {
+            "UT_MOD_FLAG": 1,
+            "UT_MOD_AK103": 1,
+            "UT_MOD_M4": 7,
+            "UT_MOD_LR300": 9,
+            "UT_MOD_MAC11": 3
+          }
+        },
+        "RODOV": {
+          "deaths": 72,
+          "kills": 93,
+          "type": 0,
+          "score": 218,
+          "name": "RODOV",
+          "weapons": {
+            "UT_MOD_HEGRENADE": 1,
+            "UT_MOD_M4": 2,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_BERETTA": 1,
+            "UT_MOD_LR300": 7,
+            "UT_MOD_MAC11": 1
+          }
+        },
+        "MaorTheDestroyer": {
+          "deaths": 53,
+          "kills": 64,
+          "type": 0,
+          "score": 132,
+          "name": "MaorTheDestroyer",
+          "weapons": {
+            "UT_MOD_AK103": 2,
+            "UT_MOD_M4": 12,
+            "UT_MOD_BLED": 2,
+            "UT_MOD_LR300": 5,
+            "UT_MOD_MAC11": 1
+          }
+        },
+        "Or": {
+          "deaths": 98,
+          "kills": 90,
+          "type": 0,
+          "score": 290,
+          "name": "Or",
+          "weapons": {
+            "UT_MOD_AK103": 12,
+            "UT_MOD_LR300": 3
+          }
+        },
+        "MAMBA": {
+          "deaths": 98,
+          "kills": 118,
+          "type": 0,
+          "score": 214,
+          "name": "MAMBA",
+          "weapons": {
+            "MOD_FALLING": 1,
+            "UT_MOD_AK103": 2,
+            "UT_MOD_M4": 6,
+            "UT_MOD_LR300": 8
+          }
+        },
+        "Amir": {
+          "deaths": 55,
+          "kills": 90,
+          "type": 0,
+          "score": 166,
+          "name": "Amir",
+          "weapons": {
+            "UT_MOD_AK103": 8,
+            "UT_MOD_HK69": 1,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 5
+          }
+        },
+        "\u003cworld\u003e": {
+          "deaths": 14,
+          "kills": 0,
+          "type": 0,
+          "score": 0,
+          "name": "\u003cworld\u003e",
+          "weapons": {}
+        },
+        "benD": {
+          "deaths": 236,
+          "kills": 88,
+          "type": 0,
+          "score": 398,
+          "name": "benD",
+          "weapons": {
+            "UT_MOD_M4": 5,
+            "UT_MOD_BLED": 3,
+            "UT_MOD_LR300": 11
+          }
+        },
+        "[ACE]": {
+          "deaths": 131,
+          "kills": 122,
+          "type": 0,
+          "score": 257,
+          "name": "[ACE]",
+          "weapons": {
+            "UT_MOD_UMP45": 2,
+            "UT_MOD_AK103": 14,
+            "UT_MOD_M4": 1,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 8
+          }
+        }
+      }
+    },
+    "7_ut4_uptown": {
+      "gameId": "7_ut4_uptown",
+      "mapName": "ut4_uptown",
+      "gameType": "Capture The Flag",
+      "gameResult": " red:1  blue:1",
+      "length": " 0:28",
+      "gameEndReason": "Timelimit hit.",
+      "gameDate": "Mar 9, 2016 6:50:15 PM",
+      "players": {
+        "Shalom": {
+          "deaths": 5,
+          "kills": 15,
+          "type": 0,
+          "score": 16,
+          "name": "Shalom",
+          "weapons": {
+            "MOD_FALLING": 2,
+            "UT_MOD_AK103": 6,
+            "UT_MOD_BLED": 2,
+            "UT_MOD_LR300": 5
+          }
+        },
+        "Tal": {
+          "deaths": 19,
+          "kills": 18,
+          "type": 0,
+          "score": 53,
+          "name": "Tal",
+          "weapons": {
+            "UT_MOD_AK103": 11,
+            "UT_MOD_M4": 1,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 5
+          }
+        },
+        "RODOV": {
+          "deaths": 5,
+          "kills": 8,
+          "type": 0,
+          "score": 21,
+          "name": "RODOV",
+          "weapons": {
+            "UT_MOD_HEGRENADE": 1,
+            "UT_MOD_M4": 3,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 3
+          }
+        },
+        "MaorTheDestroyer": {
+          "deaths": 8,
+          "kills": 15,
+          "type": 0,
+          "score": 19,
+          "name": "MaorTheDestroyer",
+          "weapons": {
+            "UT_MOD_M4": 2,
+            "UT_MOD_LR300": 13
+          }
+        },
+        "Or": {
+          "deaths": 14,
+          "kills": 13,
+          "type": 0,
+          "score": 39,
+          "name": "Or",
+          "weapons": {
+            "MOD_FALLING": 1,
+            "UT_MOD_AK103": 8,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 3
+          }
+        },
+        "MAMBA": {
+          "deaths": 15,
+          "kills": 11,
+          "type": 0,
+          "score": 30,
+          "name": "MAMBA",
+          "weapons": {
+            "UT_MOD_AK103": 2,
+            "UT_MOD_M4": 2,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 6
+          }
+        },
+        "\u003cworld\u003e": {
+          "deaths": 5,
+          "kills": 0,
+          "type": 0,
+          "score": 0,
+          "name": "\u003cworld\u003e",
+          "weapons": {}
+        },
+        "benD": {
+          "deaths": 29,
+          "kills": 12,
+          "type": 0,
+          "score": 58,
+          "name": "benD",
+          "weapons": {
+            "UT_MOD_AK103": 2,
+            "UT_MOD_M4": 1,
+            "UT_MOD_LR300": 9
+          }
+        },
+        "[ACE]": {
+          "deaths": 8,
+          "kills": 16,
+          "type": 0,
+          "score": 17,
+          "name": "[ACE]",
+          "weapons": {
+            "MOD_FALLING": 2,
+            "UT_MOD_AK103": 9,
+            "UT_MOD_M4": 4,
+            "UT_MOD_LR300": 1
+          }
+        }
+      }
+    },
+    "6_ut4_turnpike": {
+      "gameId": "6_ut4_turnpike",
+      "mapName": "ut4_turnpike",
+      "gameType": "Capture The Flag",
+      "gameResult": " red:6  blue:4",
+      "length": "15:29",
+      "gameEndReason": "Timelimit hit.",
+      "gameDate": "Mar 9, 2016 6:50:15 PM",
+      "players": {
+        "Shalom": {
+          "deaths": 18,
+          "kills": 29,
+          "type": 0,
+          "score": 84,
+          "name": "Shalom",
+          "weapons": {
+            "UT_MOD_MP5K": 1,
+            "UT_MOD_HEGRENADE": 3,
+            "UT_MOD_AK103": 17,
+            "UT_MOD_M4": 3,
+            "UT_MOD_LR300": 5
+          }
+        },
+        "Tal": {
+          "deaths": 22,
+          "kills": 29,
+          "type": 0,
+          "score": 88,
+          "name": "Tal",
+          "weapons": {
+            "UT_MOD_FLAG": 2,
+            "UT_MOD_MP5K": 1,
+            "UT_MOD_AK103": 17,
+            "UT_MOD_M4": 2,
+            "UT_MOD_LR300": 7
+          }
+        },
+        "RODOV": {
+          "deaths": 19,
+          "kills": 30,
+          "type": 0,
+          "score": 72,
+          "name": "RODOV",
+          "weapons": {
+            "UT_MOD_HEGRENADE": 1,
+            "UT_MOD_AK103": 8,
+            "UT_MOD_M4": 7,
+            "UT_MOD_LR300": 10,
+            "UT_MOD_MAC11": 4
+          }
+        },
+        "MaorTheDestroyer": {
+          "deaths": 32,
+          "kills": 27,
+          "type": 0,
+          "score": 93,
+          "name": "MaorTheDestroyer",
+          "weapons": {
+            "UT_MOD_AK103": 3,
+            "UT_MOD_HEGRENADE": 1,
+            "UT_MOD_M4": 11,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 10,
+            "UT_MOD_MAC11": 1
+          }
+        },
+        "Or": {
+          "deaths": 21,
+          "kills": 21,
+          "type": 0,
+          "score": 91,
+          "name": "Or",
+          "weapons": {
+            "UT_MOD_FLAG": 1,
+            "UT_MOD_AK103": 12,
+            "UT_MOD_M4": 4,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 3
+          }
+        },
+        "Amir": {
+          "deaths": 16,
+          "kills": 31,
+          "type": 0,
+          "score": 86,
+          "name": "Amir",
+          "weapons": {
+            "UT_MOD_MP5K": 2,
+            "UT_MOD_HEGRENADE": 2,
+            "UT_MOD_AK103": 13,
+            "UT_MOD_M4": 5,
+            "UT_MOD_BLED": 2,
+            "UT_MOD_LR300": 7
+          }
+        },
+        "MAMBA": {
+          "deaths": 28,
+          "kills": 32,
+          "type": 0,
+          "score": 84,
+          "name": "MAMBA",
+          "weapons": {
+            "UT_MOD_HEGRENADE": 1,
+            "UT_MOD_AK103": 5,
+            "UT_MOD_M4": 10,
+            "UT_MOD_LR300": 13,
+            "UT_MOD_MAC11": 3
+          }
+        },
+        "\u003cworld\u003e": {
+          "deaths": 4,
+          "kills": 0,
+          "type": 0,
+          "score": 0,
+          "name": "\u003cworld\u003e",
+          "weapons": {}
+        },
+        "benD": {
+          "deaths": 57,
+          "kills": 18,
+          "type": 0,
+          "score": 137,
+          "name": "benD",
+          "weapons": {
+            "UT_MOD_FLAG": 1,
+            "UT_MOD_AK103": 1,
+            "UT_MOD_M4": 3,
+            "UT_MOD_LR300": 10,
+            "UT_MOD_MAC11": 3
+          }
+        },
+        "[ACE]": {
+          "deaths": 30,
+          "kills": 30,
+          "type": 0,
+          "score": 108,
+          "name": "[ACE]",
+          "weapons": {
+            "UT_MOD_MP5K": 1,
+            "UT_MOD_HEGRENADE": 1,
+            "UT_MOD_AK103": 21,
+            "UT_MOD_M4": 3,
+            "UT_MOD_BLED": 1,
+            "UT_MOD_LR300": 3
+          }
+        }
+      }
+    },
     "1_ut4_riyadh": {
       "gameId": "1_ut4_riyadh",
       "mapName": "ut4_riyadh",
@@ -7,7 +633,7 @@
       "gameResult": " red:2  blue:1",
       "length": "16:29",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 9, 2016 11:17:30 AM",
+      "gameDate": "Mar 9, 2016 6:50:15 PM",
       "players": {
         "Tal": {
           "deaths": 27,
@@ -37,10 +663,10 @@
           }
         },
         "DEADWOMANWALKING": {
-          "deaths": 8,
-          "kills": 22,
+          "deaths": 21,
+          "kills": 45,
           "type": 0,
-          "score": 30,
+          "score": 83,
           "name": "DEADWOMANWALKING",
           "weapons": {
             "UT_MOD_AK103": 4,
@@ -87,10 +713,10 @@
           }
         },
         "Rachel": {
-          "deaths": 6,
-          "kills": 7,
+          "deaths": 23,
+          "kills": 33,
           "type": 0,
-          "score": 13,
+          "score": 27,
           "name": "Rachel",
           "weapons": {
             "UT_MOD_MP5K": 1,
@@ -113,10 +739,10 @@
           }
         },
         "Kilaka": {
-          "deaths": 14,
-          "kills": 22,
+          "deaths": 21,
+          "kills": 43,
           "type": 0,
-          "score": 28,
+          "score": 33,
           "name": "Kilaka",
           "weapons": {
             "UT_MOD_MP5K": 1,
@@ -142,10 +768,10 @@
           }
         },
         "Seb": {
-          "deaths": 23,
-          "kills": 20,
+          "deaths": 57,
+          "kills": 48,
           "type": 0,
-          "score": 64,
+          "score": 159,
           "name": "Seb",
           "weapons": {
             "UT_MOD_AK103": 10,
@@ -164,7 +790,7 @@
       "gameResult": " red:4  blue:1",
       "length": "15:38",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 9, 2016 11:17:30 AM",
+      "gameDate": "Mar 9, 2016 6:50:15 PM",
       "players": {
         "Tal": {
           "deaths": 28,

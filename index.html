@@ -57,53 +57,79 @@
                     <div id="power-pie-container"></div>
                 </div>
                 <md-subheader class="md-primary md-subheader md-no-sticky  md-title">GAME STATISTICS</md-subheader>
-                <div class="rows">
+                <table>
+                    <div class="rows">
+                        <tr class="row md-primary">
+                            <th>
+                                TEAM
+                            </th>
+                            <th>
+                                NAME
+                            </th>
+                            <th>
+                                KILLS
+                            </th>
+                            <th>
+                                DEAthS
+                            </th>
+                            <th>
+                                RATIO
+                            </th>
+                            <th>
+                                SCORE
+                            </th>
+                            <th>
+                                GRADE
+                            </th>
+                        </tr>
+                        <tr class="row md-primary"
+                            ng-repeat="player in currentGame.players | orderBy:getSortOrder:orderColumnDirection">
+                            <td>
+                                <md-switch ng-true-value="'blue'" ng-false-value="'red'" aria-label="team"
+                                           class="md-accent"
+                                           ng-change="playerToggleTeam(player.name)"
+                                           ng-model="currentGame.players[player.name].team">
+                                </md-switch>
+                            </td>
+                            <td class="width-large">
+                                <p>
+                                    {{player.name}}
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    {{player.kills}}
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    {{player.deaths}}
 
-                    <md-list-item class="row md-primary"
-                                  ng-repeat="player in currentGame.players | orderBy:getSortOrder:orderColumnDirection">
-                        <md-switch ng-true-value="'blue'" ng-false-value="'red'" aria-label="team" class="md-accent"
-                                   ng-change="playerToggleTeam(player.name)"
-                                   ng-model="currentGame.players[player.name].team">
-                        </md-switch>
-
-                        <div class="width-large">
-                            <p>
-                                {{player.name}}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {{player.kills}}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {{player.deaths}}
-
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {{getRatio(player)}}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {{player.score}}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {{getGrade(player)}}
-                            </p>
-                        </div>
-                    </md-list-item>
-                </div>
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    {{getRatio(player)}}
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    {{player.score}}
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    {{getGrade(player)}}
+                                </p>
+                            </td>
+                        </tr>
+                </table>
             </div>
         </div>
-        <div id="footer"></div>
     </div>
-    <div id="rightmain"></div>
+    <div id="footer"></div>
+</div>
+<div id="rightmain"></div>
 </div>
 </body>
 </html>
