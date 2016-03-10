@@ -53,24 +53,24 @@
                     <div class="md-subhead"><span>END REASON:</span> {{currentGame.gameEndReason}}</div>
                     <div class="md-subhead"><span>LOADED ON:</span> {{currentGame.gameDate}}</div>
                 </div>
-                <div>
+                <div ng-show="currentGame.gameId=='SUMMARY'">
                     <div id="power-pie-container"></div>
                 </div>
                 <md-subheader class="md-primary md-subheader md-no-sticky  md-title">GAME STATISTICS</md-subheader>
                 <div class="rows">
                     <table width="100%" border="1">
-                        <tr >
-                            <th>Team</th>
-                            <th>Name</th>
-                            <th>Kills</th>
-                            <th>Deaths</th>
-                            <th>Score</th>
-                            <th>Ratio</th>
-                            <th>Grade</th>
+                        <tr>
+                            <th ng-if="currentGame.gameId=='SUMMARY'">Team</th>
+                            <th ng-click="setSortOrderColumn('name',true)">Name</th>
+                            <th ng-click="setSortOrderColumn('kills',true)">Kills</th>
+                            <th ng-click="setSortOrderColumn('deaths',true)">Deaths</th>
+                            <th ng-click="setSortOrderColumn('score',true)">Score</th>
+                            <th ng-click="setSortOrderColumn('ratio',true)">Ratio</th>
+                            <th ng-click="setSortOrderColumn('grade',true)">Grade</th>
                         </tr>
                         <tr
-                            ng-repeat="player in currentGame.players | orderBy:getSortOrder:orderColumnDirection">
-                            <td>
+                                ng-repeat="player in currentGame.players | orderBy:getSortOrder:orderColumnDirection">
+                            <td ng-if="currentGame.gameId=='SUMMARY'">
                                 <md-switch ng-true-value="'blue'" ng-false-value="'red'" aria-label="team"
                                            class="md-accent"
                                            ng-change="playerToggleTeam(player.name)"
@@ -78,7 +78,13 @@
                                 </md-switch>
                             </td>
 
-                            <td>{{player.name}}</td>
+                            <td class="name" ng-if="currentGame.gameId=='SUMMARY'">
+                                <div>{{player.name}}</div>
+                                <div>{{player.gamesPlayed+' games'}}</div>
+                            </td>
+                            <td ng-if="currentGame.gameId!='SUMMARY'">
+                                {{player.name}}
+                            </td>
                             <td>{{player.kills}}</td>
                             <td>{{player.deaths}}</td>
                             <td>{{player.score}}</td>

@@ -34,25 +34,24 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         });
     }
 
-    $scope.getSortOrder = function (player) {
-        if (player.type === 0) {
-            if (player[$scope.orderColumn].type === "number") {
-                return ($scope.orderColumnDirection) ? 999999 : -999999;
+    $scope.getSortOrder = function () {
+
+            if (typeof $scope.currentGame.players[$scope.playersKeys[0]][$scope.orderColumn] === 'number') {
+                return ($scope.orderColumnDesc) ? 999999 : -999999;
             } else {
-                return ($scope.orderColumnDirection) ? "zzzzzz" : "_______a";
+                return ($scope.orderColumnDesc) ? "zzzzzz" : "_______a";
             }
-        } else {
-            return player[$scope.orderColumn];
-        }
+
     }
 
     $scope.setSortOrderColumn = function (column, enabled) {
         if (enabled) {
+            /*if we want to order by column that is already an ordering column, change direction*/
             if ($scope.orderColumn == column) {
-                ($scope.orderColumnDirection) ? $scope.orderColumnDirection = false : $scope.orderColumnDirection = true;
-            } else {
+                ($scope.orderColumnDesc) ? $scope.orderColumnDesc = false : $scope.orderColumnDesc = true;
+            } else { /*else set the new ordering column*/
                 $scope.orderColumn = column;
-                $scope.orderColumnDirection = false;
+                $scope.orderColumnDesc = false;
             }
         }
     }
@@ -148,8 +147,9 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
             $scope.data = data;
             $scope.games = $scope.data.games; //todo replace by http/file fetch or not
             $scope.gameKeys = Object.keys($scope.games);
+
             $scope.orderColumn = "name"; //by which field to order the table
-            $scope.orderColumnDirection = false;
+            $scope.orderColumnDesc = false;
 
 
             $scope.setCurrentGame(0); //init

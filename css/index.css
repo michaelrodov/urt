@@ -82,18 +82,20 @@ body {
 }
 
 table, tr, td, th{
-    width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    border: hidden;
 }
 
 td {
     padding: 0 5px;
 }
-td.width-large {
-    /*width: 130px;*/
+td.name>div:first-child {
+    font-weight: bold;
+    font-size: large;
 }
+
 .md-subheader {
     margin-top: 50px;
     margin-right: 0 !important;
