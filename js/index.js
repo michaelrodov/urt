@@ -33,27 +33,36 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
             }
         });
     }
+    $scope.convertToArray = function (players) {
+        var playersArr = [];
+        for (var player in players) {
+            players[player].ratio = $scope.getRatio(players[player]);
+            players[player].grade = $scope.getGrade(players[player]);
+            playersArr.push(players[player]);
+        }
+        return playersArr;
+    }
 
-    $scope.getSortOrder = function () {
-
-            if (typeof $scope.currentGame.players[$scope.playersKeys[0]][$scope.orderColumn] === 'number') {
-                return ($scope.orderColumnDesc) ? 999999 : -999999;
-            } else {
-                return ($scope.orderColumnDesc) ? "zzzzzz" : "_______a";
-            }
+    $scope.getSortOrder = function (val) {
+        if (typeof $scope.currentGame.players[$scope.playersKeys[0]][$scope.orderColumn] === 'number') {
+            return ($scope.orderColumnDesc) ? 999999 : -999999;
+        } else {
+            return ($scope.orderColumnDesc) ? "zzzzzz" : "_______a";
+        }
 
     }
 
     $scope.setSortOrderColumn = function (column, enabled) {
         if (enabled) {
-            /*if we want to order by column that is already an ordering column, change direction*/
+            /*if we want to order by column  that is already an ordering column, change direction*/
             if ($scope.orderColumn == column) {
                 ($scope.orderColumnDesc) ? $scope.orderColumnDesc = false : $scope.orderColumnDesc = true;
             } else { /*else set the new ordering column*/
                 $scope.orderColumn = column;
-                $scope.orderColumnDesc = false;
+                $scope.orderColumnDesc = true;
             }
         }
+        console.info("col:" + $scope.orderColumn + ", desc:" + $scope.orderColumnDesc);
     }
 
     $scope.getRatio = function (player) {
@@ -76,7 +85,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
      * @returns {number}
      */
     $scope.getGrade = function (player) {
-        return Math.round((5 + $scope.getRatio(player) * ((100 * player.kills) / $scope.totalKills))*100)/100;
+        return Math.round((5 + $scope.getRatio(player) * ((100 * player.kills) / $scope.totalKills)) * 100) / 100;
     }
 
     $scope.addToTeam = function (player) {
@@ -92,7 +101,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         var player = $scope.currentGame.players[name];
         console.info(player.name + " onChange with: " + player.team);
         /*Since this function is called after the change was made, the team relation should be opposite from the logic
-        * i.e. new team = toTeam, old team = fromTeam*/
+         * i.e. new team = toTeam, old team = fromTeam*/
         var toTeam = ((player.team == TEAM_COLORS[BLUE]) ? BLUE : RED);
         var fromTeam = Math.abs(toTeam - 1);
         var rating = $scope.getGrade(player);
@@ -121,6 +130,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         $scope.buildTeams($scope.currentGame);
         $scope.playersKeys = Object.keys($scope.currentGame.players);
         $scope.powerPie = $scope.generatePowerPie($scope.currentGame.columns);
+        $scope.playersArray = $scope.convertToArray($scope.currentGame.players)
     }
 
     //init
@@ -143,13 +153,11 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         function (data) {
             $scope.currentGame = null;
             $scope.powerPie;
-            //$scope.headers = headers;
             $scope.data = data;
             $scope.games = $scope.data.games; //todo replace by http/file fetch or not
             $scope.gameKeys = Object.keys($scope.games);
-
-            $scope.orderColumn = "name"; //by which field to order the table
-            $scope.orderColumnDesc = false;
+            $scope.orderColumn = "grade"; //by which field to order the table
+            $scope.orderColumnDesc = true;
 
 
             $scope.setCurrentGame(0); //init

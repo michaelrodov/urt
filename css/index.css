@@ -32,7 +32,7 @@ body {
     display: inline-flex;
 }
 
-#logo>img {
+#logo > img {
     height: 100px;
     width: 130px;
     position: relative;
@@ -59,14 +59,10 @@ body {
     vertical-align: middle;
 }
 
-.pane{
+.pane {
     padding: 15px;
     color: #607D8B;
 }
-
-
-
-
 
 /****** GAMES PANEL *******/
 .games-pane {
@@ -77,21 +73,33 @@ body {
 }
 
 /****** PLAYERS PANE *******/
-.details-pane{
+.details-pane {
     width: 100%;
 }
 
-table, tr, td, th{
+table, tr, td, th {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     border: hidden;
+    text-align: left;
+    cursor: default;
+}
+
+th {
+    cursor: pointer !important;
+    background-color: #607D8B;
+    color: white;
+    padding: 5px 0 5px 5px;
+    font-weight: bold;
+    font-size: large;
 }
 
 td {
-    padding: 0 5px;
+    padding: 0 0 0 5px;
 }
-td.name>div:first-child {
+
+td.name > div:first-child {
     font-weight: bold;
     font-size: large;
 }
@@ -102,13 +110,13 @@ td.name>div:first-child {
     padding: 10px;
     vertical-align: middle;
     height: 40px;
-    line-height:40px;
+    line-height: 40px;
     font-size: 25px;
     background-color: #F3F3F3 !important;
 }
 
 /****** PLAYERS LIST **********/
-md-list-item p{
+md-list-item p {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -121,30 +129,34 @@ md-list-item p{
     width: 100%;
     color: #747474;
 }
-.row > div{
+
+.row > div {
     width: 16%;
 }
 
-.button{
+.button {
     cursor: pointer;
     padding: 5px 0;
 }
-.button:hover{
+
+.button:hover {
     background-color: #EFEFEF;
 }
-.blue{
+
+.blue {
     background-color: #e5e4f3;
 }
-.red{
+
+.red {
     background-color: #ffe5dc;
 }
+
 .icon-spinner9:before {
     content: "\e900";
 }
 
-
 /****** FOOTER **************/
-#footer{
+#footer {
     min-height: 30px;
     min-width: 1024px;
     background-color: #0096d6;

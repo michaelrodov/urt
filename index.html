@@ -56,7 +56,7 @@
                 <div ng-show="currentGame.gameId=='SUMMARY'">
                     <div id="power-pie-container"></div>
                 </div>
-                <md-subheader class="md-primary md-subheader md-no-sticky  md-title">GAME STATISTICS</md-subheader>
+                <md-subheader class="md-primary md-subheader md-no-sticky md-title">GAME STATISTICS</md-subheader>
                 <div class="rows">
                     <table width="100%" border="1">
                         <tr>
@@ -68,8 +68,7 @@
                             <th ng-click="setSortOrderColumn('ratio',true)">Ratio</th>
                             <th ng-click="setSortOrderColumn('grade',true)">Grade</th>
                         </tr>
-                        <tr
-                                ng-repeat="player in currentGame.players | orderBy:getSortOrder:orderColumnDirection">
+                        <tr ng-repeat="player in playersArray | orderBy : orderColumn : orderColumnDesc">
                             <td ng-if="currentGame.gameId=='SUMMARY'">
                                 <md-switch ng-true-value="'blue'" ng-false-value="'red'" aria-label="team"
                                            class="md-accent"
@@ -77,7 +76,6 @@
                                            ng-model="currentGame.players[player.name].team">
                                 </md-switch>
                             </td>
-
                             <td class="name" ng-if="currentGame.gameId=='SUMMARY'">
                                 <div>{{player.name}}</div>
                                 <div>{{player.gamesPlayed+' games'}}</div>
@@ -88,8 +86,8 @@
                             <td>{{player.kills}}</td>
                             <td>{{player.deaths}}</td>
                             <td>{{player.score}}</td>
-                            <td>{{getRatio(player)}}</td>
-                            <td>{{getGrade(player)}}</td>
+                            <td>{{player.ratio}}</td>
+                            <td>{{player.grade}}</td>
                         </tr>
                     </table>
                 </div>
