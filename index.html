@@ -72,7 +72,7 @@
                             <th ng-click="setSortOrderColumn('kills',true)">Kills</th>
                             <th ng-click="setSortOrderColumn('deaths',true)">Deaths</th>
                             <th ng-click="setSortOrderColumn('score',true)">Score</th>
-                            <th ng-click="setSortOrderColumn('ratio',true)">Ratio</th>
+                            <th ng-click="setSortOrderColumn('ratio',true)">Efficiency</th>
                             <th ng-click="setSortOrderColumn('grade',true)">Grade</th>
                         </tr>
                         <tr ng-repeat="player in playersArray | orderBy : orderColumn : orderColumnDesc">
@@ -93,7 +93,7 @@
                             </td>
                             <td class="name" ng-if="currentGame.gameId=='SUMMARY'"
                                 ng-style="getLineFillStyle(player.grade)">
-                                <div>{{player.name}}</div>
+                                <div class="player-name">{{player.name}} {{(player.include)?(player.team).toUpperCase():''}}</div>
                                 <div>{{player.gamesPlayed+' games'}}</div>
                             </td>
                             <td ng-if="currentGame.gameId!='SUMMARY'">
