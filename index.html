@@ -64,7 +64,10 @@
                     <table width="100%" border="1">
                         <tr>
                             <th ng-if="currentGame.gameId=='SUMMARY'">IN</th>
+<!--
                             <th ng-if="currentGame.gameId=='SUMMARY'">Team   ({{currentGame.columns[0].length : currentGame.columns[1].length}})</th>
+-->
+                            <th ng-if="currentGame.gameId=='SUMMARY'">Team</th>
                             <th ng-click="setSortOrderColumn('name',true)">Name</th>
                             <th ng-click="setSortOrderColumn('kills',true)">Kills</th>
                             <th ng-click="setSortOrderColumn('deaths',true)">Deaths</th>
