@@ -76,6 +76,17 @@ body {
 .details-pane {
     width: 100%;
 }
+.details-pane-summary{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.details-summary-data{
+}
+.details-summary-chart{
+    width: 200px;
+    height: 200px;
+}
 
 table, tr, td, th {
     white-space: nowrap;

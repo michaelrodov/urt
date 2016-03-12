@@ -23,6 +23,17 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
     $scope.generatePowerPie = function (columns) {
         return c3.generate({
             bindto: '#power-pie-container',
+            pie: {
+                label: {
+                    format: function (value, ratio, id) {
+                        return d3.round(value, 1);
+                    }
+                }
+            },
+            size: {
+                width: 200,
+                height: 200
+            },
             data: {
                 colors: {
                     red: '#FF0000',
@@ -92,13 +103,17 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         $scope.currentGame.columns[(player.team == TEAM_COLORS[BLUE]) ? BLUE : RED][1] += $scope.getGrade(player);
         //TODO make a better managing of
     }
+    $scope.removeFromTeam = function (player) {
+        $scope.currentGame.columns[(player.team == TEAM_COLORS[BLUE]) ? BLUE : RED][1] -= $scope.getGrade(player);
+    }
 
     /***
      * The function runs after the value was already changed. Therefore we will add to current team and will substruct from teh other team
      * @param name
      */
-    $scope.playerToggleTeam = function (name) {
+    $scope.playerToggleTeam = function (name, oneway) {
         var player = $scope.currentGame.players[name];
+
         console.info(player.name + " onChange with: " + player.team);
         /*Since this function is called after the change was made, the team relation should be opposite from the logic
          * i.e. new team = toTeam, old team = fromTeam*/
@@ -106,14 +121,19 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         var fromTeam = Math.abs(toTeam - 1);
         var rating = $scope.getGrade(player);
 
-        $scope.currentGame.columns[fromTeam][1] -= rating;
-        $scope.currentGame.columns[toTeam][1] += rating;
+        if (oneway && !player.include || !oneway) {  //actually exclude
+            $scope.currentGame.columns[fromTeam][1] -= rating;
+        }
+
+        if (!oneway) {  //only for moving beween teams
+            $scope.currentGame.columns[toTeam][1] += rating;
+        } else if (player.include) { //only for include / exclude in teams count
+            $scope.currentGame.columns[fromTeam][1] += rating;
+        }
         $scope.refreshPowerPie($scope.currentGame.columns);
     }
 
-    $scope.getPlayersTeam = function (playerIndex) {
 
-    }
     $scope.getGame = function (gameId) {
         if (typeof gameId == 'number') {
             return $scope.games[$scope.gameKeys[gameId]];
@@ -138,6 +158,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         var players = Object.keys(game.players);
         for (var i = 0; i < players.length; i++) {
             var player = game.players[players[i]];
+            (player.include == undefined) ? player.include = true : "";
             if (i % 2 == 0) {
                 player.team = TEAM_COLORS[RED];
                 $scope.addToTeam(player);

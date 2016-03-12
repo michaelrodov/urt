@@ -45,22 +45,26 @@
                 </div>
             </div>
             <div class="pane details-pane">
-                <div>
-                    <div class="md-subhead"><span>GAME:</span> {{currentGame.gameType}}</div>
-                    <div class="md-subhead"><span>RESULT:</span> {{currentGame.gameResult}}</div>
-                    <div class="md-subhead"><span>MAP:</span> {{currentGame.mapName}}</div>
-                    <div class="md-subhead"><span>LENGTH:</span> {{currentGame.length}} minutes</div>
-                    <div class="md-subhead"><span>END REASON:</span> {{currentGame.gameEndReason}}</div>
-                    <div class="md-subhead"><span>LOADED ON:</span> {{currentGame.gameDate}}</div>
+                <div class="details-pane-summary">
+                    <div class="details-summary-data">
+                        <div class="md-subhead"><span>GAME:</span> {{currentGame.gameType}}</div>
+                        <div class="md-subhead"><span>RESULT:</span> {{currentGame.gameResult}}</div>
+                        <div class="md-subhead"><span>MAP:</span> {{currentGame.mapName}}</div>
+                        <div class="md-subhead"><span>LENGTH:</span> {{currentGame.length}} minutes</div>
+                        <div class="md-subhead"><span>END REASON:</span> {{currentGame.gameEndReason}}</div>
+                        <div class="md-subhead"><span>LOADED ON:</span> {{currentGame.gameDate}}</div>
+                    </div>
+                    <div class="details-summary-chart" ng-show="currentGame.gameId=='SUMMARY'">
+                        <div id="power-pie-container"></div>
+                    </div>
                 </div>
-                <div ng-show="currentGame.gameId=='SUMMARY'">
-                    <div id="power-pie-container"></div>
-                </div>
-                <md-subheader class="md-primary md-subheader md-no-sticky md-title">GAME STATISTICS</md-subheader>
+                <md-66subheader class="md-primary md-subheader md-no-sticky md-title">{{currentGame.gameId}} STATS
+                </md-66subheader>
                 <div class="rows">
                     <table width="100%" border="1">
                         <tr>
-                            <th ng-if="currentGame.gameId=='SUMMARY'">Team</th>
+                            <th ng-if="currentGame.gameId=='SUMMARY'">IN</th>
+                            <th ng-if="currentGame.gameId=='SUMMARY'">Team   ({{currentGame.columns[0].length : currentGame.columns[1].length}})</th>
                             <th ng-click="setSortOrderColumn('name',true)">Name</th>
                             <th ng-click="setSortOrderColumn('kills',true)">Kills</th>
                             <th ng-click="setSortOrderColumn('deaths',true)">Deaths</th>
@@ -69,6 +73,13 @@
                             <th ng-click="setSortOrderColumn('grade',true)">Grade</th>
                         </tr>
                         <tr ng-repeat="player in playersArray | orderBy : orderColumn : orderColumnDesc">
+                            <td ng-if="currentGame.gameId=='SUMMARY'">
+                                <md-checkbox aria-label="include"
+                                           class="md-primary"
+                                           ng-change="playerToggleTeam(player.name, true)"
+                                           ng-model="currentGame.players[player.name].include">
+                                </md-checkbox>
+                            </td>
                             <td ng-if="currentGame.gameId=='SUMMARY'">
                                 <md-switch ng-true-value="'blue'" ng-false-value="'red'" aria-label="team"
                                            class="md-accent"
