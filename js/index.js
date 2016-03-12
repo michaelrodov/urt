@@ -142,25 +142,34 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         }
     }
 
-
+    $scope.getLineFillStyle = function(value){
+        return {background: "linear-gradient(to right, lavender 0%,lavender "+value*4+"%,white "+value*4+"%,white 100%)"};
+    }
     $scope.setCurrentGame = function (key) {
         $scope.currentGame = $scope.getGame(key);
         $scope.totalKills = $scope.getTotalKills($scope.currentGame);
         $scope.currentGame.columns = [[TEAM_COLORS[BLUE], 0], [TEAM_COLORS[RED], 0]]; //init teams
+        $scope.initIncluded($scope.currentGame);
         $scope.buildTeams($scope.currentGame);
         $scope.playersKeys = Object.keys($scope.currentGame.players);
         $scope.powerPie = $scope.generatePowerPie($scope.currentGame.columns);
         $scope.playersArray = $scope.convertToArray($scope.currentGame.players)
     }
 
+    $scope.initIncluded = function (game) {
+        var players = Object.keys(game.players);
+        for (var i = 0; i < players.length; i++) {
+            (typeof game.players[players[i]].include !== 'boolean') ? game.players[players[i]].include = true : '';
+        }
+    }
     //init
     $scope.buildTeams = function (game) {
         var players = Object.keys(game.players);
         for (var i = 0; i < players.length; i++) {
             var player = game.players[players[i]];
-            (player.include == undefined) ? player.include = true : "";
+            //(player.include == undefined) ? player.include = true : "";
             if (i % 2 == 0) {
-                player.team = TEAM_COLORS[RED];
+                player.team = TEAM_COLORS[RED]; //todo replace by algorithm part
                 $scope.addToTeam(player);
 
             } else {
