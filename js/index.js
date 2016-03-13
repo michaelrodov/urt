@@ -121,14 +121,17 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         var fromTeam = Math.abs(toTeam - 1);
         var rating = $scope.getGrade(player);
 
-        if (oneway && !player.include || !oneway) {  //actually exclude
-            $scope.currentGame.columns[fromTeam][1] -= rating;
-        }
 
         if (!oneway) {  //only for moving beween teams
+            $scope.currentGame.columns[fromTeam][1] -= rating;
             $scope.currentGame.columns[toTeam][1] += rating;
-        } else if (player.include) { //only for include / exclude in teams count
-            $scope.currentGame.columns[fromTeam][1] += rating;
+        } else {
+            if (player.include) { //only for include / exclude in teams count
+                $scope.currentGame.columns[toTeam][1] += rating;
+            }
+            else {
+                $scope.currentGame.columns[toTeam][1] -= rating;
+            }
         }
         $scope.refreshPowerPie($scope.currentGame.columns);
     }
@@ -142,8 +145,8 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         }
     }
 
-    $scope.getLineFillStyle = function(value){
-        return {background: "linear-gradient(to right, lavender 0%,lavender "+value*4+"%,white "+value*4+"%,white 100%)"};
+    $scope.getLineFillStyle = function (value) {
+        return {background: "linear-gradient(to right, lavender 0%,lavender " + value * 4 + "%,white " + value * 4 + "%,white 100%)"};
     }
     $scope.setCurrentGame = function (key) {
         $scope.currentGame = $scope.getGame(key);

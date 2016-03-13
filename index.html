@@ -58,7 +58,11 @@
                         <div id="power-pie-container"></div>
                     </div>
                 </div>
-                <md-66subheader class="md-primary md-subheader md-no-sticky md-title">{{currentGame.gameId}} STATS
+                <md-66subheader class="md-primary md-subheader md-no-sticky md-title subheader-title">
+                    <div>{{currentGame.gameId}} STATS</div>
+                    <div>
+                        <md-button ng-disabled="true" ng-if="currentGame.gameId=='SUMMARY'" class="md-primary">BUILD TEAMS</md-button>
+                    </div>
                 </md-66subheader>
                 <div class="rows">
                     <table width="100%" border="1">
@@ -93,7 +97,9 @@
                             </td>
                             <td class="name" ng-if="currentGame.gameId=='SUMMARY'"
                                 ng-style="getLineFillStyle(player.grade)">
-                                <div class="player-name">{{player.name}} {{(player.include)?(player.team).toUpperCase():''}}</div>
+                                <div class="player-name">{{player.name}}
+                                    {{(player.include)?(player.team).toUpperCase():''}}
+                                </div>
                                 <div>{{player.gamesPlayed+' games'}}</div>
                             </td>
                             <td ng-if="currentGame.gameId!='SUMMARY'">

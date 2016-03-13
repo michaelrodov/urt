@@ -87,7 +87,11 @@ body {
     width: 200px;
     height: 200px;
 }
-
+.subheader-title{
+    flex-flow: row;
+    display: flex;
+    justify-content: space-between;
+}
 table, tr, td, th {
     white-space: nowrap;
     overflow: hidden;
