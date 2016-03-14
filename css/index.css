@@ -71,7 +71,6 @@ p {
 /****** GAMES PANEL *******/
 .games-pane {
     background-color: #F1F1F1;
-    cursor: pointer;
     width: 160px;
     padding: 15px 0;
 }
