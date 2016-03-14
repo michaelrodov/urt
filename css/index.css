@@ -91,6 +91,7 @@ body {
     flex-flow: row;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 table, tr, td, th {
     white-space: nowrap;
@@ -148,22 +149,30 @@ md-list-item p {
 .row > div {
     width: 16%;
 }
-
+.player-name{
+    flex-flow: row;
+    display: flex;
+    vertical-align: middle;
+    line-height: 100%;
+}
+.player-name>div{
+    margin-right: 15px;
+}
 .button {
     cursor: pointer;
     padding: 5px 0;
 }
 
 .button:hover {
-    background-color: #EFEFEF;
+    color: #EFEFEF;
 }
 
 .blue {
-    background-color: #e5e4f3;
+    color: #0000FF;
 }
 
 .red {
-    background-color: #ffe5dc;
+    color: #FF0000;
 }
 
 .icon-spinner9:before {

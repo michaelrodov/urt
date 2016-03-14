@@ -44,6 +44,10 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
             }
         });
     }
+    var sortByGradeDesc = function (playerA, playerB) {
+        return playerB.grade - playerA.grade;
+    }
+
     $scope.convertToArray = function (players) {
         var playersArr = [];
         for (var player in players) {
@@ -51,6 +55,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
             players[player].grade = $scope.getGrade(players[player]);
             playersArr.push(players[player]);
         }
+        playersArr.sort(sortByGradeDesc);
         return playersArr;
     }
 
@@ -103,6 +108,9 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         $scope.currentGame.columns[(player.team == TEAM_COLORS[BLUE]) ? BLUE : RED][1] += $scope.getGrade(player);
         //TODO make a better managing of
     }
+    $scope.compareTeams = function () {
+        return $scope.currentGame.columns[BLUE][1] - $scope.currentGame.columns[RED][1];
+    }
     $scope.removeFromTeam = function (player) {
         $scope.currentGame.columns[(player.team == TEAM_COLORS[BLUE]) ? BLUE : RED][1] -= $scope.getGrade(player);
     }
@@ -148,15 +156,19 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
     $scope.getLineFillStyle = function (value) {
         return {background: "linear-gradient(to right, lavender 0%,lavender " + value * 4 + "%,white " + value * 4 + "%,white 100%)"};
     }
+
     $scope.setCurrentGame = function (key) {
         $scope.currentGame = $scope.getGame(key);
         $scope.totalKills = $scope.getTotalKills($scope.currentGame);
         $scope.currentGame.columns = [[TEAM_COLORS[BLUE], 0], [TEAM_COLORS[RED], 0]]; //init teams
+        $scope.playersKeys = Object.keys($scope.currentGame.players);
+        $scope.playersArray = $scope.convertToArray($scope.currentGame.players)
+
         $scope.initIncluded($scope.currentGame);
         $scope.buildTeams($scope.currentGame);
-        $scope.playersKeys = Object.keys($scope.currentGame.players);
+
         $scope.powerPie = $scope.generatePowerPie($scope.currentGame.columns);
-        $scope.playersArray = $scope.convertToArray($scope.currentGame.players)
+
     }
 
     $scope.initIncluded = function (game) {
@@ -167,16 +179,14 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
     }
     //init
     $scope.buildTeams = function (game) {
-        var players = Object.keys(game.players);
-        for (var i = 0; i < players.length; i++) {
-            var player = game.players[players[i]];
-            //(player.include == undefined) ? player.include = true : "";
-            if (i % 2 == 0) {
-                player.team = TEAM_COLORS[RED]; //todo replace by algorithm part
-                $scope.addToTeam(player);
-
-            } else {
-                player.team = TEAM_COLORS[BLUE];
+        for (var i = 0; i < $scope.playersArray.length; i++) {
+            var player = game.players[$scope.playersArray[i].name];
+            if (player.include) {
+                if ($scope.compareTeams() > 0) { //blue bigger
+                    player.team = TEAM_COLORS[RED];
+                } else {
+                    player.team = TEAM_COLORS[BLUE];
+                }
                 $scope.addToTeam(player);
             }
         }
