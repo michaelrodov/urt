@@ -5,31 +5,35 @@ p {
     cursor: default;
 }
 
-body {
-    background-color: #FFFFFF;
-    display: inline-flex;
-    flex-flow: column;
+#main{
+    background-color: #F1F1F1;
 }
 
 /**************************TOP BAR*/
 #topbar {
     height: 100px;
     width: 1024px;
-    background-color: #0096d6;
-    display: inline-block;
-    font-size: 2em;
-    font-weight: 300;
-    color: #fff;
-    line-height: 59px;
-
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
 }
 
-#topbar > div {
-    float: left;
-    position: relative;
+.titlebar{
+    background-color: #e8e8e8; /*page background*/
+    color: #7a7a7a;
+    font-size: 2em;
+    font-weight: 300;
     line-height: 100px;
-    margin-left: 5px;
-    display: inline-flex;
+    height: 100px;
+    width: 1024px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+
+.md-headline{
+    line-height: 100px;
 }
 
 #logo > img {
@@ -66,7 +70,7 @@ body {
 
 /****** GAMES PANEL *******/
 .games-pane {
-    background-color: #e0e0e0;
+    background-color: #F1F1F1;
     cursor: pointer;
     width: 160px;
     padding: 15px 0;
@@ -75,6 +79,8 @@ body {
 /****** PLAYERS PANE *******/
 .details-pane {
     width: 100%;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom: 30px;
 }
 .details-pane-summary{
     display: flex;
@@ -87,12 +93,7 @@ body {
     width: 200px;
     height: 200px;
 }
-.subheader-title{
-    flex-flow: row;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
+
 table, tr, td, th {
     white-space: nowrap;
     overflow: hidden;
@@ -183,10 +184,10 @@ md-list-item p {
 #footer {
     min-height: 30px;
     min-width: 1024px;
-    background-color: #0096d6;
+    background-color: #F1F1F1; /*page background*/
     display: inline-block;
     font-size: 2em;
     font-weight: 300;
-    color: #fff;
+    color: #7a7a7a;
     line-height: 59px;
 }

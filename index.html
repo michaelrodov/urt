@@ -26,14 +26,12 @@
     <div id="leftmain"></div>
     <div id="centermain" class="center-container">
         <div id="topbar">
-            <div id="logo">
-                <img src="img/urt.png" alt="UrT" height="50px" border="0">
-            </div>
-            <div id="hptitle" class="md-headline">URBAN TERROR STATISTICS</div>
-            <div id="authorize" style="float:right; margin-right:20px">
-
-                <md-progress-circular id="progress-circular" md-mode="determinate" value="{{determinateValue}}"
-                                      style="visibility:hidden"></md-progress-circular>
+            <div style="min-width: 150px;"></div>
+            <div class="titlebar">
+                <div id="logo">
+                    <img src="img/urt.png" alt="UrT" height="50px" border="0">
+                </div>
+                <div id="hptitle" class="md-headline">URBAN TERROR STATISTICS</div>
             </div>
         </div>
         <div class="inner">
@@ -71,15 +69,11 @@
                     <table width="100%" border="1">
                         <tr>
                             <th ng-if="currentGame.gameId=='SUMMARY'">IN</th>
-                            <!--
-                                                        <th ng-if="currentGame.gameId=='SUMMARY'">Team   ({{currentGame.columns[0].length : currentGame.columns[1].length}})</th>
-                            -->
                             <th ng-if="currentGame.gameId=='SUMMARY'">Team</th>
                             <th ng-click="setSortOrderColumn('name',true)">Name</th>
                             <th ng-click="setSortOrderColumn('kills',true)">Kills</th>
                             <th ng-click="setSortOrderColumn('deaths',true)">Deaths</th>
                             <th ng-click="setSortOrderColumn('score',true)">Score</th>
-                            <th ng-click="setSortOrderColumn('ratio',true)">Efficiency</th>
                             <th ng-click="setSortOrderColumn('grade',true)">Grade</th>
                         </tr>
                         <tr ng-repeat="player in playersArray | orderBy : orderColumn : orderColumnDesc">
@@ -114,14 +108,12 @@
                             <td>{{player.kills}}</td>
                             <td>{{player.deaths}}</td>
                             <td>{{player.score}}</td>
-                            <td>{{player.ratio}}</td>
                             <td>{{player.grade}}</td>
                         </tr>
                     </table>
                 </div>
             </div>
         </div>
-        <div id="footer"></div>
     </div>
     <div id="rightmain"></div>
 </div>
