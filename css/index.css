@@ -101,7 +101,9 @@ table, tr, td, th {
     text-align: left;
     cursor: default;
 }
-
+.excluded{
+    color: #b1b1b1  !important;
+}
 th {
     cursor: pointer !important;
     background-color: #607D8B;

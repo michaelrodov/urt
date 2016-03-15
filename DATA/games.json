@@ -5,9 +5,11 @@
       "mapName": "SUMMARY",
       "gameType": "SUMMARY",
       "gameResult": "",
+      "gameTotalDeaths": 2847,
+      "gameTotalScore": 6124,
       "gameLength": "0",
       "gameEndReason": "-",
-      "gameDate": "Mar 13, 2016 8:21:48 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Ed": {
           "deaths": 81,
@@ -160,9 +162,11 @@
       "mapName": "ut4_uptown",
       "gameType": "Capture The Flag",
       "gameResult": " red:1  blue:1",
+      "gameTotalDeaths": 103,
+      "gameTotalScore": 253,
       "gameLength": "15:41",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:21:25 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Shalom": {
           "deaths": 13,
@@ -255,9 +259,11 @@
       "gameId": "16_ut4_turnpike",
       "mapName": "ut4_turnpike",
       "gameType": "Unknown",
+      "gameTotalDeaths": 83,
+      "gameTotalScore": 83,
       "gameLength": "10:15",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:21:42 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "RODOV": {
           "deaths": 16,
@@ -320,9 +326,11 @@
       "mapName": "ut4_prague",
       "gameType": "Capture The Flag",
       "gameResult": " red:5  blue:0",
+      "gameTotalDeaths": 125,
+      "gameTotalScore": 358,
       "gameLength": "10:45",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:21:01 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Tal": {
           "deaths": 19,
@@ -407,9 +415,11 @@
       "gameId": "15_ut4_algiers",
       "mapName": "ut4_algiers",
       "gameType": "Unknown",
+      "gameTotalDeaths": 2,
+      "gameTotalScore": 0,
       "gameLength": "15:15",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:21:30 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "MAMBA": {
           "deaths": 0,
@@ -438,9 +448,11 @@
       "mapName": "ut4_casa",
       "gameType": "Capture The Flag",
       "gameResult": " red:4  blue:4",
+      "gameTotalDeaths": 280,
+      "gameTotalScore": 866,
       "gameLength": "20:39",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:20:59 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Drorkula": {
           "deaths": 24,
@@ -573,9 +585,11 @@
       "gameId": "17_ut4_tombs",
       "mapName": "ut4_tombs",
       "gameType": "Unknown",
+      "gameTotalDeaths": 102,
+      "gameTotalScore": 101,
       "gameLength": "10:15",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:21:43 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "RODOV": {
           "deaths": 18,
@@ -653,9 +667,11 @@
       "mapName": "ut4_riyadh",
       "gameType": "Capture The Flag",
       "gameResult": " red:3  blue:3",
+      "gameTotalDeaths": 198,
+      "gameTotalScore": 489,
       "gameLength": "27:56",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:21:10 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Tal": {
           "deaths": 31,
@@ -765,9 +781,11 @@
       "mapName": "ut4_sanc",
       "gameType": "Capture The Flag",
       "gameResult": " red:3  blue:1",
+      "gameTotalDeaths": 215,
+      "gameTotalScore": 505,
       "gameLength": "20:49",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:21:11 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Tal": {
           "deaths": 36,
@@ -878,9 +896,11 @@
       "mapName": "ut4_riyadh",
       "gameType": "Capture The Flag",
       "gameResult": " red:2  blue:1",
+      "gameTotalDeaths": 213,
+      "gameTotalScore": 435,
       "gameLength": "16:29",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:21:15 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Tal": {
           "deaths": 23,
@@ -1012,9 +1032,11 @@
       "mapName": "ut4_turnpike",
       "gameType": "Capture The Flag",
       "gameResult": " red:6  blue:4",
+      "gameTotalDeaths": 243,
+      "gameTotalScore": 843,
       "gameLength": "15:29",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:21:23 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Shalom": {
           "deaths": 29,
@@ -1124,9 +1146,11 @@
       "mapName": "ut4_riyadh",
       "gameType": "Capture The Flag",
       "gameResult": " red:3  blue:0",
+      "gameTotalDeaths": 297,
+      "gameTotalScore": 547,
       "gameLength": "20:53",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:20:58 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Drorkula": {
           "deaths": 27,
@@ -1264,8 +1288,10 @@
       "gameId": "1_ut4_prague",
       "mapName": "ut4_prague",
       "gameType": "Capture The Flag",
+      "gameTotalDeaths": 204,
+      "gameTotalScore": 0,
       "gameLength": "15:15",
-      "gameDate": "Mar 13, 2016 8:20:57 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Drorkula": {
           "deaths": 23,
@@ -1377,8 +1403,10 @@
       "gameId": "8_ut4_riyadh",
       "mapName": "ut4_riyadh",
       "gameType": "Capture The Flag",
+      "gameTotalDeaths": 7,
+      "gameTotalScore": 0,
       "gameLength": "13:35",
-      "gameDate": "Mar 13, 2016 8:21:13 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Tal": {
           "deaths": 2,
@@ -1434,9 +1462,11 @@
       "gameId": "14_ut4_ramelle",
       "mapName": "ut4_ramelle",
       "gameType": "Unknown",
+      "gameTotalDeaths": 23,
+      "gameTotalScore": 21,
       "gameLength": "13:47",
       "gameEndReason": "Fraglimit hit.",
-      "gameDate": "Mar 13, 2016 8:21:29 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "MAMBA": {
           "deaths": 6,
@@ -1489,9 +1519,11 @@
       "mapName": "ut4_turnpike",
       "gameType": "Capture The Flag",
       "gameResult": " red:4  blue:1",
+      "gameTotalDeaths": 282,
+      "gameTotalScore": 632,
       "gameLength": "15:38",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:21:18 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Tal": {
           "deaths": 30,
@@ -1630,9 +1662,11 @@
       "mapName": "ut4_sanc",
       "gameType": "Capture The Flag",
       "gameResult": " red:3  blue:2",
+      "gameTotalDeaths": 228,
+      "gameTotalScore": 554,
       "gameLength": "20:44",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:20:53 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Drorkula": {
           "deaths": 24,
@@ -1766,9 +1800,11 @@
       "mapName": "ut4_mandolin",
       "gameType": "Capture The Flag",
       "gameResult": " red:4  blue:0",
+      "gameTotalDeaths": 57,
+      "gameTotalScore": 207,
       "gameLength": "10:38",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:21:02 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Tal": {
           "deaths": 12,
@@ -1840,9 +1876,11 @@
       "mapName": "ut4_riyadh",
       "gameType": "Capture The Flag",
       "gameResult": " red:0  blue:0",
+      "gameTotalDeaths": 185,
+      "gameTotalScore": 230,
       "gameLength": "15:38",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "Mar 13, 2016 8:21:22 PM",
+      "gameDate": "Mar 15, 2016 10:47:22 PM",
       "players": {
         "Shalom": {
           "deaths": 14,

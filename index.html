@@ -44,13 +44,16 @@
             </div>
             <div class="pane details-pane">
                 <div class="details-pane-summary">
-                    <div class="details-summary-data">
+                    <div class="details-summary-data" ng-if="currentGame.gameId!='SUMMARY'">
                         <div class="md-subhead"><span>GAME:</span> {{currentGame.gameType}}</div>
                         <div class="md-subhead"><span>RESULT:</span> {{currentGame.gameResult}}</div>
                         <div class="md-subhead"><span>MAP:</span> {{currentGame.mapName}}</div>
                         <div class="md-subhead"><span>LENGTH:</span> {{currentGame.gameLength}} minutes</div>
                         <div class="md-subhead"><span>END REASON:</span> {{currentGame.gameEndReason}}</div>
                         <div class="md-subhead"><span>LOADED ON:</span> {{currentGame.gameDate}}</div>
+                    </div>
+                    <div class="details-summary-data" ng-show="currentGame.gameId=='SUMMARY'">
+                        <div id="players-linechart-container"></div>
                     </div>
                     <div class="details-summary-chart" ng-show="currentGame.gameId=='SUMMARY'">
                         <div id="power-pie-container"></div>
@@ -76,7 +79,8 @@
                             <th ng-click="setSortOrderColumn('score',true)">Score</th>
                             <th ng-click="setSortOrderColumn('grade',true)">Grade</th>
                         </tr>
-                        <tr ng-repeat="player in playersArray | orderBy : orderColumn : orderColumnDesc">
+                        <tr ng-repeat="player in playersArray | orderBy : orderColumn : orderColumnDesc"
+                                ng-class="{excluded:!currentGame.players[player.name].include}">
                             <td ng-if="currentGame.gameId=='SUMMARY'">
                                 <md-checkbox aria-label="include"
                                              class="md-primary"

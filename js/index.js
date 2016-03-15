@@ -44,10 +44,52 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
             }
         });
     }
+    $scope.generatePlayersLinechart = function (columns) {
+        return c3.generate({
+            bindto: '#players-linechart-container',
+            data: {
+                x: 'xAxis',
+                type: 'line',
+                columns: columns
+            },
+            legend: {
+                position: 'right'
+            },
+            size: {
+                width: 700,
+                height: 200
+            },
+            axis: {
+                x: {
+                    type: 'category' // this needed to load string x value
+                }
+            }
+        });
+    }
     var sortByGradeDesc = function (playerA, playerB) {
         return playerB.grade - playerA.grade;
     }
+    $scope.extractPlayersLineData = function (games, gameKeys) {
+        var playersLineData = [];
+        var columnsArry =[];
+        for (var i = 1; i < gameKeys.length; i++) {
+            var playerKeys = Object.keys(games[gameKeys[i]].players);
+            for (var j = 0; j < playerKeys.length; j++) {
+                if(!playersLineData[playerKeys[j]]){
+                    playersLineData[playerKeys[j]]=[playerKeys[j]];
+                }
+                playersLineData[playerKeys[j]].push($scope.getGrade(games[gameKeys[i]].players[playerKeys[j]], games[gameKeys[i]].gameTotalDeaths));
+            }
+        }
+        playerKeys = Object.keys(playersLineData);
+        columnsArry.push(['xAxis'].concat(gameKeys));
+        for (var i = 0; i < playerKeys.length; i++) {
+            columnsArry.push(playersLineData[playerKeys[i]]);
 
+        }
+
+        return columnsArry;
+    }
     $scope.convertToArray = function (players) {
         var playersArr = [];
         for (var player in players) {
@@ -85,23 +127,16 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         return Math.round((player.kills / (player.deaths + player.kills)) * 100) / 100;
     }
 
-    $scope.getTotalKills = function (game) {
-        var playersKeys = Object.keys(game.players);
-        var totalKills = 0;
-        for (var i = 0; i < playersKeys.length; i++) {
-            totalKills += game.players[playersKeys[i]].kills;
-        }
-
-        return totalKills;
-    }
-
     /***
      * Final function
      * @param player
      * @returns {number}
      */
-    $scope.getGrade = function (player) {
-        return Math.round((5 + $scope.getRatio(player) * ((100 * player.kills) / $scope.totalKills)) * 100) / 100;
+    $scope.getGrade = function (player, totalKills) {
+        if(!totalKills){
+            var totalKills = $scope.currentGame.gameTotalDeaths; //deaths = kills in total per game :)
+        }
+        return Math.round((5 + $scope.getRatio(player) * ((100 * player.kills) / totalKills)) * 100) / 100;
     }
 
     $scope.addToTeam = function (player) {
@@ -159,7 +194,6 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
 
     $scope.setCurrentGame = function (key) {
         $scope.currentGame = $scope.getGame(key);
-        $scope.totalKills = $scope.getTotalKills($scope.currentGame);
         $scope.currentGame.columns = [[TEAM_COLORS[BLUE], 0], [TEAM_COLORS[RED], 0]]; //init teams
         $scope.playersKeys = Object.keys($scope.currentGame.players);
         $scope.playersArray = $scope.convertToArray($scope.currentGame.players)
@@ -201,8 +235,9 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
             $scope.gameKeys = Object.keys($scope.games);
             $scope.orderColumn = "grade"; //by which field to order the table
             $scope.orderColumnDesc = true;
+            $scope.playersColumnsOverGames = $scope.extractPlayersLineData($scope.games, $scope.gameKeys);
 
-
+            $scope.generatePlayersLinechart($scope.playersColumnsOverGames);
             $scope.setCurrentGame(0); //init
         }
     );
