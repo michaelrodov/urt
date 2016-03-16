@@ -17,7 +17,9 @@ var dashApp = angular.module('dashApp', ['ngMaterial'])
 dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
 
     $scope.refreshPowerPie = function (columns) {
-        $scope.powerPie.load({columns: columns});
+        if($scope.powerPie){
+            $scope.powerPie.load({columns: columns});
+        }
     }
 
     $scope.generatePowerPie = function (columns) {
@@ -53,10 +55,10 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
                 columns: columns
             },
             legend: {
-                position: 'right'
+                show: false
             },
             size: {
-                width: 700,
+                width: 600,
                 height: 200
             },
             axis: {
@@ -213,10 +215,11 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
     }
     //init
     $scope.buildTeams = function (game) {
+        $scope.currentGame.columns = [[TEAM_COLORS[BLUE], 0], [TEAM_COLORS[RED], 0]]; //init teams
         for (var i = 0; i < $scope.playersArray.length; i++) {
             var player = game.players[$scope.playersArray[i].name];
             if (player.include) {
-                if ($scope.compareTeams() > 0) { //blue bigger
+                if ($scope.compareTeams() >= 0) { //blue bigger
                     player.team = TEAM_COLORS[RED];
                 } else {
                     player.team = TEAM_COLORS[BLUE];
@@ -224,6 +227,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
                 $scope.addToTeam(player);
             }
         }
+        $scope.refreshPowerPie($scope.currentGame.columns);
     }
 
     $http.get('DATA/games.json').success(
@@ -237,7 +241,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
             $scope.orderColumnDesc = true;
             $scope.playersColumnsOverGames = $scope.extractPlayersLineData($scope.games, $scope.gameKeys);
 
-            $scope.generatePlayersLinechart($scope.playersColumnsOverGames);
+            //$scope.generatePlayersLinechart($scope.playersColumnsOverGames);
             $scope.setCurrentGame(0); //init
         }
     );
