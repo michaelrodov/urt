@@ -36,7 +36,7 @@
         </div>
         <div class="inner">
             <div class="pane games-pane">
-                <div id="{{key}}" class="game" ng-repeat="key in gameKeys">
+                <div id="{{key}}" class="game" ng-repeat="key in gameKeys|orderBy: getGamesOrder: true">
                     <md-button class="md-raised md-primary" ng-click="setCurrentGame(key)">
                         {{key}}
                     </md-button>

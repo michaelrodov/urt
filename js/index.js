@@ -246,4 +246,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         }
     );
 
+    $scope.getGamesOrder = function (key) {
+        return (key=='SUMMARY')?9999999:parseInt(key.substr(0,key.indexOf('_')));
+    }
 });
