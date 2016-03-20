@@ -129,6 +129,16 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         return Math.round((player.kills / (player.deaths + player.kills)) * 100) / 100;
     }
 
+    $scope.getGameGrade = function (player,game) {
+        //grade = relative_score * relative_kills * efficiany * 100
+        //relative_score = player_score / total_score
+        //relative_kills = player_kills / total_kills
+        //efficiancy = player_kills / player_kills + player_deaths
+        var relative_score = (game.gameTotalScore == 0 ? 0.01 : (Object.keys(game.players).length * player.score / (2 * game.gameTotalScore)));
+        var relative_kills = (game.gameTotalDeaths == 0 ? 0.01 : (Object.keys(game.players).length * player.kills / (2 * game.gameTotalDeaths)));
+        var totalGrade = Math.round((relative_kills + relative_score + $scope.getRatio(player)) * 3000) / 100;
+        return totalGrade ;
+    }
     /***
      * Final function
      * @param player
@@ -136,7 +146,8 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
      */
     $scope.getGrade = function (player, totalKills) {
         if(!totalKills){
-            var totalKills = $scope.currentGame.gameTotalDeaths; //deaths = kills in total per game :)
+            //var totalKills = $scope.currentGame.gameTotalDeaths; //deaths = kills in total per game :)
+            return $scope.getGameGrade(player,$scope.currentGame);
         }
         return Math.round((5 + $scope.getRatio(player) * ((100 * player.kills) / totalKills)) * 100) / 100;
     }
