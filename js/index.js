@@ -202,7 +202,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
     }
 
     $scope.getLineFillStyle = function (value) {
-        return {background: "linear-gradient(to right, lavender 0%,lavender " + value * 4 + "%,white " + value * 4 + "%,white 100%)"};
+        return {background: "linear-gradient(to right, lavender 0%,lavender " + Math.round((value/$scope.currentGame.maxGrade)*100) + "%,white " + Math.round((value/$scope.currentGame.maxGrade)*100) + "%,white 100%)"};
     }
 
     $scope.setCurrentGame = function (key) {
@@ -210,7 +210,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         $scope.currentGame.columns = [[TEAM_COLORS[BLUE], 0], [TEAM_COLORS[RED], 0]]; //init teams
         $scope.playersKeys = Object.keys($scope.currentGame.players);
         $scope.playersArray = $scope.convertToArray($scope.currentGame.players)
-
+        $scope.currentGame.maxGrade = $scope.playersArray[0].grade; //TODO do it in more general way
         $scope.initIncluded($scope.currentGame);
         $scope.buildTeams($scope.currentGame);
 
@@ -220,6 +220,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
 
     $scope.initIncluded = function (game) {
         var players = Object.keys(game.players);
+        var gameMaxScore = 0;
         for (var i = 0; i < players.length; i++) {
             (typeof game.players[players[i]].include !== 'boolean') ? game.players[players[i]].include = true : '';
         }
@@ -253,7 +254,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
             $scope.playersColumnsOverGames = $scope.extractPlayersLineData($scope.games, $scope.gameKeys);
 
             //$scope.generatePlayersLinechart($scope.playersColumnsOverGames);
-            $scope.setCurrentGame(0); //init
+            $scope.setCurrentGame('SUMMARY'); //init
         }
     );
 
