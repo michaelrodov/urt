@@ -145,8 +145,13 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         //relative_score = player_score / total_score
         //relative_kills = player_kills / total_kills
         //efficiancy = player_kills / player_kills + player_deaths
-        var relative_score = (game.gameTotalScore == 0 ? 0.01 : (Object.keys(game.players).length * player.score / (2 * game.gameTotalScore)));
         var relative_kills = (game.gameTotalDeaths == 0 ? 0.01 : (Object.keys(game.players).length * player.kills / (2 * game.gameTotalDeaths)));
+        var relative_score = 1;
+        if (player.score != 0) {
+            relative_score = (game.gameTotalScore == 0 ? 0.01 : (Object.keys(game.players).length * player.score / (2 * game.gameTotalScore)));
+        } else {
+            relative_score = relative_kills;
+        }
         var totalGrade = Math.round((relative_kills + relative_score + $scope.getRatio(player)) * 3000) / 100;
         return totalGrade ;
     }
