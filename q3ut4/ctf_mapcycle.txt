@@ -1,4 +1,5 @@
 ut4_riyadh
+ut4_terrorism8_bots
 ut4_abbey
 ut4_austria
 ut4_bohemia
