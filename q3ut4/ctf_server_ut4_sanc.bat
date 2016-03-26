@@ -1,0 +1,1 @@
+urt.exe +exec ctf_server_ut4_sanc.cfg
