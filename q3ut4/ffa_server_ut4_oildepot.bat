@@ -1,0 +1,1 @@
+urt.exe +exec ctf_server_riyadh.cfg
