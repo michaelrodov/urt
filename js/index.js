@@ -28,6 +28,7 @@ var dashApp = angular.module('dashApp', ['ngMaterial'])
 
 dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
     $scope.dataLoaded = false;
+    $scope.Math = window.Math;
     $scope.refreshPowerPie = function (columns) {
         if($scope.powerPie){
             $scope.powerPie.load({columns: columns});

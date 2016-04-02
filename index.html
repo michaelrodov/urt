@@ -77,9 +77,10 @@
                             <th ng-if="currentGame.gameId=='SUMMARY'">IN</th>
                             <th ng-if="currentGame.gameId=='SUMMARY'">Team</th>
                             <th ng-click="setSortOrderColumn('name',true)">Name</th>
-                            <th ng-click="setSortOrderColumn('kills',true)">Kills</th>
-                            <th ng-click="setSortOrderColumn('deaths',true)">Deaths</th>
-                            <th ng-click="setSortOrderColumn('score',true)">Score</th>
+                            <th ng-if="currentGame.gameId!='SUMMARY'" ng-click="setSortOrderColumn('kills',true)">Kills</th>
+                            <th ng-if="currentGame.gameId!='SUMMARY'" ng-click="setSortOrderColumn('deaths',true)">Deaths</th>
+                            <th ng-if="currentGame.gameId=='SUMMARY'" ng-click="setSortOrderColumn('ratio',true)">Ratio</th>
+                            <th ng-if="currentGame.gameId!='SUMMARY'" ng-click="setSortOrderColumn('score',true)">Score</th>
                             <th ng-click="setSortOrderColumn('grade',true)">Grade</th>
                         </tr>
                         <tr ng-repeat="player in playersArray | orderBy : orderColumn : orderColumnDesc"
@@ -113,9 +114,10 @@
                             <td ng-if="currentGame.gameId!='SUMMARY'">
                                 {{player.name}}
                             </td>
-                            <td>{{player.kills}}</td>
-                            <td>{{player.deaths}}</td>
-                            <td>{{player.score}}</td>
+                            <td ng-if="currentGame.gameId!='SUMMARY'">{{player.kills}}</td>
+                            <td ng-if="currentGame.gameId!='SUMMARY'">{{player.deaths}}</td>
+                            <td ng-if="currentGame.gameId=='SUMMARY'">{{Math.round((player.kills / player.deaths)*100)/100}}</td>
+                            <td ng-if="currentGame.gameId!='SUMMARY'">{{player.score}}</td>
                             <td>{{player.grade}}</td>
                         </tr>
                     </table>
