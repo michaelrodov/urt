@@ -5,7 +5,7 @@ p {
     cursor: default;
 }
 
-#main{
+#main {
     background-color: #F1F1F1;
 }
 
@@ -18,7 +18,7 @@ p {
     justify-content: flex-end;
 }
 
-.titlebar{
+.titlebar {
     background-color: #e8e8e8; /*page background*/
     color: #7a7a7a;
     font-size: 2em;
@@ -32,7 +32,7 @@ p {
     justify-content: flex-start;
 }
 
-.md-headline{
+.md-headline {
     line-height: 100px;
 }
 
@@ -78,17 +78,20 @@ p {
 /****** PLAYERS PANE *******/
 .details-pane {
     width: 100%;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     margin-bottom: 30px;
 }
-.details-pane-summary{
+
+.details-pane-summary {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
 }
-.details-summary-data{
+
+.details-summary-data {
 }
-.details-summary-chart{
+
+.details-summary-chart {
     width: 200px;
     height: 200px;
 }
@@ -101,9 +104,11 @@ table, tr, td, th {
     text-align: left;
     cursor: default;
 }
-.excluded{
-    color: #b1b1b1  !important;
+
+.excluded {
+    color: #b1b1b1 !important;
 }
+
 th {
     cursor: pointer !important;
     background-color: #607D8B;
@@ -151,15 +156,18 @@ md-list-item p {
 .row > div {
     width: 16%;
 }
-.player-name{
+
+.player-name {
     flex-flow: row;
     display: flex;
     vertical-align: middle;
     line-height: 100%;
 }
-.player-name>div{
+
+.player-name > div {
     margin-right: 15px;
 }
+
 .button {
     cursor: pointer;
     padding: 5px 0;
@@ -192,3 +200,19 @@ md-list-item p {
     color: #7a7a7a;
     line-height: 59px;
 }
+
+/*animations*/
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*
+tr.ng-enter {
+    animation: fadein 1s ease-in;
+
+}*/

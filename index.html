@@ -68,9 +68,12 @@
                 <md-subheader class="md-primary md-subheader md-no-sticky md-title subheader-title">
                     <div>{{currentGame.gameId}} STATS</div>
                 </md-subheader>
+                <div ng-if="!dataLoaded">
+                    <md-progress-linear md-mode="indeterminate"></md-progress-linear>
+                </div>
                 <div class="rows">
                     <table width="100%" border="1">
-                        <tr>
+                        <tr style="animation: fadein 2s ease-out">
                             <th ng-if="currentGame.gameId=='SUMMARY'">IN</th>
                             <th ng-if="currentGame.gameId=='SUMMARY'">Team</th>
                             <th ng-click="setSortOrderColumn('name',true)">Name</th>
@@ -80,7 +83,8 @@
                             <th ng-click="setSortOrderColumn('grade',true)">Grade</th>
                         </tr>
                         <tr ng-repeat="player in playersArray | orderBy : orderColumn : orderColumnDesc"
-                                ng-class="{excluded:!currentGame.players[player.name].include}">
+                                ng-class="{excluded:!currentGame.players[player.name].include}"
+                                on-ngrepeat-end>
                             <td ng-if="currentGame.gameId=='SUMMARY'">
                                 <md-checkbox aria-label="include"
                                              class="md-primary"

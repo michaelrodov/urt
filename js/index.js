@@ -12,16 +12,30 @@ var dashApp = angular.module('dashApp', ['ngMaterial'])
             .primaryPalette('blue-grey')
             .accentPalette('blue')
             .backgroundPalette('red')
+    })
+    .directive('onNgrepeatEnd', function ($timeout) {
+        return {
+            restrict: 'A',
+            link: function (scope, element, attr) {
+                if (scope.$last === true) {
+                   $timeout(function () {
+                        scope.$emit('NGREPEAT-FINISHED');
+                    });
+                }
+            }
+        }
     });
 
 dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
-
+    $scope.dataLoaded = false;
     $scope.refreshPowerPie = function (columns) {
         if($scope.powerPie){
             $scope.powerPie.load({columns: columns});
         }
     }
-
+    $scope.$on("NGREPEAT-FINISHED", function(){
+        $scope.dataLoaded = true;
+    });
     $scope.generatePowerPie = function (columns) {
         return c3.generate({
             bindto: '#power-pie-container',
