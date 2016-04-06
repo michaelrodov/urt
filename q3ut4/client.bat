@@ -1,0 +1,1 @@
+call urt.exe +exec autoexec.cfg

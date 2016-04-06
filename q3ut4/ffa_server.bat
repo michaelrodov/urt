@@ -1,0 +1,1 @@
+urt.exe +exec ffa_server.cfg

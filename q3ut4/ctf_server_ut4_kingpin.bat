@@ -1,1 +1,0 @@
-urt.exe +exec ctf_server_ut4_kingpin.cfg
