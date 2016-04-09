@@ -5,6 +5,7 @@
 var BLUE = 0;
 var RED = 1;
 var TEAM_COLORS = ['blue', 'red'];
+var EXCLUDED_PLAYERS = "OHAD,Shalom,Rachel";
 
 var dashApp = angular.module('dashApp', ['ngMaterial'])
     .config(function ($mdThemingProvider) {
@@ -28,15 +29,19 @@ var dashApp = angular.module('dashApp', ['ngMaterial'])
 
 dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
     $scope.dataLoaded = false;
+
     $scope.Math = window.Math;
+
     $scope.refreshPowerPie = function (columns) {
         if($scope.powerPie){
             $scope.powerPie.load({columns: columns});
         }
     }
+
     $scope.$on("NGREPEAT-FINISHED", function(){
         $scope.dataLoaded = true;
     });
+
     $scope.generatePowerPie = function (columns) {
         return c3.generate({
             bindto: '#power-pie-container',
@@ -61,6 +66,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
             }
         });
     }
+
     $scope.generatePlayersLinechart = function (columns) {
         return c3.generate({
             bindto: '#players-linechart-container',
@@ -83,9 +89,11 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
             }
         });
     }
+
     var sortByGradeDesc = function (playerA, playerB) {
         return playerB.grade - playerA.grade;
     }
+
     $scope.extractPlayersLineData = function (games, gameKeys) {
         var playersLineData = [];
         var columnsArry =[];
@@ -114,6 +122,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
 
         return columnsArry;
     }
+
     $scope.convertToArray = function (players,key) {
         var playersArr = [];
         for (var player in players) {
@@ -170,6 +179,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         var totalGrade = Math.round((relative_kills + relative_score + $scope.getRatio(player)) * 3000) / 100;
         return totalGrade ;
     }
+
     /***
      * Final function
      * @param player
@@ -192,9 +202,11 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         $scope.currentGame.columns[(player.team == TEAM_COLORS[BLUE]) ? BLUE : RED][1] += $scope.getGrade(player);
         //TODO make a better managing of
     }
+
     $scope.compareTeams = function () {
         return $scope.currentGame.columns[BLUE][1] - $scope.currentGame.columns[RED][1];
     }
+
     $scope.removeFromTeam = function (player) {
         $scope.currentGame.columns[(player.team == TEAM_COLORS[BLUE]) ? BLUE : RED][1] -= $scope.getGrade(player);
     }
@@ -228,7 +240,6 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         $scope.refreshPowerPie($scope.currentGame.columns);
     }
 
-
     $scope.getGame = function (gameId) {
         if (typeof gameId == 'number') {
             return $scope.games[$scope.gameKeys[gameId]];
@@ -258,9 +269,10 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         var players = Object.keys(game.players);
         var gameMaxScore = 0;
         for (var i = 0; i < players.length; i++) {
-            (typeof game.players[players[i]].include !== 'boolean') ? game.players[players[i]].include = true : '';
+            (typeof game.players[players[i]].include !== 'boolean') ? game.players[players[i]].include = (EXCLUDED_PLAYERS.indexOf(game.players[players[i]].name)<0)?true:false : '';
         }
     }
+
     //init
     $scope.buildTeams = function (game) {
         $scope.currentGame.columns = [[TEAM_COLORS[BLUE], 0], [TEAM_COLORS[RED], 0]]; //init teams
@@ -340,4 +352,6 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
     $scope.getGamesOrder = function (key) {
         return (key=='SUMMARY')?9999999:parseInt(key.substr(0,key.indexOf('_')));
     }
+
+
 });
