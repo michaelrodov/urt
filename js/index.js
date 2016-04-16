@@ -5,7 +5,7 @@
 var BLUE = 0;
 var RED = 1;
 var TEAM_COLORS = ['blue', 'red'];
-var EXCLUDED_PLAYERS = "OHAD,Shalom,Rachel";
+var EXCLUDED_PLAYERS = "OHAD,Shalom,Rachel,Bonev";
 
 var dashApp = angular.module('dashApp', ['ngMaterial'])
     .config(function ($mdThemingProvider) {

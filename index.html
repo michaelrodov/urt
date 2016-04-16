@@ -104,7 +104,7 @@
                             <td class="name" ng-if="currentGame.gameId=='SUMMARY'"
                                 ng-style="getLineFillStyle(player.grade)">
                                 <div class="player-name">
-                                    <div>{{player.name}}</div>
+                                    <div>{{$index+1 +". "+player.name}}</div>
                                     <div style="font-size: 10px; font-weight:lighter" class="{{player.team}}">
                                         {{(player.include)?(player.team).toUpperCase():''}}
                                     </div>
