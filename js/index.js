@@ -299,13 +299,13 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
             var weightSum = 0;
             var gradeSum = 0;
             for (var j = 1; j < playerData.length; j++) {
-                var weight = 2;
+                var weight = 0; //for all historical games no calc
                 if (j < 3) {
                     weight = 10;
                 } else if (j < 6) {
                     weight = 8;
-                } else if (j < 9) {
-                    weight = 6;
+                } else if (j < 12) {
+                    weight = 4;
                 }
                 weightSum += weight;
                 gradeSum += weight * parseInt(playerData[j]);
