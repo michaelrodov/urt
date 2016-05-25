@@ -37,7 +37,7 @@
         <div class="inner">
             <div class="pane games-pane">
                 <div id="{{key}}" class="game" ng-repeat="key in gameKeys|orderBy: getGamesOrder: true">
-                    <md-button class="md-raised" ng-class="(key!='SUMMARY')?'md-primary':'md-accent'"  ng-click="setCurrentGame(key)">
+                    <md-button class="md-raised left-side-buttons" ng-class="(key!='SUMMARY')?'md-primary':'md-accent'"  ng-click="setCurrentGame(key)">
                         {{key}}
                     </md-button>
                 </div>

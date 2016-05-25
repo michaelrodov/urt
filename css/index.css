@@ -75,6 +75,12 @@ p {
     padding: 15px 0;
 }
 
+.left-side-buttons{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 120px !important;
+    overflow: hidden;
+}
 /****** PLAYERS PANE *******/
 .details-pane {
     width: 100%;
