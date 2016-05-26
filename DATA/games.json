@@ -9,14 +9,14 @@
       "gameTotalScore": 505,
       "gameLength": "20:49",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 22,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 68,
+          "score": 48,
           "name": "Seb",
           "weapons": {
             "LR300": 18,
@@ -27,7 +27,7 @@
           "deaths": 29,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 97,
+          "score": 70,
           "name": "MAMBA",
           "weapons": {
             "LR300": 25,
@@ -38,7 +38,7 @@
           "deaths": 33,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 60,
+          "score": 41,
           "name": "Knite",
           "weapons": {
             "LR300": 16
@@ -48,7 +48,7 @@
           "deaths": 25,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 77,
+          "score": 49,
           "name": "Or",
           "weapons": {
             "BERETTA": 1,
@@ -59,7 +59,7 @@
           "deaths": 12,
           "kills": 6,
           "gamesPlayed": 1,
-          "score": 48,
+          "score": 42,
           "name": "RODOV",
           "weapons": {
             "M4": 3,
@@ -70,7 +70,7 @@
           "deaths": 14,
           "kills": 39,
           "gamesPlayed": 1,
-          "score": 120,
+          "score": 81,
           "name": "benD",
           "weapons": {
             "AK103": 38,
@@ -81,7 +81,7 @@
           "deaths": 24,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 72,
+          "score": 53,
           "name": "Kilaka",
           "weapons": {
             "M4": 17,
@@ -92,7 +92,7 @@
           "deaths": 20,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 95,
+          "score": 68,
           "name": "godfather",
           "weapons": {
             "M4": 24,
@@ -103,7 +103,7 @@
           "deaths": 36,
           "kills": 30,
           "gamesPlayed": 1,
-          "score": 83,
+          "score": 53,
           "name": "Tal",
           "weapons": {
             "LR300": 29
@@ -120,14 +120,14 @@
       "gameTotalScore": 707,
       "gameLength": "15:45",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "MAMBA": {
           "deaths": 21,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 76,
+          "score": 62,
           "name": "MAMBA",
           "weapons": {
             "LR300": 7,
@@ -139,7 +139,7 @@
           "deaths": 14,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 40,
+          "score": 29,
           "name": "Or",
           "weapons": {
             "LR300": 10
@@ -149,7 +149,7 @@
           "deaths": 22,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 72,
+          "score": 59,
           "name": "RODOV",
           "weapons": {
             "M4": 8,
@@ -161,7 +161,7 @@
           "deaths": 15,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 69,
+          "score": 54,
           "name": "Drorkula",
           "weapons": {
             "M4": 14
@@ -171,7 +171,7 @@
           "deaths": 23,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 54,
+          "score": 37,
           "name": "Amir",
           "weapons": {
             "M4": 16
@@ -181,7 +181,7 @@
           "deaths": 20,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 57,
+          "score": 36,
           "name": "godfather",
           "weapons": {
             "M4": 20
@@ -191,7 +191,7 @@
           "deaths": 20,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 73,
+          "score": 57,
           "name": "Seb",
           "weapons": {
             "LR300": 15,
@@ -202,7 +202,7 @@
           "deaths": 19,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 54,
+          "score": 36,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 9,
@@ -213,7 +213,7 @@
           "deaths": 23,
           "kills": 56,
           "gamesPlayed": 1,
-          "score": 141,
+          "score": 85,
           "name": "benD",
           "weapons": {
             "HEGRENADE": 1,
@@ -225,7 +225,7 @@
           "deaths": 24,
           "kills": 9,
           "gamesPlayed": 1,
-          "score": 66,
+          "score": 57,
           "name": "Kilaka",
           "weapons": {
             "BERETTA": 1,
@@ -237,7 +237,7 @@
           "deaths": 23,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 93,
+          "score": 68,
           "name": "Tal",
           "weapons": {
             "BERETTA": 1,
@@ -249,7 +249,7 @@
           "deaths": 17,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 72,
+          "score": 45,
           "name": "deadwomanwalking",
           "weapons": {
             "HEGRENADE": 2,
@@ -260,7 +260,7 @@
           "deaths": 25,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 106,
+          "score": 82,
           "name": "Ed",
           "weapons": {
             "G36": 22
@@ -277,14 +277,14 @@
       "gameTotalScore": 1504,
       "gameLength": "15:36",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 25,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 239,
+          "score": 212,
           "name": "Seb",
           "weapons": {
             "M4": 25,
@@ -295,7 +295,7 @@
           "deaths": 28,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 53,
+          "score": 29,
           "name": "MAMBA",
           "weapons": {
             "M4": 22,
@@ -306,7 +306,7 @@
           "deaths": 39,
           "kills": 31,
           "gamesPlayed": 1,
-          "score": 97,
+          "score": 66,
           "name": "Or",
           "weapons": {
             "LR300": 29
@@ -316,7 +316,7 @@
           "deaths": 24,
           "kills": 32,
           "gamesPlayed": 1,
-          "score": 265,
+          "score": 233,
           "name": "[ACE]",
           "weapons": {
             "LR300": 32
@@ -326,7 +326,7 @@
           "deaths": 37,
           "kills": 26,
           "gamesPlayed": 1,
-          "score": 65,
+          "score": 39,
           "name": "RODOV",
           "weapons": {
             "KNIFE": 1,
@@ -338,7 +338,7 @@
           "deaths": 37,
           "kills": 52,
           "gamesPlayed": 1,
-          "score": 123,
+          "score": 71,
           "name": "benD",
           "weapons": {
             "G36": 45,
@@ -349,7 +349,7 @@
           "deaths": 25,
           "kills": 32,
           "gamesPlayed": 1,
-          "score": 265,
+          "score": 233,
           "name": "Dvir",
           "weapons": {
             "G36": 30
@@ -359,7 +359,7 @@
           "deaths": 29,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 197,
+          "score": 180,
           "name": "Kilaka",
           "weapons": {
             "HEGRENADE": 1,
@@ -370,7 +370,7 @@
           "deaths": 24,
           "kills": 32,
           "gamesPlayed": 1,
-          "score": 244,
+          "score": 212,
           "name": "godfather",
           "weapons": {
             "DEAGLE": 1,
@@ -381,7 +381,7 @@
           "deaths": 27,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 45,
+          "score": 26,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 18
@@ -391,7 +391,7 @@
           "deaths": 24,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 230,
+          "score": 203,
           "name": "Tal",
           "weapons": {
             "LR300": 24,
@@ -409,14 +409,14 @@
       "gameTotalScore": 547,
       "gameLength": "20:53",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 25,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 71,
+          "score": 52,
           "name": "Seb",
           "weapons": {
             "LR300": 19
@@ -426,7 +426,7 @@
           "deaths": 30,
           "kills": 30,
           "gamesPlayed": 1,
-          "score": 92,
+          "score": 62,
           "name": "Or",
           "weapons": {
             "BERETTA": 1,
@@ -437,7 +437,7 @@
           "deaths": 37,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 52,
+          "score": 29,
           "name": "MAMBA",
           "weapons": {
             "LR300": 21,
@@ -448,7 +448,7 @@
           "deaths": 29,
           "kills": 31,
           "gamesPlayed": 1,
-          "score": 108,
+          "score": 77,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 5,
@@ -460,7 +460,7 @@
           "deaths": 19,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 68,
+          "score": 48,
           "name": "RODOV",
           "weapons": {
             "M4": 16
@@ -470,7 +470,7 @@
           "deaths": 32,
           "kills": 52,
           "gamesPlayed": 1,
-          "score": 121,
+          "score": 69,
           "name": "benD",
           "weapons": {
             "M4": 47,
@@ -481,7 +481,7 @@
           "deaths": 27,
           "kills": 29,
           "gamesPlayed": 1,
-          "score": 73,
+          "score": 44,
           "name": "Drorkula",
           "weapons": {
             "M4": 27,
@@ -492,7 +492,7 @@
           "deaths": 21,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 55,
+          "score": 32,
           "name": "Amir",
           "weapons": {
             "M4": 22
@@ -502,7 +502,7 @@
           "deaths": 23,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 61,
+          "score": 48,
           "name": "deadwomanwalking",
           "weapons": {
             "M4": 5,
@@ -514,7 +514,7 @@
           "deaths": 25,
           "kills": 35,
           "gamesPlayed": 1,
-          "score": 107,
+          "score": 72,
           "name": "Tal",
           "weapons": {
             "LR300": 29,
@@ -525,7 +525,7 @@
           "deaths": 29,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 36,
+          "score": 14,
           "name": "Ed",
           "weapons": {
             "LR300": 12,
@@ -544,14 +544,14 @@
       "gameTotalScore": 479,
       "gameLength": "16:50",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 24,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 67,
+          "score": 48,
           "name": "Seb",
           "weapons": {
             "LR300": 18
@@ -561,7 +561,7 @@
           "deaths": 12,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 73,
+          "score": 58,
           "name": "MAMBA",
           "weapons": {
             "LR300": 12
@@ -571,7 +571,7 @@
           "deaths": 14,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 68,
+          "score": 54,
           "name": "Bonev",
           "weapons": {
             "AK103": 13
@@ -581,7 +581,7 @@
           "deaths": 11,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 96,
+          "score": 79,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 5,
@@ -592,7 +592,7 @@
           "deaths": 12,
           "kills": 26,
           "gamesPlayed": 1,
-          "score": 94,
+          "score": 68,
           "name": "benD",
           "weapons": {
             "BERETTA": 1,
@@ -603,7 +603,7 @@
           "deaths": 10,
           "kills": 8,
           "gamesPlayed": 1,
-          "score": 56,
+          "score": 48,
           "name": "OHAD",
           "weapons": {
             "G36": 3,
@@ -614,7 +614,7 @@
           "deaths": 11,
           "kills": 9,
           "gamesPlayed": 1,
-          "score": 47,
+          "score": 38,
           "name": "kobii",
           "weapons": {
             "LR300": 9
@@ -624,7 +624,7 @@
           "deaths": 23,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 75,
+          "score": 55,
           "name": "Tal",
           "weapons": {
             "LR300": 18,
@@ -635,7 +635,7 @@
           "deaths": 22,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 42,
+          "score": 31,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 10
@@ -652,14 +652,14 @@
       "gameTotalScore": 253,
       "gameLength": "15:41",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "MAMBA": {
           "deaths": 11,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 45,
+          "score": 30,
           "name": "MAMBA",
           "weapons": {
             "LR300": 14
@@ -669,7 +669,7 @@
           "deaths": 12,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 53,
+          "score": 39,
           "name": "Or",
           "weapons": {
             "LR300": 13,
@@ -680,7 +680,7 @@
           "deaths": 14,
           "kills": 8,
           "gamesPlayed": 1,
-          "score": 25,
+          "score": 17,
           "name": "[ACE]",
           "weapons": {
             "M4": 8
@@ -690,7 +690,7 @@
           "deaths": 8,
           "kills": 5,
           "gamesPlayed": 1,
-          "score": 26,
+          "score": 21,
           "name": "RODOV",
           "weapons": {
             "M4": 5
@@ -700,7 +700,7 @@
           "deaths": 12,
           "kills": 29,
           "gamesPlayed": 1,
-          "score": 87,
+          "score": 58,
           "name": "benD",
           "weapons": {
             "AK103": 26
@@ -710,7 +710,7 @@
           "deaths": 13,
           "kills": 5,
           "gamesPlayed": 1,
-          "score": 21,
+          "score": 16,
           "name": "Shalom",
           "weapons": {
             "AK103": 4
@@ -720,7 +720,7 @@
           "deaths": 15,
           "kills": 8,
           "gamesPlayed": 1,
-          "score": 27,
+          "score": 19,
           "name": "MaorTheDestroyer",
           "weapons": {
             "AK103": 8
@@ -730,7 +730,7 @@
           "deaths": 18,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 72,
+          "score": 53,
           "name": "Tal",
           "weapons": {
             "LR300": 18
@@ -747,14 +747,14 @@
       "gameTotalScore": 866,
       "gameLength": "20:39",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 24,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 98,
+          "score": 73,
           "name": "Seb",
           "weapons": {
             "LR300": 18,
@@ -766,7 +766,7 @@
           "deaths": 34,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 96,
+          "score": 73,
           "name": "MAMBA",
           "weapons": {
             "LR300": 21,
@@ -777,7 +777,7 @@
           "deaths": 21,
           "kills": 29,
           "gamesPlayed": 1,
-          "score": 109,
+          "score": 80,
           "name": "Or",
           "weapons": {
             "LR300": 28
@@ -787,7 +787,7 @@
           "deaths": 31,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 88,
+          "score": 68,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 9,
@@ -799,7 +799,7 @@
           "deaths": 17,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 92,
+          "score": 72,
           "name": "RODOV",
           "weapons": {
             "M4": 19,
@@ -810,7 +810,7 @@
           "deaths": 28,
           "kills": 48,
           "gamesPlayed": 1,
-          "score": 168,
+          "score": 120,
           "name": "benD",
           "weapons": {
             "M4": 40,
@@ -821,7 +821,7 @@
           "deaths": 24,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 102,
+          "score": 77,
           "name": "Drorkula",
           "weapons": {
             "M4": 25
@@ -831,7 +831,7 @@
           "deaths": 27,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 89,
+          "score": 71,
           "name": "Amir",
           "weapons": {
             "M4": 17
@@ -841,7 +841,7 @@
           "deaths": 20,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 109,
+          "score": 86,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 22
@@ -851,7 +851,7 @@
           "deaths": 23,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 95,
+          "score": 68,
           "name": "Tal",
           "weapons": {
             "LR300": 25,
@@ -862,7 +862,7 @@
           "deaths": 31,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 100,
+          "score": 78,
           "name": "Ed",
           "weapons": {
             "NEGEV": 20
@@ -879,14 +879,14 @@
       "gameTotalScore": 527,
       "gameLength": "16:10",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "MAMBA": {
           "deaths": 26,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 70,
+          "score": 52,
           "name": "MAMBA",
           "weapons": {
             "LR300": 15,
@@ -897,7 +897,7 @@
           "deaths": 20,
           "kills": 9,
           "gamesPlayed": 1,
-          "score": 31,
+          "score": 22,
           "name": "Or",
           "weapons": {
             "LR300": 8
@@ -907,7 +907,7 @@
           "deaths": 12,
           "kills": 6,
           "gamesPlayed": 1,
-          "score": 42,
+          "score": 36,
           "name": "RODOV",
           "weapons": {
             "M4": 4,
@@ -918,7 +918,7 @@
           "deaths": 15,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 70,
+          "score": 52,
           "name": "Drorkula",
           "weapons": {
             "M4": 18
@@ -928,7 +928,7 @@
           "deaths": 20,
           "kills": 7,
           "gamesPlayed": 1,
-          "score": 9,
+          "score": 2,
           "name": "Amir",
           "weapons": {
             "M4": 7
@@ -938,7 +938,7 @@
           "deaths": 19,
           "kills": 32,
           "gamesPlayed": 1,
-          "score": 71,
+          "score": 39,
           "name": "godfather",
           "weapons": {
             "M4": 32
@@ -948,7 +948,7 @@
           "deaths": 14,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 74,
+          "score": 57,
           "name": "Seb",
           "weapons": {
             "LR300": 16,
@@ -959,7 +959,7 @@
           "deaths": 26,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 46,
+          "score": 28,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 8,
@@ -970,7 +970,7 @@
           "deaths": 22,
           "kills": 44,
           "gamesPlayed": 1,
-          "score": 94,
+          "score": 50,
           "name": "benD",
           "weapons": {
             "AK103": 40,
@@ -981,7 +981,7 @@
           "deaths": 17,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 55,
+          "score": 43,
           "name": "Kilaka",
           "weapons": {
             "AK103": 11
@@ -991,7 +991,7 @@
           "deaths": 19,
           "kills": 39,
           "gamesPlayed": 1,
-          "score": 113,
+          "score": 74,
           "name": "Tal",
           "weapons": {
             "LR300": 28,
@@ -1002,7 +1002,7 @@
           "deaths": 18,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 37,
+          "score": 26,
           "name": "deadwomanwalking",
           "weapons": {
             "HEGRENADE": 1,
@@ -1013,7 +1013,7 @@
           "deaths": 18,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 61,
+          "score": 46,
           "name": "Ed",
           "weapons": {
             "G36": 15
@@ -1030,14 +1030,14 @@
       "gameTotalScore": 1147,
       "gameLength": "15:36",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Or": {
           "deaths": 19,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 141,
+          "score": 114,
           "name": "Or",
           "weapons": {
             "LR300": 25
@@ -1047,7 +1047,7 @@
           "deaths": 21,
           "kills": 10,
           "gamesPlayed": 1,
-          "score": 87,
+          "score": 77,
           "name": "Knite",
           "weapons": {
             "LR300": 10
@@ -1057,7 +1057,7 @@
           "deaths": 22,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 115,
+          "score": 90,
           "name": "MAMBA",
           "weapons": {
             "M4": 24,
@@ -1068,7 +1068,7 @@
           "deaths": 38,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 102,
+          "score": 82,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 2,
@@ -1079,7 +1079,7 @@
           "deaths": 28,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 117,
+          "score": 92,
           "name": "RODOV",
           "weapons": {
             "HEGRENADE": 1,
@@ -1090,7 +1090,7 @@
           "deaths": 27,
           "kills": 61,
           "gamesPlayed": 1,
-          "score": 201,
+          "score": 140,
           "name": "benD",
           "weapons": {
             "G36": 55,
@@ -1101,7 +1101,7 @@
           "deaths": 16,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 116,
+          "score": 94,
           "name": "Kobi",
           "weapons": {
             "HEGRENADE": 1,
@@ -1113,7 +1113,7 @@
           "deaths": 27,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 90,
+          "score": 72,
           "name": "Amir",
           "weapons": {
             "BERETTA": 1,
@@ -1124,7 +1124,7 @@
           "deaths": 36,
           "kills": 30,
           "gamesPlayed": 1,
-          "score": 134,
+          "score": 104,
           "name": "Kilaka",
           "weapons": {
             "NEGEV": 30
@@ -1134,7 +1134,7 @@
           "deaths": 24,
           "kills": 30,
           "gamesPlayed": 1,
-          "score": 137,
+          "score": 107,
           "name": "godfather",
           "weapons": {
             "M4": 15,
@@ -1146,7 +1146,7 @@
           "deaths": 33,
           "kills": 29,
           "gamesPlayed": 1,
-          "score": 115,
+          "score": 86,
           "name": "Tal",
           "weapons": {
             "BERETTA": 2,
@@ -1159,7 +1159,7 @@
           "deaths": 20,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 103,
+          "score": 89,
           "name": "deadwomanwalking",
           "weapons": {
             "MAC11": 1,
@@ -1177,14 +1177,14 @@
       "gameTotalScore": 342,
       "gameLength": "15:47",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 14,
           "kills": 10,
           "gamesPlayed": 1,
-          "score": 52,
+          "score": 42,
           "name": "Seb",
           "weapons": {
             "LR300": 7,
@@ -1196,7 +1196,7 @@
           "deaths": 19,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 64,
+          "score": 47,
           "name": "MAMBA",
           "weapons": {
             "LR300": 13,
@@ -1208,7 +1208,7 @@
           "deaths": 24,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 58,
+          "score": 37,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 5,
@@ -1220,7 +1220,7 @@
           "deaths": 12,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 43,
+          "score": 26,
           "name": "RODOV",
           "weapons": {
             "LR300": 14,
@@ -1231,7 +1231,7 @@
           "deaths": 7,
           "kills": 10,
           "gamesPlayed": 1,
-          "score": 56,
+          "score": 46,
           "name": "Amir",
           "weapons": {
             "M4": 10
@@ -1241,7 +1241,7 @@
           "deaths": 12,
           "kills": 9,
           "gamesPlayed": 1,
-          "score": 53,
+          "score": 44,
           "name": "Kilaka",
           "weapons": {
             "MAC11": 1,
@@ -1252,7 +1252,7 @@
           "deaths": 17,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 29,
+          "score": 16,
           "name": "godfather",
           "weapons": {
             "M4": 13
@@ -1262,7 +1262,7 @@
           "deaths": 15,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 86,
+          "score": 61,
           "name": "Tal",
           "weapons": {
             "LR300": 19,
@@ -1273,7 +1273,7 @@
           "deaths": 17,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 38,
+          "score": 23,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 15
@@ -1290,14 +1290,14 @@
       "gameTotalScore": 364,
       "gameLength": "15:45",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Knite": {
           "deaths": 27,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 17,
+          "score": 2,
           "name": "Knite",
           "weapons": {
             "LR300": 7,
@@ -1308,7 +1308,7 @@
           "deaths": 25,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 46,
+          "score": 30,
           "name": "MAMBA",
           "weapons": {
             "LR300": 14,
@@ -1319,7 +1319,7 @@
           "deaths": 19,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 46,
+          "score": 25,
           "name": "Or",
           "weapons": {
             "BERETTA": 1,
@@ -1331,7 +1331,7 @@
           "deaths": 18,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 64,
+          "score": 41,
           "name": "RODOV",
           "weapons": {
             "M4": 22
@@ -1341,7 +1341,7 @@
           "deaths": 21,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 32,
+          "score": 18,
           "name": "Amir",
           "weapons": {
             "M4": 14
@@ -1351,7 +1351,7 @@
           "deaths": 19,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 31,
+          "score": 18,
           "name": "godfather",
           "weapons": {
             "M4": 2,
@@ -1362,7 +1362,7 @@
           "deaths": 22,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 53,
+          "score": 29,
           "name": "Seb",
           "weapons": {
             "LR300": 18,
@@ -1373,7 +1373,7 @@
           "deaths": 20,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 64,
+          "score": 40,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 18,
@@ -1384,7 +1384,7 @@
           "deaths": 17,
           "kills": 32,
           "gamesPlayed": 1,
-          "score": 83,
+          "score": 51,
           "name": "benD",
           "weapons": {
             "AK103": 31
@@ -1394,7 +1394,7 @@
           "deaths": 15,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 32,
+          "score": 21,
           "name": "OHAD",
           "weapons": {
             "G36": 11
@@ -1404,7 +1404,7 @@
           "deaths": 9,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 42,
+          "score": 31,
           "name": "Kilaka",
           "weapons": {
             "AK103": 8,
@@ -1415,7 +1415,7 @@
           "deaths": 19,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 54,
+          "score": 30,
           "name": "Tal",
           "weapons": {
             "LR300": 24
@@ -1425,7 +1425,7 @@
           "deaths": 15,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 48,
+          "score": 28,
           "name": "deadwomanwalking",
           "weapons": {
             "HEGRENADE": 1,
@@ -1453,14 +1453,14 @@
       "gameTotalScore": 386,
       "gameLength": "15:37",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "MAMBA": {
           "deaths": 24,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 68,
+          "score": 40,
           "name": "MAMBA",
           "weapons": {
             "LR300": 27
@@ -1470,7 +1470,7 @@
           "deaths": 16,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 46,
+          "score": 25,
           "name": "Or",
           "weapons": {
             "LR300": 20
@@ -1480,7 +1480,7 @@
           "deaths": 18,
           "kills": 9,
           "gamesPlayed": 1,
-          "score": 30,
+          "score": 21,
           "name": "Knite",
           "weapons": {
             "DEAGLE": 1,
@@ -1491,7 +1491,7 @@
           "deaths": 14,
           "kills": 8,
           "gamesPlayed": 1,
-          "score": 26,
+          "score": 18,
           "name": "RODOV",
           "weapons": {
             "M4": 4,
@@ -1502,7 +1502,7 @@
           "deaths": 24,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 30,
+          "score": 16,
           "name": "Amir",
           "weapons": {
             "M4": 14
@@ -1512,7 +1512,7 @@
           "deaths": 24,
           "kills": 31,
           "gamesPlayed": 1,
-          "score": 67,
+          "score": 36,
           "name": "godfather",
           "weapons": {
             "M4": 20,
@@ -1524,7 +1524,7 @@
           "deaths": 21,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 46,
+          "score": 23,
           "name": "Seb",
           "weapons": {
             "LR300": 21,
@@ -1535,7 +1535,7 @@
           "deaths": 16,
           "kills": 10,
           "gamesPlayed": 1,
-          "score": 44,
+          "score": 34,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 3,
@@ -1546,7 +1546,7 @@
           "deaths": 22,
           "kills": 51,
           "gamesPlayed": 1,
-          "score": 114,
+          "score": 63,
           "name": "benD",
           "weapons": {
             "AK103": 48,
@@ -1557,7 +1557,7 @@
           "deaths": 20,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 38,
+          "score": 24,
           "name": "OHAD",
           "weapons": {
             "G36": 14
@@ -1567,7 +1567,7 @@
           "deaths": 21,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 49,
+          "score": 33,
           "name": "Kilaka",
           "weapons": {
             "AK103": 15
@@ -1577,7 +1577,7 @@
           "deaths": 26,
           "kills": 26,
           "gamesPlayed": 1,
-          "score": 57,
+          "score": 31,
           "name": "Tal",
           "weapons": {
             "LR300": 22,
@@ -1588,7 +1588,7 @@
           "deaths": 25,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 42,
+          "score": 22,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 16
@@ -1605,14 +1605,14 @@
       "gameTotalScore": 712,
       "gameLength": "15:38",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 31,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 69,
+          "score": 51,
           "name": "Seb",
           "weapons": {
             "LR300": 18
@@ -1622,7 +1622,7 @@
           "deaths": 23,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 101,
+          "score": 82,
           "name": "MAMBA",
           "weapons": {
             "BERETTA": 2,
@@ -1634,7 +1634,7 @@
           "deaths": 17,
           "kills": 8,
           "gamesPlayed": 1,
-          "score": 10,
+          "score": 2,
           "name": "Or",
           "weapons": {
             "LR300": 7
@@ -1644,7 +1644,7 @@
           "deaths": 19,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 125,
+          "score": 100,
           "name": "Bonev",
           "weapons": {
             "M4": 17,
@@ -1655,7 +1655,7 @@
           "deaths": 14,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 113,
+          "score": 96,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 5,
@@ -1666,7 +1666,7 @@
           "deaths": 19,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 119,
+          "score": 97,
           "name": "RODOV",
           "weapons": {
             "DEAGLE": 1,
@@ -1678,7 +1678,7 @@
           "deaths": 17,
           "kills": 45,
           "gamesPlayed": 1,
-          "score": 169,
+          "score": 124,
           "name": "benD",
           "weapons": {
             "HEGRENADE": 2,
@@ -1690,7 +1690,7 @@
           "deaths": 27,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 76,
+          "score": 52,
           "name": "kobii",
           "weapons": {
             "LR300": 22
@@ -1700,7 +1700,7 @@
           "deaths": 28,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 89,
+          "score": 61,
           "name": "Tal",
           "weapons": {
             "LR300": 27
@@ -1710,7 +1710,7 @@
           "deaths": 25,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 61,
+          "score": 47,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 11
@@ -1727,14 +1727,14 @@
       "gameTotalScore": 632,
       "gameLength": "15:38",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 28,
           "kills": 34,
           "gamesPlayed": 1,
-          "score": 129,
+          "score": 95,
           "name": "Seb",
           "weapons": {
             "LR300": 28,
@@ -1745,7 +1745,7 @@
           "deaths": 23,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 94,
+          "score": 72,
           "name": "Or",
           "weapons": {
             "LR300": 21
@@ -1755,7 +1755,7 @@
           "deaths": 34,
           "kills": 32,
           "gamesPlayed": 1,
-          "score": 96,
+          "score": 64,
           "name": "MAMBA",
           "weapons": {
             "LR300": 28,
@@ -1766,7 +1766,7 @@
           "deaths": 26,
           "kills": 40,
           "gamesPlayed": 1,
-          "score": 95,
+          "score": 55,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 11,
@@ -1778,7 +1778,7 @@
           "deaths": 21,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 91,
+          "score": 69,
           "name": "RODOV",
           "weapons": {
             "M4": 17,
@@ -1790,7 +1790,7 @@
           "deaths": 23,
           "kills": 51,
           "gamesPlayed": 1,
-          "score": 136,
+          "score": 85,
           "name": "benD",
           "weapons": {
             "HEGRENADE": 1,
@@ -1802,7 +1802,7 @@
           "deaths": 26,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 31,
+          "score": 14,
           "name": "Rachel",
           "weapons": {
             "M4": 11,
@@ -1813,7 +1813,7 @@
           "deaths": 27,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 56,
+          "score": 40,
           "name": "Amir",
           "weapons": {
             "M4": 16
@@ -1823,7 +1823,7 @@
           "deaths": 21,
           "kills": 7,
           "gamesPlayed": 1,
-          "score": 12,
+          "score": 5,
           "name": "Kilaka",
           "weapons": {
             "M4": 6,
@@ -1834,7 +1834,7 @@
           "deaths": 30,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 108,
+          "score": 80,
           "name": "Tal",
           "weapons": {
             "LR300": 26,
@@ -1845,7 +1845,7 @@
           "deaths": 23,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 66,
+          "score": 53,
           "name": "deadwomanwalking",
           "weapons": {
             "M4": 7,
@@ -1863,7 +1863,7 @@
       "gameTotalDeaths": 7,
       "gameTotalScore": 0,
       "gameLength": "13:35",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 0,
       "players": {
         "Seb": {
@@ -1923,14 +1923,14 @@
       "gameTotalScore": 536,
       "gameLength": "15:30",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 24,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 54,
+          "score": 32,
           "name": "Seb",
           "weapons": {
             "LR300": 22
@@ -1940,7 +1940,7 @@
           "deaths": 14,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 73,
+          "score": 52,
           "name": "MAMBA",
           "weapons": {
             "LR300": 16,
@@ -1962,7 +1962,7 @@
           "deaths": 11,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 85,
+          "score": 69,
           "name": "Or",
           "weapons": {
             "BERETTA": 1,
@@ -1973,7 +1973,7 @@
           "deaths": 19,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 80,
+          "score": 65,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 3,
@@ -1984,7 +1984,7 @@
           "deaths": 16,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 69,
+          "score": 56,
           "name": "RODOV",
           "weapons": {
             "LR300": 11,
@@ -1995,7 +1995,7 @@
           "deaths": 18,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 40,
+          "score": 27,
           "name": "Amir",
           "weapons": {
             "M4": 13
@@ -2005,7 +2005,7 @@
           "deaths": 21,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 46,
+          "score": 35,
           "name": "Kilaka",
           "weapons": {
             "MAC11": 1,
@@ -2016,7 +2016,7 @@
           "deaths": 13,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 110,
+          "score": 82,
           "name": "godfather",
           "weapons": {
             "M4": 27
@@ -2026,7 +2026,7 @@
           "deaths": 16,
           "kills": 31,
           "gamesPlayed": 1,
-          "score": 84,
+          "score": 53,
           "name": "Tal",
           "weapons": {
             "LR300": 25,
@@ -2038,7 +2038,7 @@
           "deaths": 17,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 77,
+          "score": 65,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 11
@@ -2055,14 +2055,14 @@
       "gameTotalScore": 619,
       "gameLength": "18:34",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 27,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 91,
+          "score": 69,
           "name": "Seb",
           "weapons": {
             "LR300": 20,
@@ -2073,7 +2073,7 @@
           "deaths": 19,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 77,
+          "score": 57,
           "name": "MAMBA",
           "weapons": {
             "LR300": 19
@@ -2083,7 +2083,7 @@
           "deaths": 18,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 69,
+          "score": 49,
           "name": "Or",
           "weapons": {
             "LR300": 18
@@ -2093,7 +2093,7 @@
           "deaths": 22,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 72,
+          "score": 51,
           "name": "[ACE]",
           "weapons": {
             "LR300": 6,
@@ -2104,7 +2104,7 @@
           "deaths": 21,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 45,
+          "score": 33,
           "name": "RODOV",
           "weapons": {
             "G36": 10,
@@ -2115,7 +2115,7 @@
           "deaths": 21,
           "kills": 40,
           "gamesPlayed": 1,
-          "score": 103,
+          "score": 63,
           "name": "benD",
           "weapons": {
             "G36": 35,
@@ -2126,7 +2126,7 @@
           "deaths": 9,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 73,
+          "score": 55,
           "name": "Kobi",
           "weapons": {
             "G36": 17
@@ -2136,7 +2136,7 @@
           "deaths": 29,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 72,
+          "score": 49,
           "name": "Kilaka",
           "weapons": {
             "MAC11": 1,
@@ -2147,7 +2147,7 @@
           "deaths": 26,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 74,
+          "score": 58,
           "name": "MaorTheDestroyer",
           "weapons": {
             "AK103": 14
@@ -2157,7 +2157,7 @@
           "deaths": 13,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 58,
+          "score": 40,
           "name": "godfather",
           "weapons": {
             "M4": 17
@@ -2167,7 +2167,7 @@
           "deaths": 22,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 72,
+          "score": 54,
           "name": "Tal",
           "weapons": {
             "LR300": 17
@@ -2177,7 +2177,7 @@
           "deaths": 20,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 60,
+          "score": 41,
           "name": "deadwomanwalking",
           "weapons": {
             "DEAGLE": 1,
@@ -2195,14 +2195,14 @@
       "gameTotalScore": 438,
       "gameLength": "16:39",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 2,
       "players": {
         "Or": {
           "deaths": 15,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 46,
+          "score": 33,
           "name": "Or",
           "weapons": {
             "LR300": 13
@@ -2212,7 +2212,7 @@
           "deaths": 19,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 55,
+          "score": 33,
           "name": "MAMBA",
           "weapons": {
             "BERETTA": 1,
@@ -2224,7 +2224,7 @@
           "deaths": 9,
           "kills": 5,
           "gamesPlayed": 1,
-          "score": 9,
+          "score": 4,
           "name": "Knite",
           "weapons": {
             "LR300": 3
@@ -2234,7 +2234,7 @@
           "deaths": 17,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 29,
+          "score": 18,
           "name": "RODOV",
           "weapons": {
             "M4": 10,
@@ -2245,7 +2245,7 @@
           "deaths": 13,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 48,
+          "score": 35,
           "name": "Amir",
           "weapons": {
             "M4": 13
@@ -2255,7 +2255,7 @@
           "deaths": 15,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 50,
+          "score": 36,
           "name": "godfather",
           "weapons": {
             "M4": 13
@@ -2265,7 +2265,7 @@
           "deaths": 20,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 61,
+          "score": 44,
           "name": "Seb",
           "weapons": {
             "LR300": 16
@@ -2275,7 +2275,7 @@
           "deaths": 23,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 37,
+          "score": 20,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 2,
@@ -2286,7 +2286,7 @@
           "deaths": 21,
           "kills": 51,
           "gamesPlayed": 1,
-          "score": 104,
+          "score": 53,
           "name": "benD",
           "weapons": {
             "AK103": 49
@@ -2296,7 +2296,7 @@
           "deaths": 14,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 26,
+          "score": 14,
           "name": "OHAD",
           "weapons": {
             "G36": 12
@@ -2306,7 +2306,7 @@
           "deaths": 18,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 29,
+          "score": 18,
           "name": "Kilaka",
           "weapons": {
             "AK103": 11
@@ -2316,7 +2316,7 @@
           "deaths": 22,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 47,
+          "score": 34,
           "name": "deadwomanwalking",
           "weapons": {
             "M4": 1,
@@ -2327,7 +2327,7 @@
           "deaths": 22,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 72,
+          "score": 49,
           "name": "Tal",
           "weapons": {
             "LR300": 23
@@ -2337,7 +2337,7 @@
           "deaths": 21,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 74,
+          "score": 47,
           "name": "Ed",
           "weapons": {
             "G36": 25
@@ -2354,14 +2354,14 @@
       "gameTotalScore": 435,
       "gameLength": "16:29",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 21,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 88,
+          "score": 64,
           "name": "Seb",
           "weapons": {
             "LR300": 19,
@@ -2372,7 +2372,7 @@
           "deaths": 18,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 78,
+          "score": 55,
           "name": "Or",
           "weapons": {
             "LR300": 23
@@ -2382,7 +2382,7 @@
           "deaths": 24,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 34,
+          "score": 23,
           "name": "MAMBA",
           "weapons": {
             "LR300": 9
@@ -2392,7 +2392,7 @@
           "deaths": 23,
           "kills": 29,
           "gamesPlayed": 1,
-          "score": 75,
+          "score": 46,
           "name": "[ACE]",
           "weapons": {
             "DEAGLE": 2,
@@ -2403,7 +2403,7 @@
           "deaths": 20,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 60,
+          "score": 44,
           "name": "RODOV",
           "weapons": {
             "M4": 16
@@ -2413,7 +2413,7 @@
           "deaths": 16,
           "kills": 48,
           "gamesPlayed": 1,
-          "score": 107,
+          "score": 59,
           "name": "benD",
           "weapons": {
             "AK103": 43,
@@ -2424,7 +2424,7 @@
           "deaths": 7,
           "kills": 6,
           "gamesPlayed": 1,
-          "score": 19,
+          "score": 13,
           "name": "Rachel",
           "weapons": {
             "M4": 4,
@@ -2435,7 +2435,7 @@
           "deaths": 17,
           "kills": 7,
           "gamesPlayed": 1,
-          "score": 27,
+          "score": 20,
           "name": "Amir",
           "weapons": {
             "M4": 7
@@ -2445,7 +2445,7 @@
           "deaths": 22,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 42,
+          "score": 28,
           "name": "Kilaka",
           "weapons": {
             "M4": 14
@@ -2455,7 +2455,7 @@
           "deaths": 23,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 80,
+          "score": 53,
           "name": "Tal",
           "weapons": {
             "LR300": 25
@@ -2465,7 +2465,7 @@
           "deaths": 22,
           "kills": 8,
           "gamesPlayed": 1,
-          "score": 38,
+          "score": 30,
           "name": "deadwomanwalking",
           "weapons": {
             "M4": 2,
@@ -2485,14 +2485,14 @@
       "gameTotalScore": 489,
       "gameLength": "27:56",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 11,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 59,
+          "score": 47,
           "name": "Seb",
           "weapons": {
             "LR300": 11
@@ -2502,7 +2502,7 @@
           "deaths": 19,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 105,
+          "score": 81,
           "name": "Or",
           "weapons": {
             "LR300": 22,
@@ -2513,7 +2513,7 @@
           "deaths": 31,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 71,
+          "score": 53,
           "name": "Knite",
           "weapons": {
             "LR300": 17,
@@ -2524,7 +2524,7 @@
           "deaths": 21,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 75,
+          "score": 56,
           "name": "MAMBA",
           "weapons": {
             "LR300": 19
@@ -2534,7 +2534,7 @@
           "deaths": 18,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 65,
+          "score": 50,
           "name": "RODOV",
           "weapons": {
             "M4": 14
@@ -2544,7 +2544,7 @@
           "deaths": 26,
           "kills": 53,
           "gamesPlayed": 1,
-          "score": 139,
+          "score": 86,
           "name": "benD",
           "weapons": {
             "HEGRENADE": 1,
@@ -2556,7 +2556,7 @@
           "deaths": 32,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 30,
+          "score": 9,
           "name": "Kilaka",
           "weapons": {
             "UMP45": 19
@@ -2566,7 +2566,7 @@
           "deaths": 9,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 67,
+          "score": 54,
           "name": "godfather",
           "weapons": {
             "M4": 12
@@ -2576,7 +2576,7 @@
           "deaths": 31,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 76,
+          "score": 53,
           "name": "Tal",
           "weapons": {
             "LR300": 20,
@@ -2594,14 +2594,14 @@
       "gameTotalScore": 30141,
       "gameLength": "0",
       "gameEndReason": "-",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "MAMBA": {
           "deaths": 1129,
           "kills": 949,
           "gamesPlayed": 46,
-          "score": 3402,
+          "score": 2558,
           "name": "MAMBA",
           "weapons": {}
         },
@@ -2609,7 +2609,7 @@
           "deaths": 315,
           "kills": 180,
           "gamesPlayed": 15,
-          "score": 651,
+          "score": 480,
           "name": "Knite",
           "weapons": {}
         },
@@ -2617,7 +2617,7 @@
           "deaths": 834,
           "kills": 913,
           "gamesPlayed": 44,
-          "score": 3474,
+          "score": 2658,
           "name": "Or",
           "weapons": {}
         },
@@ -2625,7 +2625,7 @@
           "deaths": 921,
           "kills": 700,
           "gamesPlayed": 46,
-          "score": 3023,
+          "score": 2382,
           "name": "RODOV",
           "weapons": {}
         },
@@ -2633,7 +2633,7 @@
           "deaths": 200,
           "kills": 232,
           "gamesPlayed": 12,
-          "score": 1022,
+          "score": 832,
           "name": "Kobi",
           "weapons": {}
         },
@@ -2641,7 +2641,7 @@
           "deaths": 220,
           "kills": 182,
           "gamesPlayed": 10,
-          "score": 758,
+          "score": 615,
           "name": "Drorkula",
           "weapons": {}
         },
@@ -2649,7 +2649,7 @@
           "deaths": 497,
           "kills": 363,
           "gamesPlayed": 24,
-          "score": 1340,
+          "score": 999,
           "name": "Amir",
           "weapons": {}
         },
@@ -2657,7 +2657,7 @@
           "deaths": 545,
           "kills": 652,
           "gamesPlayed": 26,
-          "score": 2333,
+          "score": 1746,
           "name": "godfather",
           "weapons": {}
         },
@@ -2665,7 +2665,7 @@
           "deaths": 955,
           "kills": 824,
           "gamesPlayed": 41,
-          "score": 3108,
+          "score": 2364,
           "name": "Seb",
           "weapons": {}
         },
@@ -2673,7 +2673,7 @@
           "deaths": 990,
           "kills": 996,
           "gamesPlayed": 42,
-          "score": 3769,
+          "score": 2852,
           "name": "[ACE]",
           "weapons": {}
         },
@@ -2681,7 +2681,7 @@
           "deaths": 872,
           "kills": 1925,
           "gamesPlayed": 42,
-          "score": 5785,
+          "score": 4059,
           "name": "benD",
           "weapons": {}
         },
@@ -2689,7 +2689,7 @@
           "deaths": 778,
           "kills": 552,
           "gamesPlayed": 33,
-          "score": 2491,
+          "score": 2000,
           "name": "Kilaka",
           "weapons": {}
         },
@@ -2697,7 +2697,7 @@
           "deaths": 206,
           "kills": 169,
           "gamesPlayed": 9,
-          "score": 580,
+          "score": 411,
           "name": "MaorTheDestroyer",
           "weapons": {}
         },
@@ -2705,7 +2705,7 @@
           "deaths": 1143,
           "kills": 1220,
           "gamesPlayed": 47,
-          "score": 4090,
+          "score": 2993,
           "name": "Tal",
           "weapons": {}
         },
@@ -2713,7 +2713,7 @@
           "deaths": 724,
           "kills": 595,
           "gamesPlayed": 35,
-          "score": 2381,
+          "score": 1822,
           "name": "deadwomanwalking",
           "weapons": {}
         },
@@ -2721,7 +2721,7 @@
           "deaths": 364,
           "kills": 305,
           "gamesPlayed": 14,
-          "score": 1103,
+          "score": 817,
           "name": "Ed",
           "weapons": {}
         }
@@ -2736,14 +2736,14 @@
       "gameTotalScore": 569,
       "gameLength": "15:43",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 21,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 64,
+          "score": 52,
           "name": "Seb",
           "weapons": {
             "LR300": 9,
@@ -2755,7 +2755,7 @@
           "deaths": 17,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 85,
+          "score": 60,
           "name": "Or",
           "weapons": {
             "LR300": 25
@@ -2765,7 +2765,7 @@
           "deaths": 22,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 62,
+          "score": 45,
           "name": "MAMBA",
           "weapons": {
             "LR300": 17
@@ -2775,7 +2775,7 @@
           "deaths": 19,
           "kills": 8,
           "gamesPlayed": 1,
-          "score": 56,
+          "score": 48,
           "name": "Knite",
           "weapons": {
             "LR300": 7
@@ -2785,7 +2785,7 @@
           "deaths": 19,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 68,
+          "score": 48,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 9,
@@ -2796,7 +2796,7 @@
           "deaths": 19,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 53,
+          "score": 41,
           "name": "RODOV",
           "weapons": {
             "G36": 10,
@@ -2807,7 +2807,7 @@
           "deaths": 11,
           "kills": 34,
           "gamesPlayed": 1,
-          "score": 128,
+          "score": 94,
           "name": "benD",
           "weapons": {
             "AK103": 31,
@@ -2818,7 +2818,7 @@
           "deaths": 21,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 78,
+          "score": 62,
           "name": "Kilaka",
           "weapons": {
             "AK103": 14,
@@ -2829,7 +2829,7 @@
           "deaths": 14,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 62,
+          "score": 44,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 15
@@ -2839,7 +2839,7 @@
           "deaths": 20,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 96,
+          "score": 75,
           "name": "Tal",
           "weapons": {
             "LR300": 20,
@@ -2857,14 +2857,14 @@
       "gameTotalScore": 371,
       "gameLength": "15:38",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 20,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 52,
+          "score": 36,
           "name": "Seb",
           "weapons": {
             "LR300": 14
@@ -2874,7 +2874,7 @@
           "deaths": 12,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 44,
+          "score": 33,
           "name": "Or",
           "weapons": {
             "LR300": 11
@@ -2884,7 +2884,7 @@
           "deaths": 17,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 40,
+          "score": 27,
           "name": "MAMBA",
           "weapons": {
             "LR300": 11,
@@ -2895,7 +2895,7 @@
           "deaths": 12,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 58,
+          "score": 41,
           "name": "[ACE]",
           "weapons": {
             "G36": 17
@@ -2905,7 +2905,7 @@
           "deaths": 14,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 46,
+          "score": 33,
           "name": "RODOV",
           "weapons": {
             "G36": 11,
@@ -2916,7 +2916,7 @@
           "deaths": 13,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 94,
+          "score": 66,
           "name": "benD",
           "weapons": {
             "HEGRENADE": 1,
@@ -2928,7 +2928,7 @@
           "deaths": 8,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 52,
+          "score": 41,
           "name": "Kobi",
           "weapons": {
             "G36": 10
@@ -2938,7 +2938,7 @@
           "deaths": 16,
           "kills": 10,
           "gamesPlayed": 1,
-          "score": 42,
+          "score": 32,
           "name": "Kilaka",
           "weapons": {
             "MAC11": 1,
@@ -2959,7 +2959,7 @@
           "deaths": 11,
           "kills": 10,
           "gamesPlayed": 1,
-          "score": 22,
+          "score": 12,
           "name": "MaorTheDestroyer",
           "weapons": {
             "AK103": 9
@@ -2969,7 +2969,7 @@
           "deaths": 17,
           "kills": 8,
           "gamesPlayed": 1,
-          "score": 28,
+          "score": 20,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 7
@@ -2979,7 +2979,7 @@
           "deaths": 15,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 48,
+          "score": 30,
           "name": "Tal",
           "weapons": {
             "LR300": 18
@@ -2996,14 +2996,14 @@
       "gameTotalScore": 1094,
       "gameLength": "31:36",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 2,
       "players": {
         "Seb": {
           "deaths": 29,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 133,
+          "score": 119,
           "name": "Seb",
           "weapons": {
             "DEAGLE": 1,
@@ -3014,7 +3014,7 @@
           "deaths": 36,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 105,
+          "score": 94,
           "name": "MAMBA",
           "weapons": {
             "BERETTA": 1,
@@ -3026,7 +3026,7 @@
           "deaths": 16,
           "kills": 32,
           "gamesPlayed": 1,
-          "score": 137,
+          "score": 125,
           "name": "Or",
           "weapons": {
             "LR300": 30
@@ -3036,7 +3036,7 @@
           "deaths": 37,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 124,
+          "score": 110,
           "name": "RODOV",
           "weapons": {
             "G36": 20,
@@ -3047,7 +3047,7 @@
           "deaths": 45,
           "kills": 88,
           "gamesPlayed": 1,
-          "score": 274,
+          "score": 236,
           "name": "benD",
           "weapons": {
             "G36": 74,
@@ -3058,7 +3058,7 @@
           "deaths": 39,
           "kills": 31,
           "gamesPlayed": 1,
-          "score": 157,
+          "score": 138,
           "name": "Kobi",
           "weapons": {
             "G36": 27,
@@ -3069,7 +3069,7 @@
           "deaths": 29,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 81,
+          "score": 71,
           "name": "Amir",
           "weapons": {
             "M4": 16,
@@ -3080,7 +3080,7 @@
           "deaths": 41,
           "kills": 45,
           "gamesPlayed": 1,
-          "score": 144,
+          "score": 122,
           "name": "Tal",
           "weapons": {
             "LR300": 39,
@@ -3091,7 +3091,7 @@
           "deaths": 43,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 90,
+          "score": 79,
           "name": "Ed",
           "weapons": {
             "G36": 19
@@ -3108,14 +3108,14 @@
       "gameTotalScore": 325,
       "gameLength": "15:39",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 15,
           "kills": 10,
           "gamesPlayed": 1,
-          "score": 40,
+          "score": 30,
           "name": "Seb",
           "weapons": {
             "LR300": 10
@@ -3125,7 +3125,7 @@
           "deaths": 10,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 59,
+          "score": 45,
           "name": "MAMBA",
           "weapons": {
             "BERETTA": 2,
@@ -3138,7 +3138,7 @@
           "deaths": 13,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 45,
+          "score": 27,
           "name": "Bonev",
           "weapons": {
             "DEAGLE": 1,
@@ -3152,7 +3152,7 @@
           "deaths": 15,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 51,
+          "score": 39,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 4,
@@ -3163,7 +3163,7 @@
           "deaths": 18,
           "kills": 8,
           "gamesPlayed": 1,
-          "score": 43,
+          "score": 35,
           "name": "RODOV",
           "weapons": {
             "G36": 7,
@@ -3174,7 +3174,7 @@
           "deaths": 12,
           "kills": 26,
           "gamesPlayed": 1,
-          "score": 89,
+          "score": 63,
           "name": "benD",
           "weapons": {
             "G36": 22,
@@ -3185,7 +3185,7 @@
           "deaths": 16,
           "kills": 6,
           "gamesPlayed": 1,
-          "score": 27,
+          "score": 21,
           "name": "kobii",
           "weapons": {
             "LR300": 5
@@ -3195,7 +3195,7 @@
           "deaths": 13,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 61,
+          "score": 43,
           "name": "Tal",
           "weapons": {
             "LR300": 14,
@@ -3206,7 +3206,7 @@
           "deaths": 6,
           "kills": 6,
           "gamesPlayed": 1,
-          "score": 28,
+          "score": 22,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 5
@@ -3222,7 +3222,7 @@
       "gameTotalDeaths": 204,
       "gameTotalScore": 0,
       "gameLength": "15:15",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 0,
       "players": {
         "Seb": {
@@ -3331,14 +3331,14 @@
       "gameTotalScore": 702,
       "gameLength": "15:36",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 31,
           "kills": 26,
           "gamesPlayed": 1,
-          "score": 93,
+          "score": 67,
           "name": "Seb",
           "weapons": {
             "LR300": 24,
@@ -3349,7 +3349,7 @@
           "deaths": 19,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 83,
+          "score": 70,
           "name": "MAMBA",
           "weapons": {
             "BERETTA": 1,
@@ -3361,7 +3361,7 @@
           "deaths": 16,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 65,
+          "score": 48,
           "name": "Or",
           "weapons": {
             "LR300": 15
@@ -3371,7 +3371,7 @@
           "deaths": 21,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 100,
+          "score": 77,
           "name": "Bonev",
           "weapons": {
             "M4": 18,
@@ -3382,7 +3382,7 @@
           "deaths": 31,
           "kills": 26,
           "gamesPlayed": 1,
-          "score": 112,
+          "score": 86,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 9,
@@ -3393,7 +3393,7 @@
           "deaths": 24,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 98,
+          "score": 79,
           "name": "RODOV",
           "weapons": {
             "G36": 14,
@@ -3404,7 +3404,7 @@
           "deaths": 20,
           "kills": 54,
           "gamesPlayed": 1,
-          "score": 171,
+          "score": 117,
           "name": "benD",
           "weapons": {
             "HEGRENADE": 1,
@@ -3416,7 +3416,7 @@
           "deaths": 24,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 50,
+          "score": 39,
           "name": "kobii",
           "weapons": {
             "LR300": 9
@@ -3426,7 +3426,7 @@
           "deaths": 25,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 78,
+          "score": 55,
           "name": "deadwomanwalking",
           "weapons": {
             "HEGRENADE": 1,
@@ -3437,7 +3437,7 @@
           "deaths": 27,
           "kills": 26,
           "gamesPlayed": 1,
-          "score": 90,
+          "score": 64,
           "name": "Tal",
           "weapons": {
             "LR300": 24,
@@ -3455,14 +3455,14 @@
       "gameTotalScore": 1801,
       "gameLength": "15:45",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "MAMBA": {
           "deaths": 34,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 195,
+          "score": 167,
           "name": "MAMBA",
           "weapons": {
             "LR300": 15,
@@ -3474,7 +3474,7 @@
           "deaths": 25,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 141,
+          "score": 116,
           "name": "Or",
           "weapons": {
             "LR300": 10,
@@ -3485,7 +3485,7 @@
           "deaths": 26,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 156,
+          "score": 140,
           "name": "RODOV",
           "weapons": {
             "M4": 11,
@@ -3497,7 +3497,7 @@
           "deaths": 30,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 152,
+          "score": 140,
           "name": "Drorkula",
           "weapons": {
             "M4": 11,
@@ -3508,7 +3508,7 @@
           "deaths": 32,
           "kills": 30,
           "gamesPlayed": 1,
-          "score": 141,
+          "score": 111,
           "name": "Amir",
           "weapons": {
             "M4": 28
@@ -3518,7 +3518,7 @@
           "deaths": 26,
           "kills": 40,
           "gamesPlayed": 1,
-          "score": 167,
+          "score": 127,
           "name": "godfather",
           "weapons": {
             "M4": 37
@@ -3528,7 +3528,7 @@
           "deaths": 17,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 176,
+          "score": 151,
           "name": "Seb",
           "weapons": {
             "LR300": 24
@@ -3538,7 +3538,7 @@
           "deaths": 34,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 129,
+          "score": 104,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 13,
@@ -3549,7 +3549,7 @@
           "deaths": 29,
           "kills": 62,
           "gamesPlayed": 1,
-          "score": 222,
+          "score": 160,
           "name": "benD",
           "weapons": {
             "AK103": 55,
@@ -3560,7 +3560,7 @@
           "deaths": 41,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 141,
+          "score": 130,
           "name": "Kilaka",
           "weapons": {
             "AK103": 11
@@ -3570,7 +3570,7 @@
           "deaths": 34,
           "kills": 49,
           "gamesPlayed": 1,
-          "score": 240,
+          "score": 191,
           "name": "Tal",
           "weapons": {
             "LR300": 42,
@@ -3582,7 +3582,7 @@
           "deaths": 22,
           "kills": 29,
           "gamesPlayed": 1,
-          "score": 127,
+          "score": 98,
           "name": "deadwomanwalking",
           "weapons": {
             "HEGRENADE": 3,
@@ -3593,7 +3593,7 @@
           "deaths": 30,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 194,
+          "score": 166,
           "name": "Ed",
           "weapons": {
             "G36": 28
@@ -3610,14 +3610,14 @@
       "gameTotalScore": 1223,
       "gameLength": "15:37",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 33,
           "kills": 29,
           "gamesPlayed": 1,
-          "score": 93,
+          "score": 64,
           "name": "Seb",
           "weapons": {
             "LR300": 28
@@ -3627,7 +3627,7 @@
           "deaths": 27,
           "kills": 36,
           "gamesPlayed": 1,
-          "score": 114,
+          "score": 78,
           "name": "Or",
           "weapons": {
             "LR300": 35
@@ -3637,7 +3637,7 @@
           "deaths": 36,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 91,
+          "score": 73,
           "name": "MAMBA",
           "weapons": {
             "BERETTA": 1,
@@ -3649,7 +3649,7 @@
           "deaths": 29,
           "kills": 32,
           "gamesPlayed": 1,
-          "score": 183,
+          "score": 151,
           "name": "[ACE]",
           "weapons": {
             "LR300": 32
@@ -3659,7 +3659,7 @@
           "deaths": 29,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 144,
+          "score": 122,
           "name": "RODOV",
           "weapons": {
             "G36": 18,
@@ -3670,7 +3670,7 @@
           "deaths": 22,
           "kills": 54,
           "gamesPlayed": 1,
-          "score": 219,
+          "score": 165,
           "name": "benD",
           "weapons": {
             "G36": 39,
@@ -3681,7 +3681,7 @@
           "deaths": 19,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 138,
+          "score": 118,
           "name": "Kobi",
           "weapons": {
             "G36": 20
@@ -3691,7 +3691,7 @@
           "deaths": 25,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 144,
+          "score": 123,
           "name": "Kilaka",
           "weapons": {
             "NEGEV": 14,
@@ -3702,7 +3702,7 @@
           "deaths": 19,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 163,
+          "score": 135,
           "name": "godfather",
           "weapons": {
             "M4": 26
@@ -3712,7 +3712,7 @@
           "deaths": 30,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 84,
+          "score": 67,
           "name": "MaorTheDestroyer",
           "weapons": {
             "AK103": 16
@@ -3722,7 +3722,7 @@
           "deaths": 27,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 92,
+          "score": 69,
           "name": "Tal",
           "weapons": {
             "LR300": 7,
@@ -3733,7 +3733,7 @@
           "deaths": 24,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 78,
+          "score": 58,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 20
@@ -3750,14 +3750,14 @@
       "gameTotalScore": 896,
       "gameLength": "28:15",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "MAMBA": {
           "deaths": 53,
           "kills": 38,
           "gamesPlayed": 1,
-          "score": 86,
+          "score": 48,
           "name": "MAMBA",
           "weapons": {
             "BERETTA": 1,
@@ -3769,7 +3769,7 @@
           "deaths": 58,
           "kills": 34,
           "gamesPlayed": 1,
-          "score": 94,
+          "score": 60,
           "name": "Knite",
           "weapons": {
             "DEAGLE": 2,
@@ -3781,7 +3781,7 @@
           "deaths": 37,
           "kills": 35,
           "gamesPlayed": 1,
-          "score": 74,
+          "score": 39,
           "name": "Or",
           "weapons": {
             "LR300": 33
@@ -3791,7 +3791,7 @@
           "deaths": 25,
           "kills": 33,
           "gamesPlayed": 1,
-          "score": 79,
+          "score": 46,
           "name": "RODOV",
           "weapons": {
             "G36": 29,
@@ -3802,7 +3802,7 @@
           "deaths": 53,
           "kills": 36,
           "gamesPlayed": 1,
-          "score": 96,
+          "score": 60,
           "name": "kobii",
           "weapons": {
             "SPAS": 1,
@@ -3813,7 +3813,7 @@
           "deaths": 42,
           "kills": 29,
           "gamesPlayed": 1,
-          "score": 73,
+          "score": 44,
           "name": "Amir",
           "weapons": {
             "M4": 27,
@@ -3824,7 +3824,7 @@
           "deaths": 31,
           "kills": 52,
           "gamesPlayed": 1,
-          "score": 115,
+          "score": 63,
           "name": "godfather",
           "weapons": {
             "DEAGLE": 1,
@@ -3836,7 +3836,7 @@
           "deaths": 49,
           "kills": 46,
           "gamesPlayed": 1,
-          "score": 111,
+          "score": 65,
           "name": "Seb",
           "weapons": {
             "LR300": 40,
@@ -3847,7 +3847,7 @@
           "deaths": 59,
           "kills": 63,
           "gamesPlayed": 1,
-          "score": 147,
+          "score": 84,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 15,
@@ -3859,7 +3859,7 @@
           "deaths": 45,
           "kills": 83,
           "gamesPlayed": 1,
-          "score": 197,
+          "score": 114,
           "name": "benD",
           "weapons": {
             "AK103": 78,
@@ -3870,7 +3870,7 @@
           "deaths": 34,
           "kills": 37,
           "gamesPlayed": 1,
-          "score": 69,
+          "score": 32,
           "name": "Kilaka",
           "weapons": {
             "HEGRENADE": 1,
@@ -3882,7 +3882,7 @@
           "deaths": 51,
           "kills": 53,
           "gamesPlayed": 1,
-          "score": 125,
+          "score": 72,
           "name": "MaorTheDestroyer",
           "weapons": {
             "AK103": 53
@@ -3892,7 +3892,7 @@
           "deaths": 40,
           "kills": 36,
           "gamesPlayed": 1,
-          "score": 76,
+          "score": 40,
           "name": "Tal",
           "weapons": {
             "LR300": 29,
@@ -3903,7 +3903,7 @@
           "deaths": 45,
           "kills": 57,
           "gamesPlayed": 1,
-          "score": 118,
+          "score": 61,
           "name": "deadwomanwalking",
           "weapons": {
             "HEGRENADE": 4,
@@ -3914,7 +3914,7 @@
           "deaths": 54,
           "kills": 44,
           "gamesPlayed": 1,
-          "score": 112,
+          "score": 68,
           "name": "Ed",
           "weapons": {
             "G36": 41,
@@ -3932,14 +3932,14 @@
       "gameTotalScore": 843,
       "gameLength": "15:29",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "MAMBA": {
           "deaths": 32,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 112,
+          "score": 84,
           "name": "MAMBA",
           "weapons": {
             "LR300": 25,
@@ -3951,7 +3951,7 @@
           "deaths": 20,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 112,
+          "score": 91,
           "name": "Or",
           "weapons": {
             "LR300": 21
@@ -3961,7 +3961,7 @@
           "deaths": 30,
           "kills": 30,
           "gamesPlayed": 1,
-          "score": 138,
+          "score": 108,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 11,
@@ -3973,7 +3973,7 @@
           "deaths": 30,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 91,
+          "score": 72,
           "name": "RODOV",
           "weapons": {
             "M4": 17
@@ -3983,7 +3983,7 @@
           "deaths": 29,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 102,
+          "score": 84,
           "name": "Shalom",
           "weapons": {
             "HEGRENADE": 1,
@@ -3994,7 +3994,7 @@
           "deaths": 17,
           "kills": 57,
           "gamesPlayed": 1,
-          "score": 194,
+          "score": 137,
           "name": "benD",
           "weapons": {
             "HEGRENADE": 4,
@@ -4006,7 +4006,7 @@
           "deaths": 31,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 102,
+          "score": 86,
           "name": "Amir",
           "weapons": {
             "M4": 15
@@ -4016,7 +4016,7 @@
           "deaths": 27,
           "kills": 32,
           "gamesPlayed": 1,
-          "score": 125,
+          "score": 93,
           "name": "MaorTheDestroyer",
           "weapons": {
             "AK103": 32
@@ -4026,7 +4026,7 @@
           "deaths": 27,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 110,
+          "score": 88,
           "name": "Tal",
           "weapons": {
             "LR300": 22
@@ -4043,14 +4043,14 @@
       "gameTotalScore": 1603,
       "gameLength": "35:34",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 2,
       "players": {
         "Seb": {
           "deaths": 42,
           "kills": 31,
           "gamesPlayed": 1,
-          "score": 107,
+          "score": 93,
           "name": "Seb",
           "weapons": {
             "LR300": 27,
@@ -4062,7 +4062,7 @@
           "deaths": 25,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 159,
+          "score": 152,
           "name": "Or",
           "weapons": {
             "BERETTA": 1,
@@ -4073,7 +4073,7 @@
           "deaths": 31,
           "kills": 32,
           "gamesPlayed": 1,
-          "score": 210,
+          "score": 197,
           "name": "MAMBA",
           "weapons": {
             "M4": 29
@@ -4083,7 +4083,7 @@
           "deaths": 37,
           "kills": 40,
           "gamesPlayed": 1,
-          "score": 130,
+          "score": 108,
           "name": "[ACE]",
           "weapons": {
             "DEAGLE": 2,
@@ -4094,7 +4094,7 @@
           "deaths": 40,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 188,
+          "score": 171,
           "name": "RODOV",
           "weapons": {
             "KNIFE": 3,
@@ -4106,7 +4106,7 @@
           "deaths": 26,
           "kills": 63,
           "gamesPlayed": 1,
-          "score": 284,
+          "score": 254,
           "name": "benD",
           "weapons": {
             "HEGRENADE": 1,
@@ -4118,7 +4118,7 @@
           "deaths": 32,
           "kills": 33,
           "gamesPlayed": 1,
-          "score": 166,
+          "score": 150,
           "name": "Kobi",
           "weapons": {
             "DEAGLE": 1,
@@ -4130,7 +4130,7 @@
           "deaths": 29,
           "kills": 35,
           "gamesPlayed": 1,
-          "score": 135,
+          "score": 114,
           "name": "Kilaka",
           "weapons": {
             "NEGEV": 29
@@ -4140,7 +4140,7 @@
           "deaths": 38,
           "kills": 39,
           "gamesPlayed": 1,
-          "score": 128,
+          "score": 107,
           "name": "godfather",
           "weapons": {
             "LR300": 20,
@@ -4152,7 +4152,7 @@
           "deaths": 44,
           "kills": 39,
           "gamesPlayed": 1,
-          "score": 121,
+          "score": 106,
           "name": "Tal",
           "weapons": {
             "LR300": 35
@@ -4162,7 +4162,7 @@
           "deaths": 31,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 160,
+          "score": 151,
           "name": "deadwomanwalking",
           "weapons": {
             "M4": 17
@@ -4179,14 +4179,14 @@
       "gameTotalScore": 751,
       "gameLength": "15:42",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Knite": {
           "deaths": 15,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 75,
+          "score": 59,
           "name": "Knite",
           "weapons": {
             "LR300": 16
@@ -4196,7 +4196,7 @@
           "deaths": 21,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 70,
+          "score": 48,
           "name": "MAMBA",
           "weapons": {
             "LR300": 18,
@@ -4207,7 +4207,7 @@
           "deaths": 18,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 72,
+          "score": 49,
           "name": "Or",
           "weapons": {
             "LR300": 21
@@ -4217,7 +4217,7 @@
           "deaths": 12,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 82,
+          "score": 60,
           "name": "RODOV",
           "weapons": {
             "G36": 20,
@@ -4228,7 +4228,7 @@
           "deaths": 20,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 58,
+          "score": 47,
           "name": "kobii",
           "weapons": {
             "HEGRENADE": 1,
@@ -4239,7 +4239,7 @@
           "deaths": 18,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 78,
+          "score": 61,
           "name": "Amir",
           "weapons": {
             "M4": 17
@@ -4249,7 +4249,7 @@
           "deaths": 23,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 70,
+          "score": 51,
           "name": "Seb",
           "weapons": {
             "LR300": 16
@@ -4259,7 +4259,7 @@
           "deaths": 22,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 69,
+          "score": 45,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 2,
@@ -4270,7 +4270,7 @@
           "deaths": 15,
           "kills": 36,
           "gamesPlayed": 1,
-          "score": 123,
+          "score": 87,
           "name": "benD",
           "weapons": {
             "AK103": 34
@@ -4280,7 +4280,7 @@
           "deaths": 25,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 60,
+          "score": 47,
           "name": "Kilaka",
           "weapons": {
             "AK103": 12
@@ -4290,7 +4290,7 @@
           "deaths": 24,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 82,
+          "score": 62,
           "name": "MaorTheDestroyer",
           "weapons": {
             "AK103": 20
@@ -4300,7 +4300,7 @@
           "deaths": 23,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 58,
+          "score": 39,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 18
@@ -4310,7 +4310,7 @@
           "deaths": 20,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 50,
+          "score": 35,
           "name": "Tal",
           "weapons": {
             "LR300": 15
@@ -4320,7 +4320,7 @@
           "deaths": 24,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 84,
+          "score": 61,
           "name": "Ed",
           "weapons": {
             "G36": 19
@@ -4337,14 +4337,14 @@
       "gameTotalScore": 358,
       "gameLength": "10:45",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 11,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 90,
+          "score": 74,
           "name": "Seb",
           "weapons": {
             "LR300": 15,
@@ -4355,7 +4355,7 @@
           "deaths": 20,
           "kills": 37,
           "gamesPlayed": 1,
-          "score": 141,
+          "score": 104,
           "name": "Or",
           "weapons": {
             "LR300": 37
@@ -4365,7 +4365,7 @@
           "deaths": 23,
           "kills": 6,
           "gamesPlayed": 1,
-          "score": 15,
+          "score": 9,
           "name": "MAMBA",
           "weapons": {
             "LR300": 6
@@ -4375,7 +4375,7 @@
           "deaths": 18,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 132,
+          "score": 109,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 3,
@@ -4386,7 +4386,7 @@
           "deaths": 20,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 36,
+          "score": 23,
           "name": "RODOV",
           "weapons": {
             "M4": 12
@@ -4396,7 +4396,7 @@
           "deaths": 19,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 49,
+          "score": 27,
           "name": "Tal",
           "weapons": {
             "LR300": 20
@@ -4406,7 +4406,7 @@
           "deaths": 14,
           "kills": 8,
           "gamesPlayed": 1,
-          "score": 20,
+          "score": 12,
           "name": "deadwomanwalking",
           "weapons": {
             "M4": 3,
@@ -4424,14 +4424,14 @@
       "gameTotalScore": 546,
       "gameLength": "15:43",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 21,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 77,
+          "score": 62,
           "name": "Seb",
           "weapons": {
             "LR300": 14,
@@ -4442,7 +4442,7 @@
           "deaths": 21,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 65,
+          "score": 51,
           "name": "Or",
           "weapons": {
             "LR300": 12
@@ -4452,7 +4452,7 @@
           "deaths": 18,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 58,
+          "score": 44,
           "name": "Knite",
           "weapons": {
             "LR300": 13,
@@ -4463,7 +4463,7 @@
           "deaths": 14,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 97,
+          "score": 72,
           "name": "MAMBA",
           "weapons": {
             "LR300": 24,
@@ -4474,7 +4474,7 @@
           "deaths": 18,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 67,
+          "score": 51,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 11,
@@ -4486,7 +4486,7 @@
           "deaths": 18,
           "kills": 10,
           "gamesPlayed": 1,
-          "score": 50,
+          "score": 40,
           "name": "RODOV",
           "weapons": {
             "M4": 10
@@ -4496,7 +4496,7 @@
           "deaths": 16,
           "kills": 30,
           "gamesPlayed": 1,
-          "score": 95,
+          "score": 65,
           "name": "benD",
           "weapons": {
             "HEGRENADE": 2,
@@ -4508,7 +4508,7 @@
           "deaths": 14,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 58,
+          "score": 45,
           "name": "OHAD",
           "weapons": {
             "G36": 12
@@ -4518,7 +4518,7 @@
           "deaths": 14,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 65,
+          "score": 52,
           "name": "Kilaka",
           "weapons": {
             "AK103": 10,
@@ -4529,7 +4529,7 @@
           "deaths": 21,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 89,
+          "score": 64,
           "name": "Tal",
           "weapons": {
             "LR300": 22,
@@ -4547,14 +4547,14 @@
       "gameTotalScore": 230,
       "gameLength": "15:38",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Or": {
           "deaths": 15,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 51,
+          "score": 33,
           "name": "Or",
           "weapons": {
             "LR300": 18
@@ -4564,7 +4564,7 @@
           "deaths": 20,
           "kills": 9,
           "gamesPlayed": 1,
-          "score": 17,
+          "score": 8,
           "name": "Knite",
           "weapons": {
             "LR300": 8
@@ -4574,7 +4574,7 @@
           "deaths": 16,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 25,
+          "score": 13,
           "name": "MAMBA",
           "weapons": {
             "LR300": 11
@@ -4584,7 +4584,7 @@
           "deaths": 26,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 55,
+          "score": 31,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 5,
@@ -4596,7 +4596,7 @@
           "deaths": 13,
           "kills": 10,
           "gamesPlayed": 1,
-          "score": 22,
+          "score": 12,
           "name": "RODOV",
           "weapons": {
             "M4": 6,
@@ -4608,7 +4608,7 @@
           "deaths": 19,
           "kills": 51,
           "gamesPlayed": 1,
-          "score": 110,
+          "score": 59,
           "name": "benD",
           "weapons": {
             "AK103": 50
@@ -4618,7 +4618,7 @@
           "deaths": 14,
           "kills": 5,
           "gamesPlayed": 1,
-          "score": 9,
+          "score": 4,
           "name": "Shalom",
           "weapons": {
             "AK103": 5
@@ -4628,7 +4628,7 @@
           "deaths": 15,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 36,
+          "score": 20,
           "name": "Amir",
           "weapons": {
             "M4": 16
@@ -4638,7 +4638,7 @@
           "deaths": 22,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 33,
+          "score": 20,
           "name": "MaorTheDestroyer",
           "weapons": {
             "LR300": 3,
@@ -4649,7 +4649,7 @@
           "deaths": 25,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 57,
+          "score": 30,
           "name": "Tal",
           "weapons": {
             "BERETTA": 1,
@@ -4667,14 +4667,14 @@
       "gameTotalScore": 554,
       "gameLength": "20:44",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 26,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 73,
+          "score": 50,
           "name": "Seb",
           "weapons": {
             "LR300": 22,
@@ -4685,7 +4685,7 @@
           "deaths": 22,
           "kills": 32,
           "gamesPlayed": 1,
-          "score": 111,
+          "score": 79,
           "name": "Or",
           "weapons": {
             "LR300": 30,
@@ -4696,7 +4696,7 @@
           "deaths": 26,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 69,
+          "score": 53,
           "name": "MAMBA",
           "weapons": {
             "LR300": 14
@@ -4706,7 +4706,7 @@
           "deaths": 23,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 78,
+          "score": 59,
           "name": "[ACE]",
           "weapons": {
             "HEGRENADE": 1,
@@ -4717,7 +4717,7 @@
           "deaths": 13,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 61,
+          "score": 46,
           "name": "RODOV",
           "weapons": {
             "UMP45": 11,
@@ -4728,7 +4728,7 @@
           "deaths": 16,
           "kills": 47,
           "gamesPlayed": 1,
-          "score": 133,
+          "score": 86,
           "name": "benD",
           "weapons": {
             "M4": 46
@@ -4738,7 +4738,7 @@
           "deaths": 24,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 52,
+          "score": 40,
           "name": "Drorkula",
           "weapons": {
             "M4": 7,
@@ -4759,7 +4759,7 @@
           "deaths": 21,
           "kills": 10,
           "gamesPlayed": 1,
-          "score": 50,
+          "score": 40,
           "name": "Kilaka",
           "weapons": {
             "G36": 4,
@@ -4771,7 +4771,7 @@
           "deaths": 20,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 74,
+          "score": 54,
           "name": "Tal",
           "weapons": {
             "LR300": 18
@@ -4781,7 +4781,7 @@
           "deaths": 21,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 68,
+          "score": 47,
           "name": "Ed",
           "weapons": {
             "LR300": 19
@@ -4798,14 +4798,14 @@
       "gameTotalScore": 911,
       "gameLength": "15:38",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "MAMBA": {
           "deaths": 25,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 85,
+          "score": 62,
           "name": "MAMBA",
           "weapons": {
             "M4": 22,
@@ -4816,7 +4816,7 @@
           "deaths": 14,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 121,
+          "score": 107,
           "name": "Or",
           "weapons": {
             "LR300": 14
@@ -4826,7 +4826,7 @@
           "deaths": 31,
           "kills": 29,
           "gamesPlayed": 1,
-          "score": 139,
+          "score": 110,
           "name": "[ACE]",
           "weapons": {
             "HEGRENADE": 1,
@@ -4838,7 +4838,7 @@
           "deaths": 22,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 71,
+          "score": 50,
           "name": "RODOV",
           "weapons": {
             "G36": 18,
@@ -4849,7 +4849,7 @@
           "deaths": 23,
           "kills": 36,
           "gamesPlayed": 1,
-          "score": 114,
+          "score": 78,
           "name": "benD",
           "weapons": {
             "HEGRENADE": 1,
@@ -4861,7 +4861,7 @@
           "deaths": 17,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 95,
+          "score": 67,
           "name": "Kobi",
           "weapons": {
             "G36": 28
@@ -4871,7 +4871,7 @@
           "deaths": 24,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 103,
+          "score": 89,
           "name": "Amir",
           "weapons": {
             "M4": 11
@@ -4881,7 +4881,7 @@
           "deaths": 23,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 118,
+          "score": 102,
           "name": "Kilaka",
           "weapons": {
             "NEGEV": 15
@@ -4891,7 +4891,7 @@
           "deaths": 23,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 80,
+          "score": 53,
           "name": "godfather",
           "weapons": {
             "M4": 16,
@@ -4902,7 +4902,7 @@
           "deaths": 22,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 109,
+          "score": 93,
           "name": "deadwomanwalking",
           "weapons": {
             "DEAGLE": 1,
@@ -4914,7 +4914,7 @@
           "deaths": 21,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 121,
+          "score": 100,
           "name": "Tal",
           "weapons": {
             "LR300": 18,
@@ -4932,14 +4932,14 @@
       "gameTotalScore": 404,
       "gameLength": "15:41",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 19,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 54,
+          "score": 37,
           "name": "Seb",
           "weapons": {
             "LR300": 17
@@ -4949,7 +4949,7 @@
           "deaths": 13,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 83,
+          "score": 64,
           "name": "MAMBA",
           "weapons": {
             "BERETTA": 1,
@@ -4961,7 +4961,7 @@
           "deaths": 4,
           "kills": 3,
           "gamesPlayed": 1,
-          "score": 8,
+          "score": 5,
           "name": "Or",
           "weapons": {
             "LR300": 3
@@ -4971,7 +4971,7 @@
           "deaths": 2,
           "kills": 2,
           "gamesPlayed": 1,
-          "score": 6,
+          "score": 4,
           "name": "Knite",
           "weapons": {
             "LR300": 2
@@ -4981,7 +4981,7 @@
           "deaths": 21,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 50,
+          "score": 31,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 3,
@@ -4993,7 +4993,7 @@
           "deaths": 17,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 49,
+          "score": 37,
           "name": "RODOV",
           "weapons": {
             "LR300": 10,
@@ -5004,7 +5004,7 @@
           "deaths": 14,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 51,
+          "score": 39,
           "name": "Amir",
           "weapons": {
             "M4": 11
@@ -5014,7 +5014,7 @@
           "deaths": 18,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 55,
+          "score": 43,
           "name": "Kilaka",
           "weapons": {
             "G36": 10
@@ -5024,7 +5024,7 @@
           "deaths": 20,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 84,
+          "score": 60,
           "name": "godfather",
           "weapons": {
             "M4": 21
@@ -5034,7 +5034,7 @@
           "deaths": 18,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 67,
+          "score": 46,
           "name": "Tal",
           "weapons": {
             "LR300": 19,
@@ -5045,7 +5045,7 @@
           "deaths": 17,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 60,
+          "score": 38,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 22
@@ -5062,14 +5062,14 @@
       "gameTotalScore": 1752,
       "gameLength": "35:48",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 2,
       "players": {
         "Seb": {
           "deaths": 48,
           "kills": 33,
           "gamesPlayed": 1,
-          "score": 120,
+          "score": 100,
           "name": "Seb",
           "weapons": {
             "M4": 32
@@ -5079,7 +5079,7 @@
           "deaths": 53,
           "kills": 38,
           "gamesPlayed": 1,
-          "score": 119,
+          "score": 102,
           "name": "MAMBA",
           "weapons": {
             "M4": 32,
@@ -5090,7 +5090,7 @@
           "deaths": 40,
           "kills": 45,
           "gamesPlayed": 1,
-          "score": 174,
+          "score": 151,
           "name": "Or",
           "weapons": {
             "LR300": 43
@@ -5100,7 +5100,7 @@
           "deaths": 42,
           "kills": 52,
           "gamesPlayed": 1,
-          "score": 196,
+          "score": 164,
           "name": "[ACE]",
           "weapons": {
             "DEAGLE": 3,
@@ -5111,7 +5111,7 @@
           "deaths": 38,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 184,
+          "score": 172,
           "name": "RODOV",
           "weapons": {
             "G36": 25,
@@ -5122,7 +5122,7 @@
           "deaths": 33,
           "kills": 74,
           "gamesPlayed": 1,
-          "score": 285,
+          "score": 250,
           "name": "benD",
           "weapons": {
             "HEGRENADE": 2,
@@ -5134,7 +5134,7 @@
           "deaths": 37,
           "kills": 26,
           "gamesPlayed": 1,
-          "score": 144,
+          "score": 134,
           "name": "Drorkula",
           "weapons": {
             "BERETTA": 1,
@@ -5145,7 +5145,7 @@
           "deaths": 40,
           "kills": 41,
           "gamesPlayed": 1,
-          "score": 213,
+          "score": 193,
           "name": "Kilaka",
           "weapons": {
             "NEGEV": 36
@@ -5155,7 +5155,7 @@
           "deaths": 43,
           "kills": 35,
           "gamesPlayed": 1,
-          "score": 110,
+          "score": 91,
           "name": "godfather",
           "weapons": {
             "M4": 22,
@@ -5167,7 +5167,7 @@
           "deaths": 39,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 186,
+          "score": 176,
           "name": "deadwomanwalking",
           "weapons": {
             "DEAGLE": 1,
@@ -5179,7 +5179,7 @@
           "deaths": 49,
           "kills": 67,
           "gamesPlayed": 1,
-          "score": 248,
+          "score": 219,
           "name": "Tal",
           "weapons": {
             "BERETTA": 1,
@@ -5197,14 +5197,14 @@
       "gameTotalScore": 207,
       "gameLength": "10:38",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 9,
           "kills": 6,
           "gamesPlayed": 1,
-          "score": 58,
+          "score": 52,
           "name": "Seb",
           "weapons": {
             "LR300": 6
@@ -5214,7 +5214,7 @@
           "deaths": 11,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 85,
+          "score": 69,
           "name": "Or",
           "weapons": {
             "LR300": 15
@@ -5224,7 +5224,7 @@
           "deaths": 9,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 27,
+          "score": 16,
           "name": "MAMBA",
           "weapons": {
             "LR300": 10
@@ -5234,7 +5234,7 @@
           "deaths": 7,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 20,
+          "score": 8,
           "name": "[ACE]",
           "weapons": {
             "M4": 11
@@ -5244,7 +5244,7 @@
           "deaths": 9,
           "kills": 2,
           "gamesPlayed": 1,
-          "score": 50,
+          "score": 48,
           "name": "RODOV",
           "weapons": {
             "M4": 2
@@ -5254,7 +5254,7 @@
           "deaths": 12,
           "kills": 10,
           "gamesPlayed": 1,
-          "score": 24,
+          "score": 14,
           "name": "Tal",
           "weapons": {
             "LR300": 10
@@ -5271,14 +5271,14 @@
       "gameTotalScore": 292,
       "gameLength": "16:05",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 17,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 40,
+          "score": 22,
           "name": "Seb",
           "weapons": {
             "LR300": 17,
@@ -5289,7 +5289,7 @@
           "deaths": 19,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 46,
+          "score": 26,
           "name": "MAMBA",
           "weapons": {
             "BERETTA": 1,
@@ -5301,7 +5301,7 @@
           "deaths": 12,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 46,
+          "score": 29,
           "name": "Or",
           "weapons": {
             "LR300": 16
@@ -5311,7 +5311,7 @@
           "deaths": 15,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 39,
+          "score": 25,
           "name": "[ACE]",
           "weapons": {
             "HEGRENADE": 1,
@@ -5322,7 +5322,7 @@
           "deaths": 15,
           "kills": 9,
           "gamesPlayed": 1,
-          "score": 31,
+          "score": 22,
           "name": "RODOV",
           "weapons": {
             "G36": 7,
@@ -5333,7 +5333,7 @@
           "deaths": 8,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 48,
+          "score": 32,
           "name": "benD",
           "weapons": {
             "G36": 15
@@ -5343,7 +5343,7 @@
           "deaths": 16,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 51,
+          "score": 33,
           "name": "Kobi",
           "weapons": {
             "G36": 18
@@ -5353,7 +5353,7 @@
           "deaths": 22,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 43,
+          "score": 28,
           "name": "Kilaka",
           "weapons": {
             "G36": 14
@@ -5363,7 +5363,7 @@
           "deaths": 14,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 49,
+          "score": 32,
           "name": "godfather",
           "weapons": {
             "M4": 17
@@ -5373,7 +5373,7 @@
           "deaths": 23,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 44,
+          "score": 22,
           "name": "Tal",
           "weapons": {
             "LR300": 20
@@ -5383,7 +5383,7 @@
           "deaths": 18,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 34,
+          "score": 21,
           "name": "deadwomanwalking",
           "weapons": {
             "NEGEV": 12
@@ -5400,14 +5400,14 @@
       "gameTotalScore": 1224,
       "gameLength": "15:43",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 35,
           "kills": 32,
           "gamesPlayed": 1,
-          "score": 78,
+          "score": 46,
           "name": "Seb",
           "weapons": {
             "LR300": 28,
@@ -5418,7 +5418,7 @@
           "deaths": 24,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 45,
+          "score": 29,
           "name": "MAMBA",
           "weapons": {
             "LR300": 10,
@@ -5429,7 +5429,7 @@
           "deaths": 23,
           "kills": 30,
           "gamesPlayed": 1,
-          "score": 184,
+          "score": 154,
           "name": "Or",
           "weapons": {
             "LR300": 28
@@ -5439,7 +5439,7 @@
           "deaths": 26,
           "kills": 34,
           "gamesPlayed": 1,
-          "score": 221,
+          "score": 187,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 24,
@@ -5451,7 +5451,7 @@
           "deaths": 30,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 56,
+          "score": 36,
           "name": "RODOV",
           "weapons": {
             "M4": 20
@@ -5461,7 +5461,7 @@
           "deaths": 20,
           "kills": 57,
           "gamesPlayed": 1,
-          "score": 279,
+          "score": 222,
           "name": "benD",
           "weapons": {
             "AK103": 55,
@@ -5472,7 +5472,7 @@
           "deaths": 25,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 58,
+          "score": 36,
           "name": "Drorkula",
           "weapons": {
             "M4": 21,
@@ -5483,7 +5483,7 @@
           "deaths": 37,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 158,
+          "score": 143,
           "name": "Kilaka",
           "weapons": {
             "AK103": 9
@@ -5493,7 +5493,7 @@
           "deaths": 28,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 179,
+          "score": 152,
           "name": "godfather",
           "weapons": {
             "M4": 27
@@ -5503,7 +5503,7 @@
           "deaths": 37,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 54,
+          "score": 33,
           "name": "Tal",
           "weapons": {
             "LR300": 21
@@ -5513,7 +5513,7 @@
           "deaths": 9,
           "kills": 20,
           "gamesPlayed": 1,
-          "score": 148,
+          "score": 128,
           "name": "deadwomanwalking",
           "weapons": {
             "HEGRENADE": 2,
@@ -5524,7 +5524,7 @@
           "deaths": 31,
           "kills": 31,
           "gamesPlayed": 1,
-          "score": 89,
+          "score": 58,
           "name": "Ed",
           "weapons": {
             "G36": 28
@@ -5541,14 +5541,14 @@
       "gameTotalScore": 317,
       "gameLength": "15:37",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "MAMBA": {
           "deaths": 20,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 44,
+          "score": 29,
           "name": "MAMBA",
           "weapons": {
             "M4": 15
@@ -5558,7 +5558,7 @@
           "deaths": 22,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 43,
+          "score": 31,
           "name": "Knite",
           "weapons": {
             "LR300": 11
@@ -5568,7 +5568,7 @@
           "deaths": 12,
           "kills": 14,
           "gamesPlayed": 1,
-          "score": 58,
+          "score": 44,
           "name": "Or",
           "weapons": {
             "LR300": 13,
@@ -5579,7 +5579,7 @@
           "deaths": 16,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 42,
+          "score": 21,
           "name": "[ACE]",
           "weapons": {
             "MAC11": 5,
@@ -5590,7 +5590,7 @@
           "deaths": 13,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 36,
+          "score": 25,
           "name": "RODOV",
           "weapons": {
             "G36": 10
@@ -5600,7 +5600,7 @@
           "deaths": 11,
           "kills": 33,
           "gamesPlayed": 1,
-          "score": 86,
+          "score": 53,
           "name": "benD",
           "weapons": {
             "G36": 28,
@@ -5611,7 +5611,7 @@
           "deaths": 10,
           "kills": 4,
           "gamesPlayed": 1,
-          "score": 18,
+          "score": 14,
           "name": "Kobi",
           "weapons": {
             "G36": 4
@@ -5621,7 +5621,7 @@
           "deaths": 13,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 29,
+          "score": 16,
           "name": "Amir",
           "weapons": {
             "M4": 12
@@ -5631,7 +5631,7 @@
           "deaths": 20,
           "kills": 21,
           "gamesPlayed": 1,
-          "score": 47,
+          "score": 26,
           "name": "Kilaka",
           "weapons": {
             "NEGEV": 19
@@ -5641,7 +5641,7 @@
           "deaths": 18,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 46,
+          "score": 28,
           "name": "godfather",
           "weapons": {
             "LR300": 18
@@ -5651,7 +5651,7 @@
           "deaths": 22,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 49,
+          "score": 27,
           "name": "Tal",
           "weapons": {
             "LR300": 20,
@@ -5662,7 +5662,7 @@
           "deaths": 10,
           "kills": 3,
           "gamesPlayed": 1,
-          "score": 6,
+          "score": 3,
           "name": "deadwomanwalking",
           "weapons": {
             "M4": 2,
@@ -5680,14 +5680,14 @@
       "gameTotalScore": 951,
       "gameLength": "38:49",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 2,
       "players": {
         "MAMBA": {
           "deaths": 50,
           "kills": 46,
           "gamesPlayed": 1,
-          "score": 136,
+          "score": 114,
           "name": "MAMBA",
           "weapons": {
             "M4": 42,
@@ -5698,7 +5698,7 @@
           "deaths": 26,
           "kills": 31,
           "gamesPlayed": 1,
-          "score": 96,
+          "score": 81,
           "name": "Or",
           "weapons": {
             "LR300": 29
@@ -5708,7 +5708,7 @@
           "deaths": 36,
           "kills": 26,
           "gamesPlayed": 1,
-          "score": 72,
+          "score": 61,
           "name": "RODOV",
           "weapons": {
             "KNIFE": 2,
@@ -5721,7 +5721,7 @@
           "deaths": 18,
           "kills": 23,
           "gamesPlayed": 1,
-          "score": 84,
+          "score": 73,
           "name": "Kobi",
           "weapons": {
             "G36": 21
@@ -5731,7 +5731,7 @@
           "deaths": 43,
           "kills": 34,
           "gamesPlayed": 1,
-          "score": 70,
+          "score": 54,
           "name": "godfather",
           "weapons": {
             "M4": 19,
@@ -5743,7 +5743,7 @@
           "deaths": 45,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 55,
+          "score": 41,
           "name": "Seb",
           "weapons": {
             "LR300": 20,
@@ -5754,7 +5754,7 @@
           "deaths": 45,
           "kills": 48,
           "gamesPlayed": 1,
-          "score": 114,
+          "score": 88,
           "name": "[ACE]",
           "weapons": {
             "DEAGLE": 1,
@@ -5765,7 +5765,7 @@
           "deaths": 32,
           "kills": 63,
           "gamesPlayed": 1,
-          "score": 202,
+          "score": 167,
           "name": "benD",
           "weapons": {
             "HEGRENADE": 4,
@@ -5777,7 +5777,7 @@
           "deaths": 7,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 34,
+          "score": 19,
           "name": "OHAD",
           "weapons": {
             "G36": 15
@@ -5787,7 +5787,7 @@
           "deaths": 12,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 62,
+          "score": 45,
           "name": "Dvir",
           "weapons": {
             "G36": 17
@@ -5797,7 +5797,7 @@
           "deaths": 31,
           "kills": 25,
           "gamesPlayed": 1,
-          "score": 78,
+          "score": 64,
           "name": "Kilaka",
           "weapons": {
             "NEGEV": 21
@@ -5807,7 +5807,7 @@
           "deaths": 43,
           "kills": 44,
           "gamesPlayed": 1,
-          "score": 110,
+          "score": 84,
           "name": "Tal",
           "weapons": {
             "BERETTA": 1,
@@ -5819,7 +5819,7 @@
           "deaths": 29,
           "kills": 22,
           "gamesPlayed": 1,
-          "score": 69,
+          "score": 60,
           "name": "deadwomanwalking",
           "weapons": {
             "M4": 17,
@@ -5837,14 +5837,14 @@
       "gameTotalScore": 275,
       "gameLength": "22:16",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 26,
           "kills": 13,
           "gamesPlayed": 1,
-          "score": 28,
+          "score": 16,
           "name": "Seb",
           "weapons": {
             "LR300": 11,
@@ -5855,7 +5855,7 @@
           "deaths": 34,
           "kills": 27,
           "gamesPlayed": 1,
-          "score": 54,
+          "score": 28,
           "name": "MAMBA",
           "weapons": {
             "M4": 26
@@ -5865,7 +5865,7 @@
           "deaths": 19,
           "kills": 18,
           "gamesPlayed": 1,
-          "score": 39,
+          "score": 21,
           "name": "Or",
           "weapons": {
             "LR300": 17
@@ -5875,7 +5875,7 @@
           "deaths": 28,
           "kills": 9,
           "gamesPlayed": 1,
-          "score": 19,
+          "score": 11,
           "name": "RODOV",
           "weapons": {
             "G36": 5,
@@ -5886,7 +5886,7 @@
           "deaths": 21,
           "kills": 58,
           "gamesPlayed": 1,
-          "score": 132,
+          "score": 74,
           "name": "benD",
           "weapons": {
             "HEGRENADE": 1,
@@ -5898,7 +5898,7 @@
           "deaths": 16,
           "kills": 24,
           "gamesPlayed": 1,
-          "score": 50,
+          "score": 27,
           "name": "Kobi",
           "weapons": {
             "G36": 21
@@ -5908,7 +5908,7 @@
           "deaths": 18,
           "kills": 15,
           "gamesPlayed": 1,
-          "score": 30,
+          "score": 16,
           "name": "Amir",
           "weapons": {
             "LR300": 14
@@ -5918,7 +5918,7 @@
           "deaths": 31,
           "kills": 37,
           "gamesPlayed": 1,
-          "score": 79,
+          "score": 43,
           "name": "Tal",
           "weapons": {
             "LR300": 30,
@@ -5929,7 +5929,7 @@
           "deaths": 27,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 57,
+          "score": 39,
           "name": "Ed",
           "weapons": {
             "G36": 18
@@ -5946,14 +5946,14 @@
       "gameTotalScore": 454,
       "gameLength": "15:47",
       "gameEndReason": "Timelimit hit.",
-      "gameDate": "May 25, 2016 10:27:00 PM",
+      "gameDate": "May 26, 2016 10:26:23 AM",
       "gameRounds": 1,
       "players": {
         "Seb": {
           "deaths": 19,
           "kills": 11,
           "gamesPlayed": 1,
-          "score": 57,
+          "score": 46,
           "name": "Seb",
           "weapons": {
             "M4": 10,
@@ -5964,7 +5964,7 @@
           "deaths": 29,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 28,
+          "score": 16,
           "name": "MAMBA",
           "weapons": {
             "M4": 10
@@ -5974,7 +5974,7 @@
           "deaths": 21,
           "kills": 6,
           "gamesPlayed": 1,
-          "score": 20,
+          "score": 14,
           "name": "Or",
           "weapons": {
             "LR300": 6
@@ -5984,7 +5984,7 @@
           "deaths": 10,
           "kills": 19,
           "gamesPlayed": 1,
-          "score": 72,
+          "score": 53,
           "name": "[ACE]",
           "weapons": {
             "DEAGLE": 1,
@@ -5995,7 +5995,7 @@
           "deaths": 27,
           "kills": 12,
           "gamesPlayed": 1,
-          "score": 24,
+          "score": 12,
           "name": "RODOV",
           "weapons": {
             "KNIFE": 2,
@@ -6006,7 +6006,7 @@
           "deaths": 23,
           "kills": 48,
           "gamesPlayed": 1,
-          "score": 114,
+          "score": 66,
           "name": "benD",
           "weapons": {
             "G36": 47,
@@ -6017,7 +6017,7 @@
           "deaths": 19,
           "kills": 28,
           "gamesPlayed": 1,
-          "score": 86,
+          "score": 58,
           "name": "Dvir",
           "weapons": {
             "DEAGLE": 1,
@@ -6028,7 +6028,7 @@
           "deaths": 18,
           "kills": 16,
           "gamesPlayed": 1,
-          "score": 62,
+          "score": 46,
           "name": "Kilaka",
           "weapons": {
             "NEGEV": 15
@@ -6038,7 +6038,7 @@
           "deaths": 12,
           "kills": 26,
           "gamesPlayed": 1,
-          "score": 86,
+          "score": 60,
           "name": "godfather",
           "weapons": {
             "M4": 26
@@ -6048,7 +6048,7 @@
           "deaths": 26,
           "kills": 17,
           "gamesPlayed": 1,
-          "score": 39,
+          "score": 22,
           "name": "deadwomanwalking",
           "weapons": {
             "M4": 9,
@@ -6059,7 +6059,7 @@
           "deaths": 17,
           "kills": 26,
           "gamesPlayed": 1,
-          "score": 87,
+          "score": 61,
           "name": "Tal",
           "weapons": {
             "BERETTA": 1,
