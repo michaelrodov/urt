@@ -176,7 +176,10 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         } else {
             relative_score = relative_kills;
         }
-        var totalGrade = Math.round((relative_kills + relative_score + $scope.getRatio(player)) * 3000) / 100;
+        //(x == 2 ? "yes" : "no");
+        relative_score = (isNaN(relative_score)? 0:relative_score);
+        relative_kills = (isNaN(relative_kills)? 0:relative_kills);
+        var totalGrade = Math.round((relative_kills + relative_score + (isNaN($scope.getRatio(player))? 0:$scope.getRatio(player))) * 3000) / 100;
         return totalGrade ;
     }
 
