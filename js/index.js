@@ -94,6 +94,36 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         return playerB.grade - playerA.grade;
     }
 
+
+    $scope.extractPlayersLineDataRatio = function (games, gameKeys) {
+        var playersLineData = [];
+        var columnsArry =[];
+        gameKeys.sort(function(a, b){
+            a = parseInt(a.substring(0, a.indexOf("_")));
+            b = parseInt(b.substring(0, b.indexOf("_")));
+            if(a > b) return -1;
+            if(a < b) return 1;
+            return 0;
+        });
+        for (var i = 0; i < gameKeys.length; i++) {
+            var playerKeys = Object.keys(games[gameKeys[i]].players);
+            for (var j = 0; j < playerKeys.length; j++) {
+                if(!playersLineData[playerKeys[j]]){
+                    playersLineData[playerKeys[j]]=[playerKeys[j]];
+                }
+                playersLineData[playerKeys[j]].push($scope.getRatio(games[gameKeys[i]].players[playerKeys[j]]));
+            }
+        }
+        playerKeys = Object.keys(playersLineData);
+        columnsArry.push(['xAxis'].concat(gameKeys));
+        for (var i = 0; i < playerKeys.length; i++) {
+            columnsArry.push(playersLineData[playerKeys[i]]);
+
+        }
+
+        return columnsArry;
+    }
+
     $scope.extractPlayersLineData = function (games, gameKeys) {
         var playersLineData = [];
         var columnsArry =[];
@@ -126,8 +156,8 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
     $scope.convertToArray = function (players,key) {
         var playersArr = [];
         for (var player in players) {
-            players[player].ratio = $scope.getRatio(players[player]);
             if (key != "SUMMARY"){
+                players[player].ratio = $scope.getRatio(players[player]);
                 players[player].grade = $scope.getGrade(players[player]);
             } else {
                 //players[player].grade = $scope.getGrade(players[player],-1);
@@ -160,8 +190,22 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         console.info("col:" + $scope.orderColumn + ", desc:" + $scope.orderColumnDesc);
     }
 
-    $scope.getRatio = function (player) {
+    $scope.getGameRatio = function (player) {
+        if ((player.deaths + player.kills) == 0) return 0;
         return Math.round((player.kills / (player.deaths + player.kills)) * 100) / 100;
+    }
+
+    $scope.getRatio = function (player, totalKills) {
+        if(!totalKills){
+            //var totalKills = $scope.currentGame.gameTotalDeaths; //deaths = kills in total per game :)
+            return $scope.getGameRatio(player);
+        }
+        for (var i = 0; i < $scope.playersTotalRatios.length; i++) {
+            if ($scope.playersTotalRatios[i].name == player) {
+                return $scope.playersTotalRatios[i].ratio;
+            }
+        }
+        return 999999;
     }
 
     $scope.getGameGrade = function (player,game) {
@@ -293,6 +337,39 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         $scope.refreshPowerPie($scope.currentGame.columns);
     }
 
+    $scope.calcPlayerRatio = function (data) {
+        var dataV = data;
+        var playerRatios = [];
+        for (var i = 1; i < dataV.length; i++) {
+            var playerData = dataV[i];
+            var playerName = playerData[0];
+            var weightSum = 0;
+            var gradeSum = 0;
+            for (var j = 1; j < playerData.length; j++) {
+                var weight = 0; //for all historical games no calc
+                if (j < 2) {
+                    weight = 10;
+                } else if (j < 4) {
+                    weight = 8;
+                } else if (j < 6) {
+                    weight = 4;
+                }
+                weightSum += weight;
+                gradeSum += weight * parseFloat(playerData[j]);
+            }
+            var player = {};
+            player.name = playerName;
+            if (weightSum > 0) {
+                var tempGrade = gradeSum / weightSum;
+                player.ratio = Math.round(tempGrade*200)/100;
+            } else {
+                player.ratio = 1;
+            }
+            playerRatios.push(player);
+        }
+        return playerRatios;
+    }
+
     $scope.calcPlayerGrade = function (data) {
         var dataV = data;
         var playerGrades = [];
@@ -334,6 +411,18 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         }
     }
 
+    $scope.fillSummaryRatio = function (games, playerRatios) {
+        var players = games["SUMMARY"].players;
+        for (var i = 0; i < Object.keys(players).length; i++) {
+            var playerName = Object.keys(players)[i];
+            for (var j = 0; j < playerRatios.length; j++) {
+                if (playerRatios[j].name == playerName) {
+                    players[playerName].ratio = playerRatios[j].ratio;
+                }
+            }
+        }
+    }
+
     $http.get('DATA/games.json').success(
         function (data) {
             $scope.currentGame = null;
@@ -346,6 +435,9 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
             $scope.playersColumnsOverGames = $scope.extractPlayersLineData($scope.games, $scope.gameKeys);
             $scope.playersTotalGrades = $scope.calcPlayerGrade($scope.playersColumnsOverGames);
             $scope.fillSummaryGrade($scope.games,$scope.playersTotalGrades);
+            $scope.playersColumnsOverGames = $scope.extractPlayersLineDataRatio($scope.games, $scope.gameKeys);
+            $scope.playersTotalRatios = $scope.calcPlayerRatio($scope.playersColumnsOverGames);
+            $scope.fillSummaryRatio($scope.games,$scope.playersTotalRatios);
 
             //$scope.generatePlayersLinechart($scope.playersColumnsOverGames);
             $scope.setCurrentGame('SUMMARY'); //init

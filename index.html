@@ -116,7 +116,7 @@
                             </td>
                             <td ng-if="currentGame.gameId!='SUMMARY'">{{player.kills}}</td>
                             <td ng-if="currentGame.gameId!='SUMMARY'">{{player.deaths}}</td>
-                            <td ng-if="currentGame.gameId=='SUMMARY'">{{Math.round((player.kills / player.deaths)*100)/100}}</td>
+                            <td ng-if="currentGame.gameId=='SUMMARY'">{{player.ratio}}</td>
                             <td ng-if="currentGame.gameId!='SUMMARY'">{{player.score}}</td>
                             <td>{{player.grade}}</td>
                         </tr>
