@@ -242,11 +242,16 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
                 return $scope.playersTotalGrades[i].grade;
             }
         }
+        for (var i = 0; i < $scope.playersTotalGrades.length; i++) {
+            if ($scope.playersTotalGrades[i].name == player.name) {
+                return $scope.playersTotalGrades[i].grade;
+            }
+        }
         return 999999;
     }
 
     $scope.addToTeam = function (player) {
-        $scope.currentGame.columns[(player.team == TEAM_COLORS[BLUE]) ? BLUE : RED][1] += $scope.getGrade(player);
+        $scope.currentGame.columns[(player.team == TEAM_COLORS[BLUE]) ? BLUE : RED][1] += $scope.getGrade(player,1);
         //TODO make a better managing of
     }
 
@@ -255,7 +260,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
     }
 
     $scope.removeFromTeam = function (player) {
-        $scope.currentGame.columns[(player.team == TEAM_COLORS[BLUE]) ? BLUE : RED][1] -= $scope.getGrade(player);
+        $scope.currentGame.columns[(player.team == TEAM_COLORS[BLUE]) ? BLUE : RED][1] -= $scope.getGrade(player,1);
     }
 
     /***
@@ -270,7 +275,7 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
          * i.e. new team = toTeam, old team = fromTeam*/
         var toTeam = ((player.team == TEAM_COLORS[BLUE]) ? BLUE : RED);
         var fromTeam = Math.abs(toTeam - 1);
-        var rating = $scope.getGrade(player);
+        var rating = $scope.getGrade(player,1);
 
 
         if (!oneway) {  //only for moving beween teams
@@ -323,18 +328,72 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
     //init
     $scope.buildTeams = function (game) {
         $scope.currentGame.columns = [[TEAM_COLORS[BLUE], 0], [TEAM_COLORS[RED], 0]]; //init teams
+
+        //for (var i = 0; i < $scope.playersArray.length; i++) {
+        //    var player = game.players[$scope.playersArray[i].name];
+        //    if (player.include) {
+        //        if ($scope.compareTeams() >= 0) { //blue bigger
+        //            player.team = TEAM_COLORS[RED];
+        //        } else {
+        //            player.team = TEAM_COLORS[BLUE];
+        //        }
+        //        $scope.addToTeam(player);
+        //    }
+        //}
+
+        //******************************************************//
+        var teamBlue = [];
+        var teamRed = [];
         for (var i = 0; i < $scope.playersArray.length; i++) {
             var player = game.players[$scope.playersArray[i].name];
             if (player.include) {
-                if ($scope.compareTeams() >= 0) { //blue bigger
-                    player.team = TEAM_COLORS[RED];
+                if (i%2==0) { //assign to each team alternatley
+                    teamBlue.push(player);
                 } else {
-                    player.team = TEAM_COLORS[BLUE];
+                    teamRed.push(player);
+                }
+            }
+        }
+
+        var iter=0;
+        while (iter <100 && Math.abs($scope.getTeamGrade(teamRed) - $scope.getTeamGrade(teamBlue))>5  ) {
+            //randomly select 2 players to switch
+            var bluePlayerIndx = Math.floor(Math.random(teamBlue.length) * teamBlue.length);
+            var redPlayerIndx = Math.floor(Math.random(teamRed.length) * teamRed.length);
+            var bluePlayer = teamBlue.splice(bluePlayerIndx,1)[0];
+            var redPlayer = teamRed.splice(redPlayerIndx,1)[0];
+            teamBlue.push(redPlayer);
+            teamRed.push(bluePlayer);
+
+            iter++;
+        }
+
+        //now build the data structure the pie expects
+        for (var i = 0; i < $scope.playersArray.length; i++) {
+            var player = game.players[$scope.playersArray[i].name];
+            if (player.include) {
+                var assigned = false;
+                for (var j = 0; j < teamBlue.length; j++) {
+                    if (teamBlue[j].name == player.name) {
+                        player.team = TEAM_COLORS[BLUE];
+                        assigned = true;
+                    }
+                }
+                if (!assigned) {
+                    player.team = TEAM_COLORS[RED];
                 }
                 $scope.addToTeam(player);
             }
         }
         $scope.refreshPowerPie($scope.currentGame.columns);
+    }
+
+    $scope.getTeamGrade = function(players) {
+        var sum = 0;
+        for (var i = 0; i < players.length; i++) {
+            sum+=$scope.getGrade(players[i].name,1);
+        }
+        return sum;
     }
 
     $scope.calcPlayerRatio = function (data) {

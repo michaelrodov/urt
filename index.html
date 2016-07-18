@@ -22,27 +22,23 @@
 </head>
 <body ng-controller="dashCtrl">
 
-<div id="main">
-    <div id="leftmain"></div>
-    <div id="centermain" class="center-container">
-        <div id="topbar">
-            <div style="min-width: 150px;"></div>
-            <div class="titlebar">
+<div id="main" class="hmax main">
+    <!--<div id="centermain" class="center-container hmax">-->
+        <div id="topbar" class="titlebar">
                 <div id="logo">
-                    <img src="img/urt.png" alt="UrT" height="50px" border="0">
+                    <img src="img/urt.png" alt="UrT" border="0">
                 </div>
                 <div id="hptitle" class="md-headline">URBAN TERROR STATISTICS (Capture The Flag)</div>
-            </div>
         </div>
-        <div class="inner">
-            <div class="pane games-pane">
+        <div class="inner hmax content">
+            <div class="pane games-pane hmaxs">
                 <div id="{{key}}" class="game" ng-repeat="key in gameKeys|orderBy: getGamesOrder: true">
                     <md-button class="md-raised left-side-buttons" ng-class="(key!='SUMMARY')?'md-primary':'md-accent'"  ng-click="setCurrentGame(key)">
                         {{key}}
                     </md-button>
                 </div>
             </div>
-            <div class="pane details-pane">
+            <div class="pane details-pane hmaxs">
                 <div class="details-pane-summary">
                     <div class="details-summary-data" ng-if="currentGame.gameId!='SUMMARY'">
                         <div class="md-subhead"><span>GAME:</span> {{currentGame.gameType}}</div>
@@ -124,8 +120,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div id="rightmain"></div>
+    <!--</div>-->
 </div>
 </body>
 </html>
