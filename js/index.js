@@ -344,19 +344,21 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
         //******************************************************//
         var teamBlue = [];
         var teamRed = [];
+        var teamIter = 0;
         for (var i = 0; i < $scope.playersArray.length; i++) {
             var player = game.players[$scope.playersArray[i].name];
             if (player.include) {
-                if (i%2==0) { //assign to each team alternatley
+                if (teamIter%2==0) { //assign to each team alternatley
                     teamBlue.push(player);
                 } else {
                     teamRed.push(player);
                 }
+                teamIter++;
             }
         }
 
         var iter=0;
-        while (iter <100 && Math.abs($scope.getTeamGrade(teamRed) - $scope.getTeamGrade(teamBlue))>5  ) {
+        while (iter <1000 && Math.abs($scope.getTeamGrade(teamRed) - $scope.getTeamGrade(teamBlue))>5  ) {
             //randomly select 2 players to switch
             var bluePlayerIndx = Math.floor(Math.random(teamBlue.length) * teamBlue.length);
             var redPlayerIndx = Math.floor(Math.random(teamRed.length) * teamRed.length);
