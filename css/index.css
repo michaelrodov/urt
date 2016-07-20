@@ -189,10 +189,14 @@ md-list-item p {
 
 .blue {
     color: #0000FF;
+    width:30px;
+    min-width: 30px;
 }
 
 .red {
     color: #FF0000;
+    width:30px;
+    min-width: 30px;
 }
 
 .icon-spinner9:before {
