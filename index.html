@@ -58,6 +58,10 @@
                                        ng-if="currentGame.gameId=='SUMMARY'" class="md-raised md-primary">
                                 BUILD TEAMS
                             </md-button>
+                            <md-button ng-click="copyToClip()"
+                                       ng-if="currentGame.gameId=='SUMMARY'" class="md-raised md-primary narrow">
+                                Copy
+                            </md-button>
                         </div>
                     </div>
                 </div>
@@ -70,8 +74,8 @@
                 <div class="rows">
                     <table width="100%" border="1">
                         <tr style="animation: fadein 2s ease-out">
-                            <th ng-if="currentGame.gameId=='SUMMARY'">IN</th>
-                            <th ng-if="currentGame.gameId=='SUMMARY'">Team</th>
+                            <th ng-if="currentGame.gameId=='SUMMARY'" class="inCol">IN</th>
+                            <th ng-if="currentGame.gameId=='SUMMARY'" class="teamCol">Team</th>
                             <th ng-click="setSortOrderColumn('name',true)">Name</th>
                             <th ng-if="currentGame.gameId!='SUMMARY'" ng-click="setSortOrderColumn('kills',true)">Kills</th>
                             <th ng-if="currentGame.gameId!='SUMMARY'" ng-click="setSortOrderColumn('deaths',true)">Deaths</th>

@@ -387,7 +387,23 @@ dashApp.controller('dashCtrl', function ($scope, $http, $interval, $mdToast) {
                 $scope.addToTeam(player);
             }
         }
+
+        var copyText = "";
+        copyText += "Blue team Achziv:\n";
+        for (var j = 0; j < teamBlue.length; j++) {
+            copyText += "* " + teamBlue[j].name + "\n";
+        }
+        copyText += "\n";
+        copyText += "Red team Yechiam:\n";
+        for (var j = 0; j < teamRed.length; j++) {
+            copyText += "* " + teamRed[j].name  + "\n";
+        }
+        $scope.copyText = copyText;
         $scope.refreshPowerPie($scope.currentGame.columns);
+    }
+
+    $scope.copyToClip = function copyToClipboard(text) {
+        window.prompt("Copy to clipboard: Ctrl+C, Enter", $scope.copyText);
     }
 
     $scope.getTeamGrade = function(players) {

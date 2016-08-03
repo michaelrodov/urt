@@ -251,3 +251,17 @@ tr.ng-enter {
     flex-direction: row;
     justify-content: center;
 }
+
+.teamCol {
+    width: 75px;
+}
+
+.inCol {
+    width: 45px;
+}
+
+.narrow {
+    width: 50px;
+    max-width: 50px;
+    min-width: 50px;
+}
